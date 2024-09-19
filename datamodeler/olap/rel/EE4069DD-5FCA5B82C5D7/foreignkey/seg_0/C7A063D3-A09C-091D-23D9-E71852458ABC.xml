@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D74C230C-DDF0-029F-AA81-098728C4E84E" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="66B21250-6893-C1C9-C2E1-9E5C310583A4" name="FK_DIM_SETORES_ECONOMIA_DIM_FATO">
-<createdBy>maelton</createdBy>
-<createdTime>2024-09-19 18:25:40 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7A063D3-A09C-091D-23D9-E71852458ABC" containerWithKeyObject="F2AC7F42-7168-6033-1DCE-B363998BFDCF" localFKIndex="EDBF6FD1-3236-2321-CE0D-D3922DD6E910" name="DIM_FATO_ECONOMIA_DIM_SETORES_ECONOMIA_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-19 20:11:36 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <referredTableLongName>DIM_SETORES_ECONOMIA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
