@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F7A1B21-9656-9C0F-8144-5D2F8186C243" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="0B239AC9-C1ED-51E4-E4D3-7FB5BA4DB51E" name="FK_TAB_CIDADE_TAB_FATO">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F7A1B21-9656-9C0F-8144-5D2F8186C243" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="0B239AC9-C1ED-51E4-E4D3-7FB5BA4DB51E" name="FK_DIM_CIDADE_DIM_FATO">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:32 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<referredTableLongName>OLAP.TAB_CIDADE</referredTableLongName>
+<referredTableLongName>OLAP.DIM_CIDADE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3BD244F8-71FA-02C9-34A5-2B6D977351D8</referredTableID>
 <keyObject>C46BB086-8F1B-02AB-7012-1A374573B788</keyObject>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2AC7F42-7168-6033-1DCE-B363998BFDCF" name="TAB_ECONOMIA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2AC7F42-7168-6033-1DCE-B363998BFDCF" name="DIM_ECONOMIA">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:08:42 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -28,11 +28,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TAB_ECONOMIA_VAL_PIB</notNullConstraintName>
+<notNullConstraintName>NN_DIM_ECONOMIA_VAL_PIB</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EC92B4AD-1B00-1F9B-55A0-A657487D9B24" name="TAB_ECONOMIA_PK">
+<ind_PK_UK id="EC92B4AD-1B00-1F9B-55A0-A657487D9B24" name="DIM_ECONOMIA_PK">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:10:56 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -43,7 +43,7 @@
 <colUsage columnID="B417A0F5-9288-6BD8-2DEF-A8DB2CDEBFBC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="99CC29C0-5812-7F6F-D1B2-E187062E6F89" name="UN_TAB_ECONOMIA_VAL_PIB">
+<ind_PK_UK id="99CC29C0-5812-7F6F-D1B2-E187062E6F89" name="UN_DIM_ECONOMIA_VAL_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:34:37 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>

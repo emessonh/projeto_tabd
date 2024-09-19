@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BD244F8-71FA-02C9-34A5-2B6D977351D8" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="TAB_CIDADE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BD244F8-71FA-02C9-34A5-2B6D977351D8" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="DIM_CIDADE">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 14:54:38 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -28,11 +28,11 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TAB_CIDADE_NOM_CIDADE</notNullConstraintName>
+<notNullConstraintName>NN_DIM_CIDADE_NOM_CIDADE</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C46BB086-8F1B-02AB-7012-1A374573B788" name="PK_TAB_CIDADE">
+<ind_PK_UK id="C46BB086-8F1B-02AB-7012-1A374573B788" name="PK_DIM_CIDADE">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 14:55:30 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -43,7 +43,7 @@
 <colUsage columnID="C0130BDA-3F6F-2E2C-586C-1BBF0AFFED84"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4EFF5DA1-3A21-5E92-B1F3-375C99C6DF27" name="UN_TAB_CIDADE_NOM_CIDADE">
+<ind_PK_UK id="4EFF5DA1-3A21-5E92-B1F3-375C99C6DF27" name="UN_DIM_CIDADE_NOM_CIDADE">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:35:20 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>

@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8277851-3111-4DB0-C3A7-C4BEC509A463" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="90B87580-0959-DFA3-E041-524FA64828DA" name="FK_TAB_TEMPO_TAB_FATO">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8277851-3111-4DB0-C3A7-C4BEC509A463" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="90B87580-0959-DFA3-E041-524FA64828DA" name="FK_DIM_TEMPO_DIM_FATO">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:45 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<referredTableLongName>OLAP.TAB_TEMPO</referredTableLongName>
+<referredTableLongName>OLAP.DIM_TEMPO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>4900C4EB-361D-9A7E-85B4-4159DB923F31</referredTableID>
 <keyObject>31D78CF5-E557-B96A-6E42-E4EDE4A149BA</keyObject>
