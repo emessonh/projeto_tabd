@@ -15,9 +15,7 @@ tabelas com constraints e tablespaces, sequências, tablespaces, etc).
 
 ## Objetivo Geral
 
-Como a riqueza dos municípios junto com o cadunico afeta ou não os índices da educação
-
-Investigar os níveis da situação financeira local com os índices de educação.
+Investigar a relação entre os índices de atividade econômica dos municípios e os índices de educação no estado de Alagoas.
 
 ## Objetivos Específicos
 

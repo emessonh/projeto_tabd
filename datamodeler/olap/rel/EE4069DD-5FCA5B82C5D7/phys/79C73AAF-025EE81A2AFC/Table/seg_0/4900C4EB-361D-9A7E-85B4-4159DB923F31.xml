@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TAB_TEMPO" directorySegmentName="seg_0" id="4900C4EB-361D-9A7E-85B4-4159DB923F31">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:37:50 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<schemaObject>01EB510A-B6E3-F56D-C208-2D4A7AF0287B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ano" id="C44C40D7-A400-66C4-3D0D-8A9E8F986F2D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TAB_TEMPO_PK" id="31D78CF5-E557-B96A-6E42-E4EDE4A149BA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

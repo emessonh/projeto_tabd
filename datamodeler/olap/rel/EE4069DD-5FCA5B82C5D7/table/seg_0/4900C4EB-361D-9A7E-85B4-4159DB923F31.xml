@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4900C4EB-361D-9A7E-85B4-4159DB923F31" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="TAB_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:37:50 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>TEMPO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano" id="C44C40D7-A400-66C4-3D0D-8A9E8F986F2D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31D78CF5-E557-B96A-6E42-E4EDE4A149BA" name="TAB_TEMPO_PK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C44C40D7-A400-66C4-3D0D-8A9E8F986F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

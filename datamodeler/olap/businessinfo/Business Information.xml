@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8F5F97CA-73AB-C060-266B-DD3525714B85">
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1E2951E0-0D1A-09DE-7DBB-591899FF4BB9">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 02:06:12 UTC</createdTime>
+<createdTime>2024-09-19 02:23:55 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </BusinessInfoDesign>
