@@ -93,6 +93,70 @@
 <colAssociation fkAssociation="8769CC3E-F30B-0CF0-2DDE-2E7067ED3285" referredColumn="434C64E9-7EA4-7C6D-1679-24D819886E39"/>
 </associations>
 </Column>
+<Column name="val_taxa_reprovacao" id="458B805F-12EF-E89E-4F57-14D87E34A425">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_taxa_aprovacao" id="4F49AE64-56FB-651F-438C-3E48670D089A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_taxa_abandono" id="658A347A-CC0C-9FF6-A261-55CD785AD13F">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:46 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_ideb" id="AE04258F-3FD9-DE3F-061A-75AF415F08F1">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:43:43 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="A5228E0D-5109-A05C-2931-8C4FB546AC89">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:49:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3E8C2DF5-C4C1-277B-21E2-283C6E26CC13" name="PK_DIM_FATO">

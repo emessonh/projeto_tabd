@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TAB_FATO" directorySegmentName="seg_0" id="92EE6458-C852-00B8-D965-960FBCDE0191">
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIM_FATO" directorySegmentName="seg_0" id="92EE6458-C852-00B8-D965-960FBCDE0191">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:24:59 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -19,9 +19,39 @@
 <createdTime>2024-09-19 18:25:45 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="val_taxa_reprovacao" id="458B805F-12EF-E89E-4F57-14D87E34A425">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="cod_ideb" id="4D06D9D1-9C75-43DB-01D7-B0350D3B5F4E">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:36 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="val_taxa_aprovacao" id="4F49AE64-56FB-651F-438C-3E48670D089A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="val_taxa_abandono" id="658A347A-CC0C-9FF6-A261-55CD785AD13F">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:41:46 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ano" id="A5228E0D-5109-A05C-2931-8C4FB546AC89">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:49:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="val_ideb" id="AE04258F-3FD9-DE3F-061A-75AF415F08F1">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:43:43 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_taxa_educacao" id="AEC25384-95FE-D126-224C-D483808B5F61">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:35:17 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="cod_pib" id="CA201515-FD40-4A77-1710-BDEE2445B021">
@@ -36,34 +66,39 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAB_CIDADE_TAB_FATO" id="0B239AC9-C1ED-51E4-E4D3-7FB5BA4DB51E">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_CIDADE_DIM_FATO" id="0B239AC9-C1ED-51E4-E4D3-7FB5BA4DB51E">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:32 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAB_ECONOMIA_TAB_FATO" id="43BAFC32-8800-A9D0-28F3-665C26574E6E">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_ECONOMIA_DIM_FATO" id="43BAFC32-8800-A9D0-28F3-665C26574E6E">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:23 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAB_SETORES_ECONOMIA_TAB_FATO" id="66B21250-6893-C1C9-C2E1-9E5C310583A4">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_SETORES_ECONOMIA_DIM_FATO" id="66B21250-6893-C1C9-C2E1-9E5C310583A4">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:40 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAB_TEMPO_TAB_FATO" id="90B87580-0959-DFA3-E041-524FA64828DA">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_TEMPO_DIM_FATO" id="90B87580-0959-DFA3-E041-524FA64828DA">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:45 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAB_IDEB_TAB_FATO" id="BD37B594-B917-A410-768D-BE71D55C4028">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_IDEB_DIM_FATO" id="BD37B594-B917-A410-768D-BE71D55C4028">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:25:36 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_TAXA_EDUCACAO_DIM_FATO" id="DB108ABF-AA5D-F0D5-DBAB-7098E360E907">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 19:35:17 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TAB_FATO" id="3E8C2DF5-C4C1-277B-21E2-283C6E26CC13">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_FATO" id="3E8C2DF5-C4C1-277B-21E2-283C6E26CC13">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-19 18:26:22 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
