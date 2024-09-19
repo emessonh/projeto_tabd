@@ -21,6 +21,11 @@ Investigar a relação entre os índices de atividade econômica dos municípios
 
 ...
 
-### Pergunta norteadora
+### Perguntas norteadoras
 
-...
+- Educação vs Economia:
+
+1ª - IDEB vs PIB cidade
+2ª - Tx. de Aprovação vs PIB da cidade
+3ª - Tx. de Reprovação vs PIB da cidade
+4ª - Tx. de Abandono vs PIB da cidade

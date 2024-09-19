@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TAB_SETORES_ECONOMIA" directorySegmentName="seg_0" id="DE256A4E-05FC-4A0F-BC75-0BA210A42960">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:11:15 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cod_setor_economia" id="75A59B46-A595-09B6-5DB5-41A1463F697A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:13:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_setor_economia" id="9679E96C-C8C5-CD58-F725-C298C4C0751D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:13:33 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TAB_SETORES_ECONOMIA" id="40B123CA-7A08-F040-6867-DBD2ABA2391E">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:13:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UN_TAB_SETORES_ECONOMIA_NOM_SETOR_ECONOMIA" id="C67BA6C2-0ABD-21B2-990B-80A929528023">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:36:34 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

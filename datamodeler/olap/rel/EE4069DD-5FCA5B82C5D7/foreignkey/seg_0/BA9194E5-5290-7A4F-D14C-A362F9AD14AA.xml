@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA9194E5-5290-7A4F-D14C-A362F9AD14AA" containerWithKeyObject="92EE6458-C852-00B8-D965-960FBCDE0191" localFKIndex="BD37B594-B917-A410-768D-BE71D55C4028" name="FK_TAB_IDEB_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:36 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.TAB_IDEB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89C26830-9EA6-F93B-2C8F-6F1D8207691E</referredTableID>
+<keyObject>74815D2C-3772-31C8-7BB6-A56A1929E6B3</keyObject>
+<referredKeyID>74815D2C-3772-31C8-7BB6-A56A1929E6B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_ideb</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

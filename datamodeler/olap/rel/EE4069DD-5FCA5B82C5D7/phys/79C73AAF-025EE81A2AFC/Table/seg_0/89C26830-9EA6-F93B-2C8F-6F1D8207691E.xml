@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TAB_TEMPO" directorySegmentName="seg_0" id="4900C4EB-361D-9A7E-85B4-4159DB923F31">
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TAB_IDEB" directorySegmentName="seg_0" id="89C26830-9EA6-F93B-2C8F-6F1D8207691E">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 02:37:50 UTC</createdTime>
+<createdTime>2024-09-19 13:52:53 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <schemaObject>01EB510A-B6E3-F56D-C208-2D4A7AF0287B</schemaObject>
 <logging>YES</logging>
@@ -10,29 +10,29 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="cod_tempo" id="5AD53C71-83E0-1F30-9340-F882FE6130F1">
+<ColumnProxy name="idc_ideb" id="3B9FA225-2693-8F6E-BAD0-B39015766637">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 13:26:46 UTC</createdTime>
+<createdTime>2024-09-19 13:56:37 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ano" id="C44C40D7-A400-66C4-3D0D-8A9E8F986F2D">
+<ColumnProxy name="cod_ideb" id="8F3D2DA2-C0CE-9ACC-28DC-443EF7F0EC5C">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<createdTime>2024-09-19 14:01:15 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TAB_TEMPO" id="31D78CF5-E557-B96A-6E42-E4EDE4A149BA">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TAB_IDEB" id="74815D2C-3772-31C8-7BB6-A56A1929E6B3">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 02:40:52 UTC</createdTime>
+<createdTime>2024-09-19 14:01:48 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_TAB_TEMPO_ANO" id="B317AF28-7CEA-A05A-0A62-E346566FD28C">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UN_TAB_IDEB_IDC_IDEB" id="C0C18C77-10E6-DA0E-BAFC-FE18D5FE8FAB">
 <createdBy>maelton</createdBy>
-<createdTime>2024-09-19 13:42:02 UTC</createdTime>
+<createdTime>2024-09-19 18:36:07 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>

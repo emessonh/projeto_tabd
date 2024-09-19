@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92EE6458-C852-00B8-D965-960FBCDE0191" name="TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:24:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>FATO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_pib" id="CA201515-FD40-4A77-1710-BDEE2445B021">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6A437D1-D2A2-E526-6037-9E7D8318B5B2" referredColumn="B417A0F5-9288-6BD8-2DEF-A8DB2CDEBFBC"/>
+</associations>
+</Column>
+<Column name="cod_cidade" id="DD2D6D72-642A-0D07-59DB-6A7E3215C5CD">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:32 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F7A1B21-9656-9C0F-8144-5D2F8186C243" referredColumn="C0130BDA-3F6F-2E2C-586C-1BBF0AFFED84"/>
+</associations>
+</Column>
+<Column name="cod_ideb" id="4D06D9D1-9C75-43DB-01D7-B0350D3B5F4E">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:36 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA9194E5-5290-7A4F-D14C-A362F9AD14AA" referredColumn="8F3D2DA2-C0CE-9ACC-28DC-443EF7F0EC5C"/>
+</associations>
+</Column>
+<Column name="cod_setor_economia" id="0278C4E4-D3C2-5599-AA2D-B5D29A05AD68">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:40 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D74C230C-DDF0-029F-AA81-098728C4E84E" referredColumn="75A59B46-A595-09B6-5DB5-41A1463F697A"/>
+</associations>
+</Column>
+<Column name="cod_tempo" id="1F0417E0-E1E0-13A2-3BBF-90251936F0E1">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:45 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8277851-3111-4DB0-C3A7-C4BEC509A463" referredColumn="5AD53C71-83E0-1F30-9340-F882FE6130F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E8C2DF5-C4C1-277B-21E2-283C6E26CC13" name="PK_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:26:22 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA201515-FD40-4A77-1710-BDEE2445B021"/>
+<colUsage columnID="DD2D6D72-642A-0D07-59DB-6A7E3215C5CD"/>
+<colUsage columnID="4D06D9D1-9C75-43DB-01D7-B0350D3B5F4E"/>
+<colUsage columnID="0278C4E4-D3C2-5599-AA2D-B5D29A05AD68"/>
+<colUsage columnID="1F0417E0-E1E0-13A2-3BBF-90251936F0E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43BAFC32-8800-A9D0-28F3-665C26574E6E" name="FK_TAB_ECONOMIA_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA201515-FD40-4A77-1710-BDEE2445B021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B239AC9-C1ED-51E4-E4D3-7FB5BA4DB51E" name="FK_TAB_CIDADE_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:32 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD2D6D72-642A-0D07-59DB-6A7E3215C5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD37B594-B917-A410-768D-BE71D55C4028" name="FK_TAB_IDEB_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:36 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D06D9D1-9C75-43DB-01D7-B0350D3B5F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66B21250-6893-C1C9-C2E1-9E5C310583A4" name="FK_TAB_SETORES_ECONOMIA_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:40 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0278C4E4-D3C2-5599-AA2D-B5D29A05AD68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90B87580-0959-DFA3-E041-524FA64828DA" name="FK_TAB_TEMPO_TAB_FATO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-19 18:25:45 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0417E0-E1E0-13A2-3BBF-90251936F0E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
