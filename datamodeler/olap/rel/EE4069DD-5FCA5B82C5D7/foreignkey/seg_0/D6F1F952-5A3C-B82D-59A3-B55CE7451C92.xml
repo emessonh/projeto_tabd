@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6F1F952-5A3C-B82D-59A3-B55CE7451C92" containerWithKeyObject="8D96D79C-69BF-DEE4-80F7-3649A88A46A3" localFKIndex="69451AAA-6EBD-38F6-AA4D-069F27B43B30" name="FATO_ECONOMIA_dim_municpio_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:18:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.dim_municpio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>725C702B-86F5-7D94-8508-CDEAF43E4A7D</referredTableID>
+<keyObject>C38C29E6-C5D1-2689-A6C4-4F29D1D01487</keyObject>
+<referredKeyID>C38C29E6-C5D1-2689-A6C4-4F29D1D01487</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_municipio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

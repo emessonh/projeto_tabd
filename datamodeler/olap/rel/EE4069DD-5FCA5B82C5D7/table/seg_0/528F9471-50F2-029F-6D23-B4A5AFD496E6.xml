@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="528F9471-50F2-029F-6D23-B4A5AFD496E6" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="dim_esfera">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:07 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_esfera" id="259E8D64-DB92-0AB2-5A76-126104892DEE">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_esfera" id="636C26B8-20BE-8BC4-A4D4-21F9AB4851D3">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:21:17 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FBB0A2D-DEAD-AF4E-D582-470620C8FF32" name="dim_esfera_PK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:42 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259E8D64-DB92-0AB2-5A76-126104892DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

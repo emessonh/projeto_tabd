@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="725C702B-86F5-7D94-8508-CDEAF43E4A7D" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="dim_municpio">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:03:55 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_municipio" id="D0687A0F-E2F2-16E6-65A7-012A8E85C803">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:04:48 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_municpio" id="8DB28507-682E-0450-3FE0-470C3A3B0E21">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:05:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C38C29E6-C5D1-2689-A6C4-4F29D1D01487" name="dim_municpio_PK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:09:24 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0687A0F-E2F2-16E6-65A7-012A8E85C803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

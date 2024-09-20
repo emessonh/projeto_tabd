@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2AC4DE97-1496-141C-A354-A23076FD0B65" containerWithKeyObject="D28F3B3A-D4BB-659C-C5B6-3260B94D308F" localFKIndex="721AE290-8BE6-C67E-6086-E4D717AF9AE2" name="FATO_ESCOLA_dim_esfera_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:21:56 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.dim_esfera</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>528F9471-50F2-029F-6D23-B4A5AFD496E6</referredTableID>
+<keyObject>7FBB0A2D-DEAD-AF4E-D582-470620C8FF32</keyObject>
+<referredKeyID>7FBB0A2D-DEAD-AF4E-D582-470620C8FF32</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_esfera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

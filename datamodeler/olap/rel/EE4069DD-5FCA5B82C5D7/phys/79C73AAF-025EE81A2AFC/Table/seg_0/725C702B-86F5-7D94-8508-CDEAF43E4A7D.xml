@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="dim_municpio" directorySegmentName="seg_0" id="725C702B-86F5-7D94-8508-CDEAF43E4A7D">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:03:55 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<schemaObject>01EB510A-B6E3-F56D-C208-2D4A7AF0287B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nom_municpio" id="8DB28507-682E-0450-3FE0-470C3A3B0E21">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:05:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_municipio" id="D0687A0F-E2F2-16E6-65A7-012A8E85C803">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:04:48 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="dim_municpio_PK" id="C38C29E6-C5D1-2689-A6C4-4F29D1D01487">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:09:24 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

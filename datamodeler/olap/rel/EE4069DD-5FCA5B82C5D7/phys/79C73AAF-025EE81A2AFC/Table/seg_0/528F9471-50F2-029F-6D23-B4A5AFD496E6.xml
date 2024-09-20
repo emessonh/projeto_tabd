@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="dim_esfera" directorySegmentName="seg_0" id="528F9471-50F2-029F-6D23-B4A5AFD496E6">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:07 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<schemaObject>01EB510A-B6E3-F56D-C208-2D4A7AF0287B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cod_esfera" id="259E8D64-DB92-0AB2-5A76-126104892DEE">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_esfera" id="636C26B8-20BE-8BC4-A4D4-21F9AB4851D3">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:21:17 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="dim_esfera_PK" id="7FBB0A2D-DEAD-AF4E-D582-470620C8FF32">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:20:42 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

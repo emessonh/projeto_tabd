@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D96D79C-69BF-DEE4-80F7-3649A88A46A3" schemaObject="01EB510A-B6E3-F56D-C208-2D4A7AF0287B" name="FATO_ECONOMIA">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:12:00 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_municipio" id="A6DCACE3-1D8F-6668-02F2-17D557725C76">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:12:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6F1F952-5A3C-B82D-59A3-B55CE7451C92" referredColumn="D0687A0F-E2F2-16E6-65A7-012A8E85C803"/>
+</associations>
+</Column>
+<Column name="ano" id="AF889296-85B2-20C4-BF90-AE3FE443F450">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:13:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tot_setor_agricola" id="1F4DD782-0B85-7EFD-39A4-C9F1DC1C92BC">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:04 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tot_setor_servicos" id="4F1CFFB4-6916-3AB3-7219-D00DB4919F48">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tot_setor_industrial" id="F12F0901-246C-E939-C3C4-4A701B35C3D9">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="2A61AE30-6860-8EC3-94F0-0B3F92B30199">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:17:17 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A6BA253-97B2-06BF-7CE2-0D07C658F3F4" name="FATO_ECONOMIA_PK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:17:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6DCACE3-1D8F-6668-02F2-17D557725C76"/>
+<colUsage columnID="AF889296-85B2-20C4-BF90-AE3FE443F450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69451AAA-6EBD-38F6-AA4D-069F27B43B30" name="FATO_ECONOMIA_dim_municpio_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:18:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6DCACE3-1D8F-6668-02F2-17D557725C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
