@@ -19,13 +19,10 @@ Investigar a relação entre os índices de atividade econômica dos municípios
 
 ## Objetivos Específicos
 
-...
+1º - Identificar a taxa de variação do IDEB por município.
+2º - Identificar a taxa de variação do PIB por município.
+3º - Identificar o coeficiente de correlação entre o IDEB e PIB ao longo dos anos.
 
 ### Perguntas norteadoras
 
-- Educação vs Economia:
-
-1ª - IDEB vs PIB cidade
-2ª - Tx. de Aprovação vs PIB da cidade
-3ª - Tx. de Reprovação vs PIB da cidade
-4ª - Tx. de Abandono vs PIB da cidade
+Qual é o coeficiente de correlação entre as taxas de variação do IDEB e as taxas de variação do PIB?
