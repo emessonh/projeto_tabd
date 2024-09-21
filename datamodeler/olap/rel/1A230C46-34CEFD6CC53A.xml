@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="olap_2" id="1A230C46-BAAE-C112-A632-34CEFD6CC53A" mainViewID="0B4457F7-20BC-2A3E-E430-88AFE6C4BA43">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:43:50 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DAABBF7-D485-2E25-0242-8B8D1571E4C6" name="TAB_TAXA_VARIACAO_IDEB_MUNICIPAL">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:44:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>TAXA_VARIACAO_IDEB_MUNICIPAL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_municipio" id="23A9289C-064F-747B-FC57-D4C7C42F80D1">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:50:46 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FD73375-1576-8023-B18A-2C35A531D58E" referredColumn="95C57B7D-DCCD-95F1-AFD2-9E1B67078649"/>
+</associations>
+</Column>
+<Column name="sk_esfera_publica" id="A8BEF964-8211-CB44-752B-51114CBA4DF6">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 20:00:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E179EB55-E556-6DEC-9CA0-28F20210166E" referredColumn="7446993D-94E7-697A-E443-C0CBD6BCEB3A"/>
+</associations>
+</Column>
+<Column name="sk_tempo_ano_inicial" id="74E1829C-7A62-37C9-762E-95F4220CA7ED">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:50:51 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="875B8AD0-8704-1451-4613-9FD80B16A3AB" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
+</associations>
+</Column>
+<Column name="sk_tempo_ano_final" id="66158549-E65D-F7D2-A9DC-8DE53C4BF48D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 20:21:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCD4A7B3-F3F0-AEEA-A422-D386CC61B301" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
+</associations>
+</Column>
+<Column name="val_taxa_variacao_ideb" id="5915151D-5E95-7AA6-94F2-0C8A4B4A3A4A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:44:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_val_taxa_variacao_ideb_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64841397-364C-3583-10EC-57E9CF872FC4" name="PK_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 20:24:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A9289C-064F-747B-FC57-D4C7C42F80D1"/>
+<colUsage columnID="A8BEF964-8211-CB44-752B-51114CBA4DF6"/>
+<colUsage columnID="74E1829C-7A62-37C9-762E-95F4220CA7ED"/>
+<colUsage columnID="66158549-E65D-F7D2-A9DC-8DE53C4BF48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7306ABE-A402-4C67-76CB-36B91EB6E945" name="FK_dim_municipio_tab_taxa_variacao_ideb_municipal">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:50:46 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A9289C-064F-747B-FC57-D4C7C42F80D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="209BB3DA-7993-4159-8456-378A2C1732AF" name="FK_dim_tempo_tab_taxa_variacao_ideb_municipal_ano_inicial">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:50:51 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E1829C-7A62-37C9-762E-95F4220CA7ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26AB5C6C-BEE5-DC9B-5A6B-C1AD643CB175" name="FK_dim_esfera_publica_tab_taxa_variacao_ideb_municipal">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 20:00:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8BEF964-8211-CB44-752B-51114CBA4DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D03AF7E8-6CD6-2798-19F0-7E440D892F61" name="FK_dim_tempo_tab_taxa_variacao_ideb_municipal_ano_final">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 20:21:23 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66158549-E65D-F7D2-A9DC-8DE53C4BF48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

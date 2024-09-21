@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8861DA7A-A92B-5BC2-D5CD-F689914C9C5B" name="TAB_COEFICIENTE_CORRELACAO_IDEB_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:03:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>COEFICIENTE_CORRELACAO_IDEB_PIB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano" id="DB45868C-AEA8-559A-0779-C746C5F4BE1D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:06:05 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_taxa_variacao_pib" id="1A9DD3D8-4C9E-4712-53E1-84648939E242">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:08:27 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_taxa_variacao_ideb" id="73658E20-F9B8-3747-8EE6-30CCFC400254">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:09:09 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk_municipio" id="6F48ECAB-8FCD-3A1A-92BB-F4137F856580">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:29:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44FB0AEC-B791-E34A-4671-2C9F10CE4E9C" referredColumn="D0687A0F-E2F2-16E6-65A7-012A8E85C803"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5BAD1DA-B76A-E716-B237-F558C89D46F9" name="TAB_COEFICIENTE_CORRELACAO_IDEB_PIB_dim_municpio_FK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:29:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F48ECAB-8FCD-3A1A-92BB-F4137F856580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
