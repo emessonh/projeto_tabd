@@ -37,7 +37,7 @@
 <colAssociation fkAssociation="C66CA4D2-E247-FCE3-B5EE-2AD0BDE4871D" referredColumn="FF07D6E0-64F0-D538-E012-9A5F1E63A734"/>
 </associations>
 </Column>
-<Column name="sk_ensino_tipo" id="47ED29B9-99FC-5FA7-9409-63102712BE6B">
+<Column name="sk_tipo_ensino" id="47ED29B9-99FC-5FA7-9409-63102712BE6B">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -59,6 +59,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -70,17 +71,18 @@
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_val_ideb_TAB_IDEB</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="46ABD6F6-7768-EBA1-EF51-CAE1656E377A" name="TAB_IDEB_PK">
+<ind_PK_UK id="46ABD6F6-7768-EBA1-EF51-CAE1656E377A" name="PK_TAB_IDEB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -94,7 +96,43 @@
 <colUsage columnID="3876EB3B-F6B5-582D-9655-618D13FF4AC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="01B9ECF5-A90E-6F2F-049B-FFE278CE338F" name="TAB_IDEB_DIM_ESFERA_PUBLICA_FK">
+<ind_PK_UK id="93AA2903-4C75-6598-FFAB-4F03C3088E54" name="IDX_FK_sk_municipio_TAB_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 18:55:03 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24717B2B-D99B-2F6A-2492-60A826EC820C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8543E6D2-D5BD-9B2B-E9D7-8A75FB8A9CF9" name="IDX_FK_sk_esfera_publica_TAB_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 18:56:06 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9AC1B37-9EC7-2903-B2BA-0659C2965D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CC6284B-2A04-7199-7450-20660EC73817" name="IDX_FK_sk_tipo_ensino_TAB_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 18:56:43 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47ED29B9-99FC-5FA7-9409-63102712BE6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F832D6-AABC-D651-3261-3ABF4545FDB8" name="IDX_FK_sk_tempo_TAB_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 18:57:47 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3876EB3B-F6B5-582D-9655-618D13FF4AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B9ECF5-A90E-6F2F-049B-FFE278CE338F" name="FK_sk_esfera_publica_DIM_ESFERA_PUBLICA_TAB_IDEB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -104,7 +142,7 @@
 <colUsage columnID="D9AC1B37-9EC7-2903-B2BA-0659C2965D7D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EFB5113A-77D3-E13E-7B59-86F6AF0860A2" name="TAB_IDEB_DIM_MUNICIPIO_FK">
+<ind_PK_UK id="EFB5113A-77D3-E13E-7B59-86F6AF0860A2" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_IDEB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -114,7 +152,7 @@
 <colUsage columnID="24717B2B-D99B-2F6A-2492-60A826EC820C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F6F347C3-3996-0CD1-FCB7-440ED5B592DC" name="TAB_IDEB_DIM_TIPO_ENSINO_FK">
+<ind_PK_UK id="F6F347C3-3996-0CD1-FCB7-440ED5B592DC" name="FK_sk_tipo_ensino_DIM_TIPO_ENSINO_TAB_IDEB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -124,7 +162,7 @@
 <colUsage columnID="47ED29B9-99FC-5FA7-9409-63102712BE6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0DC89065-C6A3-4416-6A5D-DB8BEC9B6AB1" name="TAB_IDEB_DIM_TEMPO_FK">
+<ind_PK_UK id="0DC89065-C6A3-4416-6A5D-DB8BEC9B6AB1" name="FK_sk_tempo_DIM_TEMPO_TAB_IDEB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>

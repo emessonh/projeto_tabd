@@ -24,17 +24,17 @@
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_tipo_ensino_DIM_TIPO_ENSINO</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DAFD6287-0A26-53A9-F141-105291BF0343" name="DIM_TIPO_ENSINO_PK">
+<ind_PK_UK id="DAFD6287-0A26-53A9-F141-105291BF0343" name="PK_DIM_TIPO_ENSINO">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -43,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="ACECF157-86A2-2684-D03C-C0D23E959427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CF1C37-334A-D1C6-C8B7-6CDB5CB7C62A" name="UN_nom_tipo_ensino_DIM_TIPO_ENSINO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:10:04 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D842C4-E41A-E2B3-D36E-1DF9E2401871"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

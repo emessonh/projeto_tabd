@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7F42DCD-9A3E-D927-B334-B9A2E4DCD553" containerWithKeyObject="61661A3B-DDB5-0CB6-5F16-6C279479D8C8" localFKIndex="C93BF227-757D-6DE5-290A-4CD028D45BFA" name="FK_dim_tempo_tab_taxa_variacao_ideb_municipal_ano_final">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7F42DCD-9A3E-D927-B334-B9A2E4DCD553" containerWithKeyObject="61661A3B-DDB5-0CB6-5F16-6C279479D8C8" localFKIndex="C93BF227-757D-6DE5-290A-4CD028D45BFA" name="FK_sk_tempo_ano_final_DIM_TEMPO_TAB_CORRELACAO_IDEB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<referredTableLongName>DIM_TEMPO</referredTableLongName>
+<referredTableLongName>OLAP.DIM_TEMPO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>AD884C66-FD6B-E6B4-0D99-63913EC8860C</referredTableID>
 <keyObject>23E6223B-46ED-DD1F-5998-F3D7DF7BE758</keyObject>

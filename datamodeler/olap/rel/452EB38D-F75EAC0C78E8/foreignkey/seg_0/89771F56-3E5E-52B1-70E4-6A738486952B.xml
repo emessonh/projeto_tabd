@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89771F56-3E5E-52B1-70E4-6A738486952B" containerWithKeyObject="51276D30-38AC-25DA-8FEF-2AB798B5F732" localFKIndex="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="TAB_PIB_DIM_SETOR_ECONOMIA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89771F56-3E5E-52B1-70E4-6A738486952B" containerWithKeyObject="51276D30-38AC-25DA-8FEF-2AB798B5F732" localFKIndex="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="FK_sk_setor_economia_DIM_SETOR_ECONOMIA_TAB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:35 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<referredTableLongName>DIM_SETOR_ECONOMIA</referredTableLongName>
+<referredTableLongName>OLAP.DIM_SETOR_ECONOMIA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>E5C31EAF-DC73-C7D9-E661-04CAE3B0C761</referredTableID>
 <keyObject>5F68ECB3-BBCB-C58E-885A-EA7B59388232</keyObject>

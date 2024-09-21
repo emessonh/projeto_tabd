@@ -9,20 +9,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="sk_setor_economia" id="7C3EEC25-FCC3-7679-5893-A6F1F062116D">
-<createdBy>maelton</createdBy>
-<createdTime>2024-09-21 16:17:35 UTC</createdTime>
-<ownerDesignName>olap</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="89771F56-3E5E-52B1-70E4-6A738486952B" referredColumn="01A0FC9F-6F0E-00C0-CC4A-4EBAAEB4E782"/>
-</associations>
-</Column>
 <Column name="sk_municipio" id="F99E666D-8C03-2D9B-4BD1-6D1CED639388">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:39 UTC</createdTime>
@@ -37,6 +23,21 @@
 <colAssociation fkAssociation="F038FF04-DE90-21E3-6785-FA9BD22136FB" referredColumn="1F2A5D92-413F-62DC-6B26-8991FC724AF5"/>
 </associations>
 </Column>
+<Column name="sk_setor_economia" id="7C3EEC25-FCC3-7679-5893-A6F1F062116D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89771F56-3E5E-52B1-70E4-6A738486952B" referredColumn="01A0FC9F-6F0E-00C0-CC4A-4EBAAEB4E782"/>
+</associations>
+</Column>
 <Column name="sk_tempo" id="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:43 UTC</createdTime>
@@ -44,6 +45,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -55,12 +57,12 @@
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:18:29 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_val_pib_TAB_PIB</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -77,7 +79,34 @@
 <colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="TAB_PIB_DIM_SETOR_ECONOMIA_FK">
+<ind_PK_UK id="02AF5BE5-6A71-6777-B139-BC856FE51F22" name="IDX_FK_sk_municipio_TAB_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:00:47 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5F1F00-EB97-9031-CA96-16F6DF43486C" name="IDX_FK_sk_setor_economia_TAB_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:01:10 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E84C8AAE-4F08-4504-B440-CE0B473012B0" name="IDX_FK_sk_tempo_TAB_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:01:25 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="FK_sk_setor_economia_DIM_SETOR_ECONOMIA_TAB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:35 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -87,7 +116,7 @@
 <colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7AC0ABB9-F6C1-A357-BA93-0864858BFBF1" name="TAB_PIB_DIM_MUNICIPIO_FK">
+<ind_PK_UK id="7AC0ABB9-F6C1-A357-BA93-0864858BFBF1" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:39 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -97,7 +126,7 @@
 <colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6ECB5A4D-0FD3-EC29-8ABA-1BEFB70BA7CD" name="TAB_PIB_DIM_TEMPO_FK">
+<ind_PK_UK id="6ECB5A4D-0FD3-EC29-8ABA-1BEFB70BA7CD" name="FK_sk_tempo_DIM_TEMPO_TAB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:43 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
