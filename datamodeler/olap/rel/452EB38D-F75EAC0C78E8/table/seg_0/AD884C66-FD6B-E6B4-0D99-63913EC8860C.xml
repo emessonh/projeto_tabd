@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD884C66-FD6B-E6B4-0D99-63913EC8860C" name="DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>TEMPO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_tempo" id="76AEA9B3-11CA-3E4F-5739-A18BA5581CF4">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="5C4DF9AB-7643-37B0-9450-D47F58F36D6C">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23E6223B-46ED-DD1F-5998-F3D7DF7BE758" name="PK_DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AEA9B3-11CA-3E4F-5739-A18BA5581CF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

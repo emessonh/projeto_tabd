@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51276D30-38AC-25DA-8FEF-2AB798B5F732" name="TAB_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:09 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>PIB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_setor_economia" id="7C3EEC25-FCC3-7679-5893-A6F1F062116D">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89771F56-3E5E-52B1-70E4-6A738486952B" referredColumn="01A0FC9F-6F0E-00C0-CC4A-4EBAAEB4E782"/>
+</associations>
+</Column>
+<Column name="sk_municipio" id="F99E666D-8C03-2D9B-4BD1-6D1CED639388">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:39 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F038FF04-DE90-21E3-6785-FA9BD22136FB" referredColumn="1F2A5D92-413F-62DC-6B26-8991FC724AF5"/>
+</associations>
+</Column>
+<Column name="sk_tempo" id="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:43 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0478BAA3-A6F4-FEC3-DF2B-D0159C166DB0" referredColumn="76AEA9B3-11CA-3E4F-5739-A18BA5581CF4"/>
+</associations>
+</Column>
+<Column name="val_pib" id="6835242C-C07F-2B21-751C-F46F41815179">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:18:29 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="TAB_PIB_DIM_SETOR_ECONOMIA_FK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC0ABB9-F6C1-A357-BA93-0864858BFBF1" name="TAB_PIB_DIM_MUNICIPIO_FK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:39 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ECB5A4D-0FD3-EC29-8ABA-1BEFB70BA7CD" name="TAB_PIB_DIM_TEMPO_FK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:17:43 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

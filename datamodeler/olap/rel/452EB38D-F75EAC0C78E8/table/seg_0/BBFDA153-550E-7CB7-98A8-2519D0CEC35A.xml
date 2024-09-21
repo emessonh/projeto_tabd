@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51D860FD-3842-49EF-1F58-B9313C1A9FAD" schemaObject="3F146542-4C2A-9526-2141-33341537DF2A" name="DIM_TIPO_ENSINO">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:44:05 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBFDA153-550E-7CB7-98A8-2519D0CEC35A" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="DIM_TIPO_ENSINO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <ordsAlias>table_6</ordsAlias>
 <abbreviation>TIPO_ENSINO</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="sk_tipo_ensino" id="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:46:20 UTC</createdTime>
+<Column name="sk_tipo_ensino" id="ACECF157-86A2-2684-D03C-C0D23E959427">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nom_tipo_ensino" id="0FAE71E9-96E1-5643-400F-155F946FBA45">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:46:30 UTC</createdTime>
+<Column name="nom_tipo_ensino" id="A1D842C4-E41A-E2B3-D36E-1DF9E2401871">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,15 +34,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DDA062A5-6543-6FEB-AFB9-5CEB811C485D" name="DIM_TIPO_ENSINO_PK">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:46:20 UTC</createdTime>
+<ind_PK_UK id="DAFD6287-0A26-53A9-F141-105291BF0343" name="DIM_TIPO_ENSINO_PK">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7"/>
+<colUsage columnID="ACECF157-86A2-2684-D03C-C0D23E959427"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

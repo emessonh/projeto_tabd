@@ -37,32 +37,6 @@
 <colAssociation fkAssociation="6BA4289E-F054-590B-0D39-497FD4F5118D" referredColumn="7446993D-94E7-697A-E443-C0CBD6BCEB3A"/>
 </associations>
 </Column>
-<Column name="sk_tempo" id="4EBEA5F5-1469-BD2A-ADCD-D482FB9B8EC9">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:42:12 UTC</createdTime>
-<ownerDesignName>olap</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A8587929-83DA-2938-7DDA-5179BA153F75" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
-</associations>
-</Column>
-<Column name="ideb" id="940609CA-3992-D32A-2C9B-6201A49A76CF">
-<createdBy>emess</createdBy>
-<createdTime>2024-09-21 02:43:04 UTC</createdTime>
-<ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="sk_ensino_tipo" id="9AF072B8-4C81-06E6-5752-D0746D47D1AD">
 <createdBy>emess</createdBy>
 <createdTime>2024-09-21 02:46:57 UTC</createdTime>
@@ -77,6 +51,32 @@
 <associations>
 <colAssociation fkAssociation="EDFB1D5D-885C-7B0B-032A-D1C17CB13667" referredColumn="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7"/>
 </associations>
+</Column>
+<Column name="sk_tempo" id="4EBEA5F5-1469-BD2A-ADCD-D482FB9B8EC9">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:42:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8587929-83DA-2938-7DDA-5179BA153F75" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
+</associations>
+</Column>
+<Column name="val_ideb" id="940609CA-3992-D32A-2C9B-6201A49A76CF">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:43:04 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -66,17 +66,6 @@
 <colAssociation fkAssociation="CCD4A7B3-F3F0-AEEA-A422-D386CC61B301" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
 </associations>
 </Column>
-<Column name="val_taxa_variacao_ideb" id="5915151D-5E95-7AA6-94F2-0C8A4B4A3A4A">
-<createdBy>maelton</createdBy>
-<createdTime>2024-09-20 19:44:38 UTC</createdTime>
-<ownerDesignName>olap</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_val_taxa_variacao_ideb_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL</notNullConstraintName>
-</Column>
 <Column name="sk_ensino_tipo" id="6CA30895-262D-D30D-6663-0DC7822EA721">
 <createdBy>emess</createdBy>
 <createdTime>2024-09-21 02:59:57 UTC</createdTime>
@@ -91,6 +80,17 @@
 <associations>
 <colAssociation fkAssociation="E0978338-EE96-3293-C71D-8DE02E2F66CD" referredColumn="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7"/>
 </associations>
+</Column>
+<Column name="val_taxa_variacao_ideb" id="5915151D-5E95-7AA6-94F2-0C8A4B4A3A4A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:44:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_val_taxa_variacao_ideb_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
