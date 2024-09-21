@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADEB548F-EF2F-ABC4-98FC-A57504DFF36A" schemaObject="3F146542-4C2A-9526-2141-33341537DF2A" name="TAB_IDEB">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:40:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_municipio" id="54B4ECEC-AF29-514C-4900-2B68A54CCDD3">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:41:25 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="193C5775-9DEA-524D-9552-04B999CBF9C0" referredColumn="95C57B7D-DCCD-95F1-AFD2-9E1B67078649"/>
+</associations>
+</Column>
+<Column name="sk_esfera_publica" id="71CD0D34-9A00-1FB3-8F64-53BEC191C9A2">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:41:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BA4289E-F054-590B-0D39-497FD4F5118D" referredColumn="7446993D-94E7-697A-E443-C0CBD6BCEB3A"/>
+</associations>
+</Column>
+<Column name="sk_tempo" id="4EBEA5F5-1469-BD2A-ADCD-D482FB9B8EC9">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:42:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8587929-83DA-2938-7DDA-5179BA153F75" referredColumn="F75879A3-0C69-8041-3E4D-AB82FBFC03F8"/>
+</associations>
+</Column>
+<Column name="ideb" id="940609CA-3992-D32A-2C9B-6201A49A76CF">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:43:04 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk_ensino_tipo" id="9AF072B8-4C81-06E6-5752-D0746D47D1AD">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:46:57 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDFB1D5D-885C-7B0B-032A-D1C17CB13667" referredColumn="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F532B2C8-B79E-85C8-53E4-D01C1837247B" name="TAB_IDEB_PK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:43:42 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B4ECEC-AF29-514C-4900-2B68A54CCDD3"/>
+<colUsage columnID="71CD0D34-9A00-1FB3-8F64-53BEC191C9A2"/>
+<colUsage columnID="4EBEA5F5-1469-BD2A-ADCD-D482FB9B8EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09534A2A-4B39-3785-8480-6B5C0CF50153" name="TAB_IDEB_DIM_MUNICIPIO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:41:25 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B4ECEC-AF29-514C-4900-2B68A54CCDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CABC58E-8A6E-0E59-9E51-48090D1BBF85" name="TAB_IDEB_DIM_ESFERA_PUBLICA_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:41:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71CD0D34-9A00-1FB3-8F64-53BEC191C9A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6B3A295-C311-745F-C2DE-821DC4298055" name="TAB_IDEB_DIM_TEMPO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:42:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EBEA5F5-1469-BD2A-ADCD-D482FB9B8EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D8C077-EB5C-403A-7656-9EE6D73388D3" name="TAB_IDEB_DIM_TIPO_ENSINO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:46:57 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF072B8-4C81-06E6-5752-D0746D47D1AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
