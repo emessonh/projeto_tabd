@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -90,6 +90,7 @@
 <indexColumnUsage>
 <colUsage columnID="24717B2B-D99B-2F6A-2492-60A826EC820C"/>
 <colUsage columnID="D9AC1B37-9EC7-2903-B2BA-0659C2965D7D"/>
+<colUsage columnID="47ED29B9-99FC-5FA7-9409-63102712BE6B"/>
 <colUsage columnID="3876EB3B-F6B5-582D-9655-618D13FF4AC3"/>
 </indexColumnUsage>
 </ind_PK_UK>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD884C66-FD6B-E6B4-0D99-63913EC8860C" name="DIM_TEMPO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD884C66-FD6B-E6B4-0D99-63913EC8860C" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="DIM_TEMPO">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -23,7 +23,6 @@
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
