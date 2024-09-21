@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0978338-EE96-3293-C71D-8DE02E2F66CD" containerWithKeyObject="8DAABBF7-D485-2E25-0242-8B8D1571E4C6" localFKIndex="1F65B661-F12D-9605-7679-05B12360E117" name="TAB_TAXA_VARIACAO_IDEB_MUNICIPAL_DIM_TIPO_ENSINO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:59:57 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.DIM_TIPO_ENSINO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51D860FD-3842-49EF-1F58-B9313C1A9FAD</referredTableID>
+<keyObject>DDA062A5-6543-6FEB-AFB9-5CEB811C485D</keyObject>
+<referredKeyID>DDA062A5-6543-6FEB-AFB9-5CEB811C485D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_ensino_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

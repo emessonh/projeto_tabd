@@ -77,6 +77,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_val_taxa_variacao_ideb_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL</notNullConstraintName>
 </Column>
+<Column name="sk_ensino_tipo" id="6CA30895-262D-D30D-6663-0DC7822EA721">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:59:57 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0978338-EE96-3293-C71D-8DE02E2F66CD" referredColumn="37D6E985-FE45-AE1C-E42A-D1E1CFD78AA7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="64841397-364C-3583-10EC-57E9CF872FC4" name="PK_TAB_TAXA_VARIACAO_IDEB_MUNICIPAL">
@@ -91,6 +106,7 @@
 <colUsage columnID="A8BEF964-8211-CB44-752B-51114CBA4DF6"/>
 <colUsage columnID="74E1829C-7A62-37C9-762E-95F4220CA7ED"/>
 <colUsage columnID="66158549-E65D-F7D2-A9DC-8DE53C4BF48D"/>
+<colUsage columnID="6CA30895-262D-D30D-6663-0DC7822EA721"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E7306ABE-A402-4C67-76CB-36B91EB6E945" name="FK_dim_municipio_tab_taxa_variacao_ideb_municipal">
@@ -131,6 +147,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66158549-E65D-F7D2-A9DC-8DE53C4BF48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F65B661-F12D-9605-7679-05B12360E117" name="TAB_TAXA_VARIACAO_IDEB_MUNICIPAL_DIM_TIPO_ENSINO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:59:57 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA30895-262D-D30D-6663-0DC7822EA721"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
