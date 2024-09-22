@@ -31,7 +31,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -46,7 +46,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -79,7 +79,7 @@
 <colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="02AF5BE5-6A71-6777-B139-BC856FE51F22" name="IDX_FK_sk_municipio_TAB_FATO_PIB">
+<ind_PK_UK id="02AF5BE5-6A71-6777-B139-BC856FE51F22" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="IDX_FK_sk_municipio_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:00:47 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -88,7 +88,7 @@
 <colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B5F1F00-EB97-9031-CA96-16F6DF43486C" name="IDX_FK_sk_setor_economia_TAB_FATO_PIB">
+<ind_PK_UK id="5B5F1F00-EB97-9031-CA96-16F6DF43486C" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="IDX_FK_sk_setor_economia_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:01:10 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -97,7 +97,7 @@
 <colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E84C8AAE-4F08-4504-B440-CE0B473012B0" name="IDX_FK_sk_tempo_TAB_FATO_PIB">
+<ind_PK_UK id="E84C8AAE-4F08-4504-B440-CE0B473012B0" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="IDX_FK_sk_tempo_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:01:25 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
