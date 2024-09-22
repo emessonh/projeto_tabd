@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ano" id="5C4DF9AB-7643-37B0-9450-D47F58F36D6C">
@@ -29,6 +30,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ano_DIM_TEMPO</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -41,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="76AEA9B3-11CA-3E4F-5739-A18BA5581CF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A69D00BD-04A1-4AD5-1670-BFF3467881B6" name="UN_ano_DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:06:34 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4DF9AB-7643-37B0-9450-D47F58F36D6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

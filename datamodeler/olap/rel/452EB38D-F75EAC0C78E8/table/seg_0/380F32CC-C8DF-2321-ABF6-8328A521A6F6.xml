@@ -24,17 +24,17 @@
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_esfera_publica_DIM_ESFERA_PUBLICA</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D2A983F5-D4AD-9F20-BCA9-DFADFCDF9541" name="PK_dim_esfera">
+<ind_PK_UK id="D2A983F5-D4AD-9F20-BCA9-DFADFCDF9541" name="PK_DIM_ESFERA_PUBLICA">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -43,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FF07D6E0-64F0-D538-E012-9A5F1E63A734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCAC20A9-615C-B83B-88E5-50F77D1D02F5" name="UN_nom_esfera_pubilica_DIM_ESFERA_PUBLICA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:09:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E26AE8-D9C7-F750-3727-74187007C75D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

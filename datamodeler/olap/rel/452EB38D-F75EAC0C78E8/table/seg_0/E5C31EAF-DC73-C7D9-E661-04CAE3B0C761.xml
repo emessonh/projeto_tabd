@@ -16,23 +16,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nom_setor_economia" id="F80EE0A6-CD27-A91F-AB91-75F9FA45C884">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:14:51 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_setor_economia_DIM_SETOR_ECONOMIA</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5F68ECB3-BBCB-C58E-885A-EA7B59388232" name="DIM_SETOR_ECONOMIA_PK">
+<ind_PK_UK id="5F68ECB3-BBCB-C58E-885A-EA7B59388232" name="PK_DIM_SETOR_ECONOMIA">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:14:32 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -41,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="01A0FC9F-6F0E-00C0-CC4A-4EBAAEB4E782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F0B93BE-3FD5-9FCC-C881-7EBBE776C467" name="UN_nom_setor_economia_DIM_SETOR_ECONOMIA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:07:32 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F80EE0A6-CD27-A91F-AB91-75F9FA45C884"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

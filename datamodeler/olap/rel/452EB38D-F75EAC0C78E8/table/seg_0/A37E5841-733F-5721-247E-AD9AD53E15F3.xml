@@ -26,7 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_nom_municipio_DIM_MUNICIPIO</notNullConstraintName>
 </Column>
@@ -41,6 +42,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1F2A5D92-413F-62DC-6B26-8991FC724AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B58E133-35DA-C6B4-53E2-3C48740344FA" name="UN_nom_municipio_DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 19:08:32 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C6EA1B2-D384-EFAE-EBEF-ABD37178B5CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
