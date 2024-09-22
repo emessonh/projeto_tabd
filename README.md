@@ -20,7 +20,9 @@ Investigar a relação entre os índices de atividade econômica dos municípios
 ## Objetivos Específicos
 
 1º - Identificar a taxa de variação do IDEB por município ao longo dos anos.
+
 2º - Identificar a taxa de variação do PIB por município ao longo dos anos.
+
 3º - Identificar o coeficiente de correlação entre o IDEB e PIB ao longo dos anos.
 
 ### Perguntas norteadoras
