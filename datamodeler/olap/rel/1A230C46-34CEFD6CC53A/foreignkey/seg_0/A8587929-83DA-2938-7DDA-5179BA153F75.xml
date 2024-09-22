@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8587929-83DA-2938-7DDA-5179BA153F75" containerWithKeyObject="ADEB548F-EF2F-ABC4-98FC-A57504DFF36A" localFKIndex="A6B3A295-C311-745F-C2DE-821DC4298055" name="TAB_IDEB_DIM_TEMPO_FK">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-21 02:42:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>DIM_TEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1879A00E-94CE-96EC-59A9-16F6BFDD7141</referredTableID>
+<keyObject>7F1DAB7D-2224-C764-6E8F-5E8EF50F64F1</keyObject>
+<referredKeyID>7F1DAB7D-2224-C764-6E8F-5E8EF50F64F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_tempo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

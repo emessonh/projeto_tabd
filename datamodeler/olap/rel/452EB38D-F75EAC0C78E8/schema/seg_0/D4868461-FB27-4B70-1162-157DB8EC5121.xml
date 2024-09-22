@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="OLAP" directorySegmentName="seg_0" id="D4868461-FB27-4B70-1162-157DB8EC5121">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-21 16:11:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</SchemaObject>

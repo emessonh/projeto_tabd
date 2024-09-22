@@ -15,15 +15,14 @@ tabelas com constraints e tablespaces, sequências, tablespaces, etc).
 
 ## Objetivo Geral
 
-Verificar se os programas governamentais de incentivo à educação pública, melhoraram os indicadores de escolaridade da população no estado de Alagoas.
+Investigar a relação entre os índices de atividade econômica dos municípios e os índices de educação no estado de Alagoas.
 
 ## Objetivos Específicos
 
-- Comparar a taxa de matrículas antes e depois dos progrmas de incentivo.
-- Comparar a taxa de evasão antes e depois dos programas de incentivo.
-- Comparar a taxa aprovados antes e depois dos progrmas de incentivo.
-- Comparar a taxa reprovados antes e depois dos progrmas de incentivo.
+1º - Identificar a taxa de variação do IDEB por município ao longo dos anos.
+2º - Identificar a taxa de variação do PIB por município ao longo dos anos.
+3º - Identificar o coeficiente de correlação entre o IDEB e PIB ao longo dos anos.
 
-### Pergunta norteadora
+### Perguntas norteadoras
 
-Como as taxas de matrícula, evasão, aprovação e reprovação escolar da população foram influênciadas pelos programs governamentais de incentivo à educação.
+Qual é o coeficiente de correlação entre as taxas de variação do IDEB e as taxas de variação do PIB?

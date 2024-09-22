@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3E7EF37-E792-E808-0BAB-B8DEFB4523DD" name="DIM_ESFERA_PUBLICA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:57:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>ESFERA_PUBLICA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_esfera_publica" id="7446993D-94E7-697A-E443-C0CBD6BCEB3A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:57:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_esfera_publica" id="5B862B06-EBF2-8BAF-B731-7FA615182F37">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:57:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42D5727D-0E86-7930-6A56-ED68F3A81AB7" name="PK_dim_esfera">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:57:30 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7446993D-94E7-697A-E443-C0CBD6BCEB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

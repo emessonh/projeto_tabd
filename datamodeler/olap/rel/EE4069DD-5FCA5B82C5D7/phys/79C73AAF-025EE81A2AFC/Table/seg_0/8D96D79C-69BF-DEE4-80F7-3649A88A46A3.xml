@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FATO_ECONOMIA" directorySegmentName="seg_0" id="8D96D79C-69BF-DEE4-80F7-3649A88A46A3">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:12:00 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<schemaObject>01EB510A-B6E3-F56D-C208-2D4A7AF0287B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tot_setor_agricola" id="1F4DD782-0B85-7EFD-39A4-C9F1DC1C92BC">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:04 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total" id="2A61AE30-6860-8EC3-94F0-0B3F92B30199">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:17:17 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tot_setor_servicos" id="4F1CFFB4-6916-3AB3-7219-D00DB4919F48">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_municipio" id="A6DCACE3-1D8F-6668-02F2-17D557725C76">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:12:52 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ano" id="AF889296-85B2-20C4-BF90-AE3FE443F450">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:13:12 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tot_setor_industrial" id="F12F0901-246C-E939-C3C4-4A701B35C3D9">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:16:59 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FATO_ECONOMIA_dim_municpio_FK" id="69451AAA-6EBD-38F6-AA4D-069F27B43B30">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:18:18 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FATO_ECONOMIA_PK" id="8A6BA253-97B2-06BF-7CE2-0D07C658F3F4">
+<createdBy>emess</createdBy>
+<createdTime>2024-09-20 00:17:38 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

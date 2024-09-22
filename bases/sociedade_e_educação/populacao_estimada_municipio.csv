@@ -1,0 +1,2041 @@
+_id,co_mun,no_mun,ano,variavel,pop_categoria,pop_subcategoria,valor
+1,2700102,Água Branca,2001,População residente estimada,Total,Total,18696
+2,2700102,Água Branca,2002,População residente estimada,Total,Total,18766
+3,2700102,Água Branca,2003,População residente estimada,Total,Total,18815
+4,2700102,Água Branca,2004,População residente estimada,Total,Total,18918
+5,2700102,Água Branca,2005,População residente estimada,Total,Total,18975
+6,2700102,Água Branca,2006,População residente estimada,Total,Total,19032
+7,2700102,Água Branca,2008,População residente estimada,Total,Total,19882
+8,2700102,Água Branca,2009,População residente estimada,Total,Total,19989
+9,2700102,Água Branca,2011,População residente estimada,Total,Total,19433
+10,2700102,Água Branca,2012,População residente estimada,Total,Total,19763
+11,2700102,Água Branca,2013,População residente estimada,Total,Total,20545
+12,2700102,Água Branca,2014,População residente estimada,Total,Total,20601
+13,2700102,Água Branca,2015,População residente estimada,Total,Total,20434
+14,2700102,Água Branca,2016,População residente estimada,Total,Total,20422
+15,2700102,Água Branca,2017,População residente estimada,Total,Total,20467
+16,2700102,Água Branca,2018,População residente estimada,Total,Total,20162
+17,2700102,Água Branca,2019,População residente estimada,Total,Total,20196
+18,2700102,Água Branca,2020,População residente estimada,Total,Total,20230
+19,2700102,Água Branca,2021,População residente estimada,Total,Total,20263
+20,2700201,Anadia,2001,População residente estimada,Total,Total,18023
+21,2700201,Anadia,2002,População residente estimada,Total,Total,18167
+22,2700201,Anadia,2003,População residente estimada,Total,Total,18315
+23,2700201,Anadia,2004,População residente estimada,Total,Total,18625
+24,2700201,Anadia,2005,População residente estimada,Total,Total,18796
+25,2700201,Anadia,2006,População residente estimada,Total,Total,18967
+26,2700201,Anadia,2008,População residente estimada,Total,Total,17765
+27,2700201,Anadia,2009,População residente estimada,Total,Total,17740
+28,2700201,Anadia,2011,População residente estimada,Total,Total,17392
+29,2700201,Anadia,2012,População residente estimada,Total,Total,17360
+30,2700201,Anadia,2013,População residente estimada,Total,Total,17989
+31,2700201,Anadia,2014,População residente estimada,Total,Total,17972
+32,2700201,Anadia,2015,População residente estimada,Total,Total,17847
+33,2700201,Anadia,2016,População residente estimada,Total,Total,17832
+34,2700201,Anadia,2017,População residente estimada,Total,Total,17818
+35,2700201,Anadia,2018,População residente estimada,Total,Total,17564
+36,2700201,Anadia,2019,População residente estimada,Total,Total,17545
+37,2700201,Anadia,2020,População residente estimada,Total,Total,17526
+38,2700201,Anadia,2021,População residente estimada,Total,Total,17507
+39,2700300,Arapiraca,2001,População residente estimada,Total,Total,188988
+40,2700300,Arapiraca,2002,População residente estimada,Total,Total,190999
+41,2700300,Arapiraca,2003,População residente estimada,Total,Total,193103
+42,2700300,Arapiraca,2004,População residente estimada,Total,Total,197520
+43,2700300,Arapiraca,2005,População residente estimada,Total,Total,199964
+44,2700300,Arapiraca,2006,População residente estimada,Total,Total,202390
+45,2700300,Arapiraca,2008,População residente estimada,Total,Total,208447
+46,2700300,Arapiraca,2009,População residente estimada,Total,Total,210521
+47,2700300,Arapiraca,2011,População residente estimada,Total,Total,216108
+48,2700300,Arapiraca,2012,População residente estimada,Total,Total,218140
+49,2700300,Arapiraca,2013,População residente estimada,Total,Total,227640
+50,2700300,Arapiraca,2014,População residente estimada,Total,Total,229329
+51,2700300,Arapiraca,2015,População residente estimada,Total,Total,231053
+52,2700300,Arapiraca,2016,População residente estimada,Total,Total,232671
+53,2700300,Arapiraca,2017,População residente estimada,Total,Total,234185
+54,2700300,Arapiraca,2018,População residente estimada,Total,Total,230417
+55,2700300,Arapiraca,2019,População residente estimada,Total,Total,231747
+56,2700300,Arapiraca,2020,População residente estimada,Total,Total,233047
+57,2700300,Arapiraca,2021,População residente estimada,Total,Total,234309
+58,2700409,Atalaia,2001,População residente estimada,Total,Total,40725
+59,2700409,Atalaia,2002,População residente estimada,Total,Total,40970
+60,2700409,Atalaia,2003,População residente estimada,Total,Total,41165
+61,2700409,Atalaia,2004,População residente estimada,Total,Total,41572
+62,2700409,Atalaia,2005,População residente estimada,Total,Total,41798
+63,2700409,Atalaia,2006,População residente estimada,Total,Total,42022
+64,2700409,Atalaia,2008,População residente estimada,Total,Total,51903
+65,2700409,Atalaia,2009,População residente estimada,Total,Total,53023
+66,2700409,Atalaia,2011,População residente estimada,Total,Total,44612
+67,2700409,Atalaia,2012,População residente estimada,Total,Total,44892
+68,2700409,Atalaia,2013,População residente estimada,Total,Total,46787
+69,2700409,Atalaia,2014,População residente estimada,Total,Total,47052
+70,2700409,Atalaia,2015,População residente estimada,Total,Total,47298
+71,2700409,Atalaia,2016,População residente estimada,Total,Total,47528
+72,2700409,Atalaia,2017,População residente estimada,Total,Total,47744
+73,2700409,Atalaia,2018,População residente estimada,Total,Total,47000
+74,2700409,Atalaia,2019,População residente estimada,Total,Total,47185
+75,2700409,Atalaia,2020,População residente estimada,Total,Total,47365
+76,2700409,Atalaia,2021,População residente estimada,Total,Total,47540
+77,2700508,Barra de Santo Antônio,2001,População residente estimada,Total,Total,11745
+78,2700508,Barra de Santo Antônio,2002,População residente estimada,Total,Total,12177
+79,2700508,Barra de Santo Antônio,2003,População residente estimada,Total,Total,12561
+80,2700508,Barra de Santo Antônio,2004,População residente estimada,Total,Total,13366
+81,2700508,Barra de Santo Antônio,2005,População residente estimada,Total,Total,13812
+82,2700508,Barra de Santo Antônio,2006,População residente estimada,Total,Total,14254
+83,2700508,Barra de Santo Antônio,2008,População residente estimada,Total,Total,14159
+84,2700508,Barra de Santo Antônio,2009,População residente estimada,Total,Total,14435
+85,2700508,Barra de Santo Antônio,2011,População residente estimada,Total,Total,14451
+86,2700508,Barra de Santo Antônio,2012,População residente estimada,Total,Total,14665
+87,2700508,Barra de Santo Antônio,2013,População residente estimada,Total,Total,15377
+88,2700508,Barra de Santo Antônio,2014,População residente estimada,Total,Total,15565
+89,2700508,Barra de Santo Antônio,2015,População residente estimada,Total,Total,15742
+90,2700508,Barra de Santo Antônio,2016,População residente estimada,Total,Total,15909
+91,2700508,Barra de Santo Antônio,2017,População residente estimada,Total,Total,16064
+92,2700508,Barra de Santo Antônio,2018,População residente estimada,Total,Total,15792
+93,2700508,Barra de Santo Antônio,2019,População residente estimada,Total,Total,15932
+94,2700508,Barra de Santo Antônio,2020,População residente estimada,Total,Total,16068
+95,2700508,Barra de Santo Antônio,2021,População residente estimada,Total,Total,16201
+96,2700607,Barra de São Miguel,2001,População residente estimada,Total,Total,6544
+97,2700607,Barra de São Miguel,2002,População residente estimada,Total,Total,6680
+98,2700607,Barra de São Miguel,2003,População residente estimada,Total,Total,6819
+99,2700607,Barra de São Miguel,2004,População residente estimada,Total,Total,7112
+100,2700607,Barra de São Miguel,2005,População residente estimada,Total,Total,7274
+101,2700607,Barra de São Miguel,2006,População residente estimada,Total,Total,7435
+102,2700607,Barra de São Miguel,2008,População residente estimada,Total,Total,7467
+103,2700607,Barra de São Miguel,2009,População residente estimada,Total,Total,7572
+104,2700607,Barra de São Miguel,2011,População residente estimada,Total,Total,7666
+105,2700607,Barra de São Miguel,2012,População residente estimada,Total,Total,7755
+106,2700607,Barra de São Miguel,2013,População residente estimada,Total,Total,8112
+107,2700607,Barra de São Miguel,2014,População residente estimada,Total,Total,8191
+108,2700607,Barra de São Miguel,2015,População residente estimada,Total,Total,8266
+109,2700607,Barra de São Miguel,2016,População residente estimada,Total,Total,8336
+110,2700607,Barra de São Miguel,2017,População residente estimada,Total,Total,8401
+111,2700607,Barra de São Miguel,2018,População residente estimada,Total,Total,8264
+112,2700607,Barra de São Miguel,2019,População residente estimada,Total,Total,8322
+113,2700607,Barra de São Miguel,2020,População residente estimada,Total,Total,8378
+114,2700607,Barra de São Miguel,2021,População residente estimada,Total,Total,8434
+115,2700706,Batalha,2001,População residente estimada,Total,Total,15011
+116,2700706,Batalha,2002,População residente estimada,Total,Total,15171
+117,2700706,Batalha,2003,População residente estimada,Total,Total,15343
+118,2700706,Batalha,2004,População residente estimada,Total,Total,15705
+119,2700706,Batalha,2005,População residente estimada,Total,Total,15905
+120,2700706,Batalha,2006,População residente estimada,Total,Total,16104
+121,2700706,Batalha,2008,População residente estimada,Total,Total,16735
+122,2700706,Batalha,2009,População residente estimada,Total,Total,16919
+123,2700706,Batalha,2011,População residente estimada,Total,Total,17251
+124,2700706,Batalha,2012,População residente estimada,Total,Total,17420
+125,2700706,Batalha,2013,População residente estimada,Total,Total,18201
+126,2700706,Batalha,2014,População residente estimada,Total,Total,18353
+127,2700706,Batalha,2015,População residente estimada,Total,Total,18496
+128,2700706,Batalha,2016,População residente estimada,Total,Total,18631
+129,2700706,Batalha,2017,População residente estimada,Total,Total,18757
+130,2700706,Batalha,2018,População residente estimada,Total,Total,18455
+131,2700706,Batalha,2019,População residente estimada,Total,Total,18232
+132,2700706,Batalha,2020,População residente estimada,Total,Total,18338
+133,2700706,Batalha,2021,População residente estimada,Total,Total,18440
+134,2700805,Belém,2001,População residente estimada,Total,Total,5918
+135,2700805,Belém,2002,População residente estimada,Total,Total,5919
+136,2700805,Belém,2003,População residente estimada,Total,Total,5919
+137,2700805,Belém,2004,População residente estimada,Total,Total,5919
+138,2700805,Belém,2005,População residente estimada,Total,Total,5919
+139,2700805,Belém,2006,População residente estimada,Total,Total,5919
+140,2700805,Belém,2008,População residente estimada,Total,Total,5165
+141,2700805,Belém,2009,População residente estimada,Total,Total,5083
+142,2700805,Belém,2011,População residente estimada,Total,Total,4446
+143,2700805,Belém,2012,População residente estimada,Total,Total,4635
+144,2700805,Belém,2013,População residente estimada,Total,Total,4737
+145,2700805,Belém,2014,População residente estimada,Total,Total,4659
+146,2700805,Belém,2015,População residente estimada,Total,Total,4585
+147,2700805,Belém,2016,População residente estimada,Total,Total,4517
+148,2700805,Belém,2017,População residente estimada,Total,Total,4453
+149,2700805,Belém,2018,População residente estimada,Total,Total,4406
+150,2700805,Belém,2019,População residente estimada,Total,Total,4344
+151,2700805,Belém,2020,População residente estimada,Total,Total,4284
+152,2700805,Belém,2021,População residente estimada,Total,Total,4226
+153,2700904,Belo Monte,2001,População residente estimada,Total,Total,6792
+154,2700904,Belo Monte,2002,População residente estimada,Total,Total,6770
+155,2700904,Belo Monte,2003,População residente estimada,Total,Total,6747
+156,2700904,Belo Monte,2004,População residente estimada,Total,Total,6696
+157,2700904,Belo Monte,2005,População residente estimada,Total,Total,6669
+158,2700904,Belo Monte,2006,População residente estimada,Total,Total,6641
+159,2700904,Belo Monte,2008,População residente estimada,Total,Total,7452
+160,2700904,Belo Monte,2009,População residente estimada,Total,Total,7510
+161,2700904,Belo Monte,2011,População residente estimada,Total,Total,7043
+162,2700904,Belo Monte,2012,População residente estimada,Total,Total,6499
+163,2700904,Belo Monte,2013,População residente estimada,Total,Total,6751
+164,2700904,Belo Monte,2014,População residente estimada,Total,Total,6763
+165,2700904,Belo Monte,2015,População residente estimada,Total,Total,6775
+166,2700904,Belo Monte,2016,População residente estimada,Total,Total,6786
+167,2700904,Belo Monte,2017,População residente estimada,Total,Total,6797
+168,2700904,Belo Monte,2018,População residente estimada,Total,Total,6696
+169,2700904,Belo Monte,2019,População residente estimada,Total,Total,6704
+170,2700904,Belo Monte,2020,População residente estimada,Total,Total,6710
+171,2700904,Belo Monte,2021,População residente estimada,Total,Total,6717
+172,2701001,Boca da Mata,2001,População residente estimada,Total,Total,24461
+173,2701001,Boca da Mata,2002,População residente estimada,Total,Total,24656
+174,2701001,Boca da Mata,2003,População residente estimada,Total,Total,24855
+175,2701001,Boca da Mata,2004,População residente estimada,Total,Total,25273
+176,2701001,Boca da Mata,2005,População residente estimada,Total,Total,25504
+177,2701001,Boca da Mata,2006,População residente estimada,Total,Total,25734
+178,2701001,Boca da Mata,2008,População residente estimada,Total,Total,25882
+179,2701001,Boca da Mata,2009,População residente estimada,Total,Total,26030
+180,2701001,Boca da Mata,2011,População residente estimada,Total,Total,25895
+181,2701001,Boca da Mata,2012,População residente estimada,Total,Total,26010
+182,2701001,Boca da Mata,2013,População residente estimada,Total,Total,27074
+183,2701001,Boca da Mata,2014,População residente estimada,Total,Total,27185
+184,2701001,Boca da Mata,2015,População residente estimada,Total,Total,27399
+185,2701001,Boca da Mata,2016,População residente estimada,Total,Total,27498
+186,2701001,Boca da Mata,2017,População residente estimada,Total,Total,27590
+187,2701001,Boca da Mata,2018,População residente estimada,Total,Total,27168
+188,2701001,Boca da Mata,2019,População residente estimada,Total,Total,27281
+189,2701001,Boca da Mata,2020,População residente estimada,Total,Total,27356
+190,2701001,Boca da Mata,2021,População residente estimada,Total,Total,27429
+191,2701100,Branquinha,2001,População residente estimada,Total,Total,11700
+192,2701100,Branquinha,2002,População residente estimada,Total,Total,11960
+193,2701100,Branquinha,2003,População residente estimada,Total,Total,12255
+194,2701100,Branquinha,2004,População residente estimada,Total,Total,12874
+195,2701100,Branquinha,2005,População residente estimada,Total,Total,13217
+196,2701100,Branquinha,2006,População residente estimada,Total,Total,13557
+197,2701100,Branquinha,2008,População residente estimada,Total,Total,12142
+198,2701100,Branquinha,2009,População residente estimada,Total,Total,12215
+199,2701100,Branquinha,2011,População residente estimada,Total,Total,10527
+200,2701100,Branquinha,2012,População residente estimada,Total,Total,10471
+201,2701100,Branquinha,2013,População residente estimada,Total,Total,10823
+202,2701100,Branquinha,2014,População residente estimada,Total,Total,10783
+203,2701100,Branquinha,2015,População residente estimada,Total,Total,10745
+204,2701100,Branquinha,2016,População residente estimada,Total,Total,10709
+205,2701100,Branquinha,2017,População residente estimada,Total,Total,10675
+206,2701100,Branquinha,2018,População residente estimada,Total,Total,10529
+207,2701100,Branquinha,2019,População residente estimada,Total,Total,10494
+208,2701100,Branquinha,2020,População residente estimada,Total,Total,10460
+209,2701100,Branquinha,2021,População residente estimada,Total,Total,10426
+210,2701209,Cacimbinhas,2001,População residente estimada,Total,Total,9325
+211,2701209,Cacimbinhas,2002,População residente estimada,Total,Total,9161
+212,2701209,Cacimbinhas,2003,População residente estimada,Total,Total,8980
+213,2701209,Cacimbinhas,2004,População residente estimada,Total,Total,8600
+214,2701209,Cacimbinhas,2005,População residente estimada,Total,Total,8389
+215,2701209,Cacimbinhas,2006,População residente estimada,Total,Total,8180
+216,2701209,Cacimbinhas,2008,População residente estimada,Total,Total,10131
+217,2701209,Cacimbinhas,2009,População residente estimada,Total,Total,10182
+218,2701209,Cacimbinhas,2011,População residente estimada,Total,Total,10245
+219,2701209,Cacimbinhas,2012,População residente estimada,Total,Total,10307
+220,2701209,Cacimbinhas,2013,População residente estimada,Total,Total,10729
+221,2701209,Cacimbinhas,2014,População residente estimada,Total,Total,10775
+222,2701209,Cacimbinhas,2015,População residente estimada,Total,Total,10818
+223,2701209,Cacimbinhas,2016,População residente estimada,Total,Total,10859
+224,2701209,Cacimbinhas,2017,População residente estimada,Total,Total,10897
+225,2701209,Cacimbinhas,2018,População residente estimada,Total,Total,10730
+226,2701209,Cacimbinhas,2019,População residente estimada,Total,Total,10858
+227,2701209,Cacimbinhas,2020,População residente estimada,Total,Total,10889
+228,2701209,Cacimbinhas,2021,População residente estimada,Total,Total,10920
+229,2701308,Cajueiro,2001,População residente estimada,Total,Total,19026
+230,2701308,Cajueiro,2002,População residente estimada,Total,Total,19055
+231,2701308,Cajueiro,2003,População residente estimada,Total,Total,19091
+232,2701308,Cajueiro,2004,População residente estimada,Total,Total,19169
+233,2701308,Cajueiro,2005,População residente estimada,Total,Total,19212
+234,2701308,Cajueiro,2006,População residente estimada,Total,Total,19254
+235,2701308,Cajueiro,2008,População residente estimada,Total,Total,20670
+236,2701308,Cajueiro,2009,População residente estimada,Total,Total,20825
+237,2701308,Cajueiro,2011,População residente estimada,Total,Total,20520
+238,2701308,Cajueiro,2012,População residente estimada,Total,Total,20626
+239,2701308,Cajueiro,2013,População residente estimada,Total,Total,21480
+240,2701308,Cajueiro,2014,População residente estimada,Total,Total,21261
+241,2701308,Cajueiro,2015,População residente estimada,Total,Total,21355
+242,2701308,Cajueiro,2016,População residente estimada,Total,Total,21443
+243,2701308,Cajueiro,2017,População residente estimada,Total,Total,21526
+244,2701308,Cajueiro,2018,População residente estimada,Total,Total,21194
+245,2701308,Cajueiro,2019,População residente estimada,Total,Total,21264
+246,2701308,Cajueiro,2020,População residente estimada,Total,Total,21331
+247,2701308,Cajueiro,2021,População residente estimada,Total,Total,21397
+248,2701357,Campestre,2001,População residente estimada,Total,Total,5860
+249,2701357,Campestre,2002,População residente estimada,Total,Total,5638
+250,2701357,Campestre,2003,População residente estimada,Total,Total,5367
+251,2701357,Campestre,2004,População residente estimada,Total,Total,4797
+252,2701357,Campestre,2005,População residente estimada,Total,Total,4481
+253,2701357,Campestre,2006,População residente estimada,Total,Total,4168
+254,2701357,Campestre,2008,População residente estimada,Total,Total,6187
+255,2701357,Campestre,2009,População residente estimada,Total,Total,6178
+256,2701357,Campestre,2011,População residente estimada,Total,Total,6627
+257,2701357,Campestre,2012,População residente estimada,Total,Total,6655
+258,2701357,Campestre,2013,População residente estimada,Total,Total,6925
+259,2701357,Campestre,2014,População residente estimada,Total,Total,6952
+260,2701357,Campestre,2015,População residente estimada,Total,Total,6978
+261,2701357,Campestre,2016,População residente estimada,Total,Total,7002
+262,2701357,Campestre,2017,População residente estimada,Total,Total,7024
+263,2701357,Campestre,2018,População residente estimada,Total,Total,6918
+264,2701357,Campestre,2019,População residente estimada,Total,Total,6936
+265,2701357,Campestre,2020,População residente estimada,Total,Total,6954
+266,2701357,Campestre,2021,População residente estimada,Total,Total,6972
+267,2701407,Campo Alegre,2001,População residente estimada,Total,Total,41560
+268,2701407,Campo Alegre,2002,População residente estimada,Total,Total,41924
+269,2701407,Campo Alegre,2003,População residente estimada,Total,Total,42340
+270,2701407,Campo Alegre,2004,População residente estimada,Total,Total,43213
+271,2701407,Campo Alegre,2005,População residente estimada,Total,Total,43696
+272,2701407,Campo Alegre,2006,População residente estimada,Total,Total,44175
+273,2701407,Campo Alegre,2008,População residente estimada,Total,Total,46671
+274,2701407,Campo Alegre,2009,População residente estimada,Total,Total,47209
+275,2701407,Campo Alegre,2011,População residente estimada,Total,Total,51584
+276,2701407,Campo Alegre,2012,População residente estimada,Total,Total,52327
+277,2701407,Campo Alegre,2013,População residente estimada,Total,Total,55161
+278,2701407,Campo Alegre,2014,População residente estimada,Total,Total,55814
+279,2701407,Campo Alegre,2015,População residente estimada,Total,Total,56430
+280,2701407,Campo Alegre,2016,População residente estimada,Total,Total,57008
+281,2701407,Campo Alegre,2017,População residente estimada,Total,Total,57548
+282,2701407,Campo Alegre,2018,População residente estimada,Total,Total,56579
+283,2701407,Campo Alegre,2019,População residente estimada,Total,Total,57063
+284,2701407,Campo Alegre,2020,População residente estimada,Total,Total,57537
+285,2701407,Campo Alegre,2021,População residente estimada,Total,Total,57997
+286,2701506,Campo Grande,2001,População residente estimada,Total,Total,9013
+287,2701506,Campo Grande,2002,População residente estimada,Total,Total,8943
+288,2701506,Campo Grande,2003,População residente estimada,Total,Total,8855
+289,2701506,Campo Grande,2004,População residente estimada,Total,Total,8669
+290,2701506,Campo Grande,2005,População residente estimada,Total,Total,8566
+291,2701506,Campo Grande,2006,População residente estimada,Total,Total,8464
+292,2701506,Campo Grande,2008,População residente estimada,Total,Total,9845
+293,2701506,Campo Grande,2009,População residente estimada,Total,Total,9909
+294,2701506,Campo Grande,2011,População residente estimada,Total,Total,9046
+295,2701506,Campo Grande,2012,População residente estimada,Total,Total,9273
+296,2701506,Campo Grande,2013,População residente estimada,Total,Total,9631
+297,2701506,Campo Grande,2014,População residente estimada,Total,Total,9646
+298,2701506,Campo Grande,2015,População residente estimada,Total,Total,9664
+299,2701506,Campo Grande,2016,População residente estimada,Total,Total,9678
+300,2701506,Campo Grande,2017,População residente estimada,Total,Total,9692
+301,2701506,Campo Grande,2018,População residente estimada,Total,Total,9549
+302,2701506,Campo Grande,2019,População residente estimada,Total,Total,9558
+303,2701506,Campo Grande,2020,População residente estimada,Total,Total,9567
+304,2701506,Campo Grande,2021,População residente estimada,Total,Total,9576
+305,2701605,Canapi,2001,População residente estimada,Total,Total,17174
+306,2701605,Canapi,2002,População residente estimada,Total,Total,17061
+307,2701605,Canapi,2003,População residente estimada,Total,Total,16935
+308,2701605,Canapi,2004,População residente estimada,Total,Total,16669
+309,2701605,Canapi,2005,População residente estimada,Total,Total,16522
+310,2701605,Canapi,2006,População residente estimada,Total,Total,16376
+311,2701605,Canapi,2008,População residente estimada,Total,Total,18313
+312,2701605,Canapi,2009,População residente estimada,Total,Total,18397
+313,2701605,Canapi,2011,População residente estimada,Total,Total,17244
+314,2701605,Canapi,2012,População residente estimada,Total,Total,17238
+315,2701605,Canapi,2013,População residente estimada,Total,Total,17880
+316,2701605,Canapi,2014,População residente estimada,Total,Total,17973
+317,2701605,Canapi,2015,População residente estimada,Total,Total,17976
+318,2701605,Canapi,2016,População residente estimada,Total,Total,17980
+319,2701605,Canapi,2017,População residente estimada,Total,Total,17983
+320,2701605,Canapi,2018,População residente estimada,Total,Total,17726
+321,2701605,Canapi,2019,População residente estimada,Total,Total,17722
+322,2701605,Canapi,2020,População residente estimada,Total,Total,17719
+323,2701605,Canapi,2021,População residente estimada,Total,Total,17715
+324,2701704,Capela,2001,População residente estimada,Total,Total,18623
+325,2701704,Capela,2002,População residente estimada,Total,Total,18675
+326,2701704,Capela,2003,População residente estimada,Total,Total,18667
+327,2701704,Capela,2004,População residente estimada,Total,Total,18650
+328,2701704,Capela,2005,População residente estimada,Total,Total,18640
+329,2701704,Capela,2006,População residente estimada,Total,Total,18631
+330,2701704,Capela,2008,População residente estimada,Total,Total,17504
+331,2701704,Capela,2009,População residente estimada,Total,Total,17366
+332,2701704,Capela,2011,População residente estimada,Total,Total,16953
+333,2701704,Capela,2012,População residente estimada,Total,Total,16728
+334,2701704,Capela,2013,População residente estimada,Total,Total,17266
+335,2701704,Capela,2014,População residente estimada,Total,Total,17591
+336,2701704,Capela,2015,População residente estimada,Total,Total,17507
+337,2701704,Capela,2016,População residente estimada,Total,Total,17428
+338,2701704,Capela,2017,População residente estimada,Total,Total,17354
+339,2701704,Capela,2018,População residente estimada,Total,Total,17124
+340,2701704,Capela,2019,População residente estimada,Total,Total,17053
+341,2701704,Capela,2020,População residente estimada,Total,Total,16979
+342,2701704,Capela,2021,População residente estimada,Total,Total,16907
+343,2701803,Carneiros,2001,População residente estimada,Total,Total,6687
+344,2701803,Carneiros,2002,População residente estimada,Total,Total,6774
+345,2701803,Carneiros,2003,População residente estimada,Total,Total,6862
+346,2701803,Carneiros,2004,População residente estimada,Total,Total,7046
+347,2701803,Carneiros,2005,População residente estimada,Total,Total,7148
+348,2701803,Carneiros,2006,População residente estimada,Total,Total,7249
+349,2701803,Carneiros,2008,População residente estimada,Total,Total,8295
+350,2701803,Carneiros,2009,População residente estimada,Total,Total,8463
+351,2701803,Carneiros,2011,População residente estimada,Total,Total,8421
+352,2701803,Carneiros,2012,População residente estimada,Total,Total,8548
+353,2701803,Carneiros,2013,População residente estimada,Total,Total,8758
+354,2701803,Carneiros,2014,População residente estimada,Total,Total,8867
+355,2701803,Carneiros,2015,População residente estimada,Total,Total,8969
+356,2701803,Carneiros,2016,População residente estimada,Total,Total,9065
+357,2701803,Carneiros,2017,População residente estimada,Total,Total,9155
+358,2701803,Carneiros,2018,População residente estimada,Total,Total,9000
+359,2701803,Carneiros,2019,População residente estimada,Total,Total,9081
+360,2701803,Carneiros,2020,População residente estimada,Total,Total,9159
+361,2701803,Carneiros,2021,População residente estimada,Total,Total,9568
+362,2701902,Chã Preta,2001,População residente estimada,Total,Total,7702
+363,2701902,Chã Preta,2002,População residente estimada,Total,Total,7668
+364,2701902,Chã Preta,2003,População residente estimada,Total,Total,7626
+365,2701902,Chã Preta,2004,População residente estimada,Total,Total,7536
+366,2701902,Chã Preta,2005,População residente estimada,Total,Total,7487
+367,2701902,Chã Preta,2006,População residente estimada,Total,Total,7438
+368,2701902,Chã Preta,2008,População residente estimada,Total,Total,7143
+369,2701902,Chã Preta,2009,População residente estimada,Total,Total,7073
+370,2701902,Chã Preta,2011,População residente estimada,Total,Total,7146
+371,2701902,Chã Preta,2012,População residente estimada,Total,Total,7146
+372,2701902,Chã Preta,2013,População residente estimada,Total,Total,7413
+373,2701902,Chã Preta,2014,População residente estimada,Total,Total,7417
+374,2701902,Chã Preta,2015,População residente estimada,Total,Total,7421
+375,2701902,Chã Preta,2016,População residente estimada,Total,Total,7424
+376,2701902,Chã Preta,2017,População residente estimada,Total,Total,7427
+377,2701902,Chã Preta,2018,População residente estimada,Total,Total,7319
+378,2701902,Chã Preta,2019,População residente estimada,Total,Total,7311
+379,2701902,Chã Preta,2020,População residente estimada,Total,Total,7311
+380,2701902,Chã Preta,2021,População residente estimada,Total,Total,7311
+381,2702009,Coité do Nóia,2001,População residente estimada,Total,Total,12259
+382,2702009,Coité do Nóia,2002,População residente estimada,Total,Total,12455
+383,2702009,Coité do Nóia,2003,População residente estimada,Total,Total,12669
+384,2702009,Coité do Nóia,2004,População residente estimada,Total,Total,13119
+385,2702009,Coité do Nóia,2005,População residente estimada,Total,Total,13368
+386,2702009,Coité do Nóia,2006,População residente estimada,Total,Total,13615
+387,2702009,Coité do Nóia,2008,População residente estimada,Total,Total,11217
+388,2702009,Coité do Nóia,2009,População residente estimada,Total,Total,11127
+389,2702009,Coité do Nóia,2011,População residente estimada,Total,Total,10845
+390,2702009,Coité do Nóia,2012,População residente estimada,Total,Total,10765
+391,2702009,Coité do Nóia,2013,População residente estimada,Total,Total,11110
+392,2702009,Coité do Nóia,2014,População residente estimada,Total,Total,11049
+393,2702009,Coité do Nóia,2015,População residente estimada,Total,Total,10992
+394,2702009,Coité do Nóia,2016,População residente estimada,Total,Total,10939
+395,2702009,Coité do Nóia,2017,População residente estimada,Total,Total,10888
+396,2702009,Coité do Nóia,2018,População residente estimada,Total,Total,10744
+397,2702009,Coité do Nóia,2019,População residente estimada,Total,Total,10693
+398,2702009,Coité do Nóia,2020,População residente estimada,Total,Total,10643
+399,2702009,Coité do Nóia,2021,População residente estimada,Total,Total,10594
+400,2702108,Colônia Leopoldina,2001,População residente estimada,Total,Total,17586
+401,2702108,Colônia Leopoldina,2002,População residente estimada,Total,Total,17652
+402,2702108,Colônia Leopoldina,2003,População residente estimada,Total,Total,17725
+403,2702108,Colônia Leopoldina,2004,População residente estimada,Total,Total,17880
+404,2702108,Colônia Leopoldina,2005,População residente estimada,Total,Total,17965
+405,2702108,Colônia Leopoldina,2006,População residente estimada,Total,Total,18050
+406,2702108,Colônia Leopoldina,2008,População residente estimada,Total,Total,19946
+407,2702108,Colônia Leopoldina,2009,População residente estimada,Total,Total,20181
+408,2702108,Colônia Leopoldina,2011,População residente estimada,Total,Total,20213
+409,2702108,Colônia Leopoldina,2012,População residente estimada,Total,Total,20401
+410,2702108,Colônia Leopoldina,2013,População residente estimada,Total,Total,21307
+411,2702108,Colônia Leopoldina,2014,População residente estimada,Total,Total,21477
+412,2702108,Colônia Leopoldina,2015,População residente estimada,Total,Total,21636
+413,2702108,Colônia Leopoldina,2016,População residente estimada,Total,Total,21786
+414,2702108,Colônia Leopoldina,2017,População residente estimada,Total,Total,21926
+415,2702108,Colônia Leopoldina,2018,População residente estimada,Total,Total,21575
+416,2702108,Colônia Leopoldina,2019,População residente estimada,Total,Total,21698
+417,2702108,Colônia Leopoldina,2020,População residente estimada,Total,Total,21818
+418,2702108,Colônia Leopoldina,2021,População residente estimada,Total,Total,21935
+419,2702207,Coqueiro Seco,2001,População residente estimada,Total,Total,5163
+420,2702207,Coqueiro Seco,2002,População residente estimada,Total,Total,5208
+421,2702207,Coqueiro Seco,2003,População residente estimada,Total,Total,5242
+422,2702207,Coqueiro Seco,2004,População residente estimada,Total,Total,5314
+423,2702207,Coqueiro Seco,2005,População residente estimada,Total,Total,5353
+424,2702207,Coqueiro Seco,2006,População residente estimada,Total,Total,5393
+425,2702207,Coqueiro Seco,2008,População residente estimada,Total,Total,5493
+426,2702207,Coqueiro Seco,2009,População residente estimada,Total,Total,5525
+427,2702207,Coqueiro Seco,2011,População residente estimada,Total,Total,5557
+428,2702207,Coqueiro Seco,2012,População residente estimada,Total,Total,5586
+429,2702207,Coqueiro Seco,2013,População residente estimada,Total,Total,5817
+430,2702207,Coqueiro Seco,2014,População residente estimada,Total,Total,5844
+431,2702207,Coqueiro Seco,2015,População residente estimada,Total,Total,5870
+432,2702207,Coqueiro Seco,2016,População residente estimada,Total,Total,5895
+433,2702207,Coqueiro Seco,2017,População residente estimada,Total,Total,5918
+434,2702207,Coqueiro Seco,2018,População residente estimada,Total,Total,5826
+435,2702207,Coqueiro Seco,2019,População residente estimada,Total,Total,5845
+436,2702207,Coqueiro Seco,2020,População residente estimada,Total,Total,5864
+437,2702207,Coqueiro Seco,2021,População residente estimada,Total,Total,5882
+438,2702306,Coruripe,2001,População residente estimada,Total,Total,44238
+439,2702306,Coruripe,2002,População residente estimada,Total,Total,44422
+440,2702306,Coruripe,2003,População residente estimada,Total,Total,44387
+441,2702306,Coruripe,2004,População residente estimada,Total,Total,44313
+442,2702306,Coruripe,2005,População residente estimada,Total,Total,44272
+443,2702306,Coruripe,2006,População residente estimada,Total,Total,44232
+444,2702306,Coruripe,2008,População residente estimada,Total,Total,52584
+445,2702306,Coruripe,2009,População residente estimada,Total,Total,53369
+446,2702306,Coruripe,2011,População residente estimada,Total,Total,52716
+447,2702306,Coruripe,2012,População residente estimada,Total,Total,53224
+448,2702306,Coruripe,2013,População residente estimada,Total,Total,55648
+449,2702306,Coruripe,2014,População residente estimada,Total,Total,56153
+450,2702306,Coruripe,2015,População residente estimada,Total,Total,56631
+451,2702306,Coruripe,2016,População residente estimada,Total,Total,57079
+452,2702306,Coruripe,2017,População residente estimada,Total,Total,57498
+453,2702306,Coruripe,2018,População residente estimada,Total,Total,56562
+454,2702306,Coruripe,2019,População residente estimada,Total,Total,56933
+455,2702306,Coruripe,2020,População residente estimada,Total,Total,57294
+456,2702306,Coruripe,2021,População residente estimada,Total,Total,57647
+457,2702355,Craíbas,2001,População residente estimada,Total,Total,21151
+458,2702355,Craíbas,2002,População residente estimada,Total,Total,21415
+459,2702355,Craíbas,2003,População residente estimada,Total,Total,21705
+460,2702355,Craíbas,2004,População residente estimada,Total,Total,22314
+461,2702355,Craíbas,2005,População residente estimada,Total,Total,22652
+462,2702355,Craíbas,2006,População residente estimada,Total,Total,22986
+463,2702355,Craíbas,2008,População residente estimada,Total,Total,23079
+464,2702355,Craíbas,2009,População residente estimada,Total,Total,23294
+465,2702355,Craíbas,2011,População residente estimada,Total,Total,22784
+466,2702355,Craíbas,2012,População residente estimada,Total,Total,22921
+467,2702355,Craíbas,2013,População residente estimada,Total,Total,23885
+468,2702355,Craíbas,2014,População residente estimada,Total,Total,24166
+469,2702355,Craíbas,2015,População residente estimada,Total,Total,24288
+470,2702355,Craíbas,2016,População residente estimada,Total,Total,24403
+471,2702355,Craíbas,2017,População residente estimada,Total,Total,24510
+472,2702355,Craíbas,2018,População residente estimada,Total,Total,24129
+473,2702355,Craíbas,2019,População residente estimada,Total,Total,24219
+474,2702355,Craíbas,2020,População residente estimada,Total,Total,24309
+475,2702355,Craíbas,2021,População residente estimada,Total,Total,24396
+476,2702405,Delmiro Gouveia,2001,População residente estimada,Total,Total,43220
+477,2702405,Delmiro Gouveia,2002,População residente estimada,Total,Total,43370
+478,2702405,Delmiro Gouveia,2003,População residente estimada,Total,Total,43544
+479,2702405,Delmiro Gouveia,2004,População residente estimada,Total,Total,43909
+480,2702405,Delmiro Gouveia,2005,População residente estimada,Total,Total,44111
+481,2702405,Delmiro Gouveia,2006,População residente estimada,Total,Total,44311
+482,2702405,Delmiro Gouveia,2008,População residente estimada,Total,Total,47991
+483,2702405,Delmiro Gouveia,2009,População residente estimada,Total,Total,48462
+484,2702405,Delmiro Gouveia,2011,População residente estimada,Total,Total,48493
+485,2702405,Delmiro Gouveia,2012,População residente estimada,Total,Total,48876
+486,2702405,Delmiro Gouveia,2013,População residente estimada,Total,Total,50999
+487,2702405,Delmiro Gouveia,2014,População residente estimada,Total,Total,51349
+488,2702405,Delmiro Gouveia,2015,População residente estimada,Total,Total,51997
+489,2702405,Delmiro Gouveia,2016,População residente estimada,Total,Total,52306
+490,2702405,Delmiro Gouveia,2017,População residente estimada,Total,Total,52597
+491,2702405,Delmiro Gouveia,2018,População residente estimada,Total,Total,51763
+492,2702405,Delmiro Gouveia,2019,População residente estimada,Total,Total,52016
+493,2702405,Delmiro Gouveia,2020,População residente estimada,Total,Total,52262
+494,2702405,Delmiro Gouveia,2021,População residente estimada,Total,Total,52501
+495,2702504,Dois Riachos,2001,População residente estimada,Total,Total,11197
+496,2702504,Dois Riachos,2002,População residente estimada,Total,Total,11288
+497,2702504,Dois Riachos,2003,População residente estimada,Total,Total,11391
+498,2702504,Dois Riachos,2004,População residente estimada,Total,Total,11607
+499,2702504,Dois Riachos,2005,População residente estimada,Total,Total,11727
+500,2702504,Dois Riachos,2006,População residente estimada,Total,Total,11846
+501,2702504,Dois Riachos,2008,População residente estimada,Total,Total,11196
+502,2702504,Dois Riachos,2009,População residente estimada,Total,Total,11200
+503,2702504,Dois Riachos,2011,População residente estimada,Total,Total,10866
+504,2702504,Dois Riachos,2012,População residente estimada,Total,Total,10838
+505,2702504,Dois Riachos,2013,População residente estimada,Total,Total,11234
+506,2702504,Dois Riachos,2014,População residente estimada,Total,Total,11229
+507,2702504,Dois Riachos,2015,População residente estimada,Total,Total,11224
+508,2702504,Dois Riachos,2016,População residente estimada,Total,Total,11219
+509,2702504,Dois Riachos,2017,População residente estimada,Total,Total,11214
+510,2702504,Dois Riachos,2018,População residente estimada,Total,Total,11054
+511,2702504,Dois Riachos,2019,População residente estimada,Total,Total,11075
+512,2702504,Dois Riachos,2020,População residente estimada,Total,Total,11067
+513,2702504,Dois Riachos,2021,População residente estimada,Total,Total,11059
+514,2702553,Estrela de Alagoas,2001,População residente estimada,Total,Total,16428
+515,2702553,Estrela de Alagoas,2002,População residente estimada,Total,Total,16500
+516,2702553,Estrela de Alagoas,2003,População residente estimada,Total,Total,16574
+517,2702553,Estrela de Alagoas,2004,População residente estimada,Total,Total,16729
+518,2702553,Estrela de Alagoas,2005,População residente estimada,Total,Total,16815
+519,2702553,Estrela de Alagoas,2006,População residente estimada,Total,Total,16900
+520,2702553,Estrela de Alagoas,2008,População residente estimada,Total,Total,17180
+521,2702553,Estrela de Alagoas,2009,População residente estimada,Total,Total,17251
+522,2702553,Estrela de Alagoas,2011,População residente estimada,Total,Total,17332
+523,2702553,Estrela de Alagoas,2012,População residente estimada,Total,Total,17410
+524,2702553,Estrela de Alagoas,2013,População residente estimada,Total,Total,18123
+525,2702553,Estrela de Alagoas,2014,População residente estimada,Total,Total,18198
+526,2702553,Estrela de Alagoas,2015,População residente estimada,Total,Total,18306
+527,2702553,Estrela de Alagoas,2016,População residente estimada,Total,Total,18373
+528,2702553,Estrela de Alagoas,2017,População residente estimada,Total,Total,18435
+529,2702553,Estrela de Alagoas,2018,População residente estimada,Total,Total,18153
+530,2702553,Estrela de Alagoas,2019,População residente estimada,Total,Total,18205
+531,2702553,Estrela de Alagoas,2020,População residente estimada,Total,Total,18255
+532,2702553,Estrela de Alagoas,2021,População residente estimada,Total,Total,18304
+533,2702603,Feira Grande,2001,População residente estimada,Total,Total,21543
+534,2702603,Feira Grande,2002,População residente estimada,Total,Total,21737
+535,2702603,Feira Grande,2003,População residente estimada,Total,Total,21953
+536,2702603,Feira Grande,2004,População residente estimada,Total,Total,22408
+537,2702603,Feira Grande,2005,População residente estimada,Total,Total,22660
+538,2702603,Feira Grande,2006,População residente estimada,Total,Total,22909
+539,2702603,Feira Grande,2008,População residente estimada,Total,Total,21790
+540,2702603,Feira Grande,2009,População residente estimada,Total,Total,21824
+541,2702603,Feira Grande,2011,População residente estimada,Total,Total,21338
+542,2702603,Feira Grande,2012,População residente estimada,Total,Total,21342
+543,2702603,Feira Grande,2013,População residente estimada,Total,Total,22377
+544,2702603,Feira Grande,2014,População residente estimada,Total,Total,22406
+545,2702603,Feira Grande,2015,População residente estimada,Total,Total,22432
+546,2702603,Feira Grande,2016,População residente estimada,Total,Total,22458
+547,2702603,Feira Grande,2017,População residente estimada,Total,Total,22481
+548,2702603,Feira Grande,2018,População residente estimada,Total,Total,22152
+549,2702603,Feira Grande,2019,População residente estimada,Total,Total,22166
+550,2702603,Feira Grande,2020,População residente estimada,Total,Total,22178
+551,2702603,Feira Grande,2021,População residente estimada,Total,Total,22192
+552,2702702,Feliz Deserto,2001,População residente estimada,Total,Total,3892
+553,2702702,Feliz Deserto,2002,População residente estimada,Total,Total,3920
+554,2702702,Feliz Deserto,2003,População residente estimada,Total,Total,3959
+555,2702702,Feliz Deserto,2004,População residente estimada,Total,Total,4040
+556,2702702,Feliz Deserto,2005,População residente estimada,Total,Total,4085
+557,2702702,Feliz Deserto,2006,População residente estimada,Total,Total,4130
+558,2702702,Feliz Deserto,2008,População residente estimada,Total,Total,4503
+559,2702702,Feliz Deserto,2009,População residente estimada,Total,Total,4568
+560,2702702,Feliz Deserto,2011,População residente estimada,Total,Total,4385
+561,2702702,Feliz Deserto,2012,População residente estimada,Total,Total,4482
+562,2702702,Feliz Deserto,2013,População residente estimada,Total,Total,4678
+563,2702702,Feliz Deserto,2014,População residente estimada,Total,Total,4714
+564,2702702,Feliz Deserto,2015,População residente estimada,Total,Total,4746
+565,2702702,Feliz Deserto,2016,População residente estimada,Total,Total,4777
+566,2702702,Feliz Deserto,2017,População residente estimada,Total,Total,4806
+567,2702702,Feliz Deserto,2018,População residente estimada,Total,Total,4729
+568,2702702,Feliz Deserto,2019,População residente estimada,Total,Total,4754
+569,2702702,Feliz Deserto,2020,População residente estimada,Total,Total,4779
+570,2702702,Feliz Deserto,2021,População residente estimada,Total,Total,4803
+571,2702801,Flexeiras,2001,População residente estimada,Total,Total,11993
+572,2702801,Flexeiras,2002,População residente estimada,Total,Total,11954
+573,2702801,Flexeiras,2003,População residente estimada,Total,Total,11943
+574,2702801,Flexeiras,2004,População residente estimada,Total,Total,11918
+575,2702801,Flexeiras,2005,População residente estimada,Total,Total,11905
+576,2702801,Flexeiras,2006,População residente estimada,Total,Total,11892
+577,2702801,Flexeiras,2008,População residente estimada,Total,Total,12271
+578,2702801,Flexeiras,2009,População residente estimada,Total,Total,12290
+579,2702801,Flexeiras,2011,População residente estimada,Total,Total,12352
+580,2702801,Flexeiras,2012,População residente estimada,Total,Total,12378
+581,2702801,Flexeiras,2013,População residente estimada,Total,Total,12862
+582,2702801,Flexeiras,2014,População residente estimada,Total,Total,12890
+583,2702801,Flexeiras,2015,População residente estimada,Total,Total,12917
+584,2702801,Flexeiras,2016,População residente estimada,Total,Total,12943
+585,2702801,Flexeiras,2017,População residente estimada,Total,Total,12966
+586,2702801,Flexeiras,2018,População residente estimada,Total,Total,12773
+587,2702801,Flexeiras,2019,População residente estimada,Total,Total,12790
+588,2702801,Flexeiras,2020,População residente estimada,Total,Total,12807
+589,2702801,Flexeiras,2021,População residente estimada,Total,Total,12823
+590,2702900,Girau do Ponciano,2001,População residente estimada,Total,Total,29820
+591,2702900,Girau do Ponciano,2002,População residente estimada,Total,Total,29947
+592,2702900,Girau do Ponciano,2003,População residente estimada,Total,Total,30042
+593,2702900,Girau do Ponciano,2004,População residente estimada,Total,Total,30405
+594,2702900,Girau do Ponciano,2005,População residente estimada,Total,Total,30685
+595,2702900,Girau do Ponciano,2006,População residente estimada,Total,Total,30884
+596,2702900,Girau do Ponciano,2008,População residente estimada,Total,Total,36250
+597,2702900,Girau do Ponciano,2009,População residente estimada,Total,Total,36904
+598,2702900,Girau do Ponciano,2011,População residente estimada,Total,Total,37118
+599,2702900,Girau do Ponciano,2012,População residente estimada,Total,Total,37858
+600,2702900,Girau do Ponciano,2013,População residente estimada,Total,Total,39657
+601,2702900,Girau do Ponciano,2014,População residente estimada,Total,Total,40100
+602,2702900,Girau do Ponciano,2015,População residente estimada,Total,Total,40519
+603,2702900,Girau do Ponciano,2016,População residente estimada,Total,Total,40912
+604,2702900,Girau do Ponciano,2017,População residente estimada,Total,Total,41279
+605,2702900,Girau do Ponciano,2018,População residente estimada,Total,Total,40588
+606,2702900,Girau do Ponciano,2019,População residente estimada,Total,Total,40917
+607,2702900,Girau do Ponciano,2020,População residente estimada,Total,Total,41237
+608,2702900,Girau do Ponciano,2021,População residente estimada,Total,Total,41549
+609,2703007,Ibateguara,2001,População residente estimada,Total,Total,15068
+610,2703007,Ibateguara,2002,População residente estimada,Total,Total,14997
+611,2703007,Ibateguara,2003,População residente estimada,Total,Total,14946
+612,2703007,Ibateguara,2004,População residente estimada,Total,Total,14841
+613,2703007,Ibateguara,2005,População residente estimada,Total,Total,14782
+614,2703007,Ibateguara,2006,População residente estimada,Total,Total,14724
+615,2703007,Ibateguara,2008,População residente estimada,Total,Total,15805
+616,2703007,Ibateguara,2009,População residente estimada,Total,Total,15863
+617,2703007,Ibateguara,2011,População residente estimada,Total,Total,15165
+618,2703007,Ibateguara,2012,População residente estimada,Total,Total,15180
+619,2703007,Ibateguara,2013,População residente estimada,Total,Total,15762
+620,2703007,Ibateguara,2014,População residente estimada,Total,Total,15783
+621,2703007,Ibateguara,2015,População residente estimada,Total,Total,15803
+622,2703007,Ibateguara,2016,População residente estimada,Total,Total,15822
+623,2703007,Ibateguara,2017,População residente estimada,Total,Total,15840
+624,2703007,Ibateguara,2018,População residente estimada,Total,Total,15606
+625,2703007,Ibateguara,2019,População residente estimada,Total,Total,15616
+626,2703007,Ibateguara,2020,População residente estimada,Total,Total,15627
+627,2703007,Ibateguara,2021,População residente estimada,Total,Total,15637
+628,2703106,Igaci,2001,População residente estimada,Total,Total,25525
+629,2703106,Igaci,2002,População residente estimada,Total,Total,25470
+630,2703106,Igaci,2003,População residente estimada,Total,Total,25417
+631,2703106,Igaci,2004,População residente estimada,Total,Total,25305
+632,2703106,Igaci,2005,População residente estimada,Total,Total,25244
+633,2703106,Igaci,2006,População residente estimada,Total,Total,25183
+634,2703106,Igaci,2008,População residente estimada,Total,Total,25860
+635,2703106,Igaci,2009,População residente estimada,Total,Total,25865
+636,2703106,Igaci,2011,População residente estimada,Total,Total,25158
+637,2703106,Igaci,2012,População residente estimada,Total,Total,25129
+638,2703106,Igaci,2013,População residente estimada,Total,Total,26051
+639,2703106,Igaci,2014,População residente estimada,Total,Total,26060
+640,2703106,Igaci,2015,População residente estimada,Total,Total,26041
+641,2703106,Igaci,2016,População residente estimada,Total,Total,26031
+642,2703106,Igaci,2017,População residente estimada,Total,Total,26022
+643,2703106,Igaci,2018,População residente estimada,Total,Total,25649
+644,2703106,Igaci,2019,População residente estimada,Total,Total,25631
+645,2703106,Igaci,2020,População residente estimada,Total,Total,25613
+646,2703106,Igaci,2021,População residente estimada,Total,Total,25596
+647,2703205,Igreja Nova,2001,População residente estimada,Total,Total,21613
+648,2703205,Igreja Nova,2002,População residente estimada,Total,Total,21788
+649,2703205,Igreja Nova,2003,População residente estimada,Total,Total,21945
+650,2703205,Igreja Nova,2004,População residente estimada,Total,Total,22273
+651,2703205,Igreja Nova,2005,População residente estimada,Total,Total,22455
+652,2703205,Igreja Nova,2006,População residente estimada,Total,Total,22635
+653,2703205,Igreja Nova,2008,População residente estimada,Total,Total,23606
+654,2703205,Igreja Nova,2009,População residente estimada,Total,Total,23807
+655,2703205,Igreja Nova,2011,População residente estimada,Total,Total,23434
+656,2703205,Igreja Nova,2012,População residente estimada,Total,Total,23570
+657,2703205,Igreja Nova,2013,População residente estimada,Total,Total,24328
+658,2703205,Igreja Nova,2014,População residente estimada,Total,Total,24455
+659,2703205,Igreja Nova,2015,População residente estimada,Total,Total,24575
+660,2703205,Igreja Nova,2016,População residente estimada,Total,Total,24687
+661,2703205,Igreja Nova,2017,População residente estimada,Total,Total,24793
+662,2703205,Igreja Nova,2018,População residente estimada,Total,Total,24408
+663,2703205,Igreja Nova,2019,População residente estimada,Total,Total,24499
+664,2703205,Igreja Nova,2020,População residente estimada,Total,Total,24586
+665,2703205,Igreja Nova,2021,População residente estimada,Total,Total,24670
+666,2703304,Inhapi,2001,População residente estimada,Total,Total,17830
+667,2703304,Inhapi,2002,População residente estimada,Total,Total,18394
+668,2703304,Inhapi,2003,População residente estimada,Total,Total,18685
+669,2703304,Inhapi,2004,População residente estimada,Total,Total,19295
+670,2703304,Inhapi,2005,População residente estimada,Total,Total,19633
+671,2703304,Inhapi,2006,População residente estimada,Total,Total,19968
+672,2703304,Inhapi,2008,População residente estimada,Total,Total,18144
+673,2703304,Inhapi,2009,População residente estimada,Total,Total,18166
+674,2703304,Inhapi,2011,População residente estimada,Total,Total,17908
+675,2703304,Inhapi,2012,População residente estimada,Total,Total,17839
+676,2703304,Inhapi,2013,População residente estimada,Total,Total,18516
+677,2703304,Inhapi,2014,População residente estimada,Total,Total,18535
+678,2703304,Inhapi,2015,População residente estimada,Total,Total,18621
+679,2703304,Inhapi,2016,População residente estimada,Total,Total,18637
+680,2703304,Inhapi,2017,População residente estimada,Total,Total,18652
+681,2703304,Inhapi,2018,População residente estimada,Total,Total,18378
+682,2703304,Inhapi,2019,População residente estimada,Total,Total,18385
+683,2703304,Inhapi,2020,População residente estimada,Total,Total,18392
+684,2703304,Inhapi,2021,População residente estimada,Total,Total,18398
+685,2703403,Jacaré dos Homens,2001,População residente estimada,Total,Total,5841
+686,2703403,Jacaré dos Homens,2002,População residente estimada,Total,Total,5925
+687,2703403,Jacaré dos Homens,2003,População residente estimada,Total,Total,6020
+688,2703403,Jacaré dos Homens,2004,População residente estimada,Total,Total,6220
+689,2703403,Jacaré dos Homens,2005,População residente estimada,Total,Total,6330
+690,2703403,Jacaré dos Homens,2006,População residente estimada,Total,Total,6440
+691,2703403,Jacaré dos Homens,2008,População residente estimada,Total,Total,5890
+692,2703403,Jacaré dos Homens,2009,População residente estimada,Total,Total,5902
+693,2703403,Jacaré dos Homens,2011,População residente estimada,Total,Total,5357
+694,2703403,Jacaré dos Homens,2012,População residente estimada,Total,Total,5352
+695,2703403,Jacaré dos Homens,2013,População residente estimada,Total,Total,5511
+696,2703403,Jacaré dos Homens,2014,População residente estimada,Total,Total,5469
+697,2703403,Jacaré dos Homens,2015,População residente estimada,Total,Total,5429
+698,2703403,Jacaré dos Homens,2016,População residente estimada,Total,Total,5391
+699,2703403,Jacaré dos Homens,2017,População residente estimada,Total,Total,5356
+700,2703403,Jacaré dos Homens,2018,População residente estimada,Total,Total,5288
+701,2703403,Jacaré dos Homens,2019,População residente estimada,Total,Total,5253
+702,2703403,Jacaré dos Homens,2020,População residente estimada,Total,Total,5219
+703,2703403,Jacaré dos Homens,2021,População residente estimada,Total,Total,5185
+704,2703502,Jacuípe,2001,População residente estimada,Total,Total,7286
+705,2703502,Jacuípe,2002,População residente estimada,Total,Total,7278
+706,2703502,Jacuípe,2003,População residente estimada,Total,Total,7261
+707,2703502,Jacuípe,2004,População residente estimada,Total,Total,7227
+708,2703502,Jacuípe,2005,População residente estimada,Total,Total,7208
+709,2703502,Jacuípe,2006,População residente estimada,Total,Total,7189
+710,2703502,Jacuípe,2008,População residente estimada,Total,Total,7076
+711,2703502,Jacuípe,2009,População residente estimada,Total,Total,7045
+712,2703502,Jacuípe,2011,População residente estimada,Total,Total,6973
+713,2703502,Jacuípe,2012,População residente estimada,Total,Total,6950
+714,2703502,Jacuípe,2013,População residente estimada,Total,Total,7193
+715,2703502,Jacuípe,2014,População residente estimada,Total,Total,7177
+716,2703502,Jacuípe,2015,População residente estimada,Total,Total,7162
+717,2703502,Jacuípe,2016,População residente estimada,Total,Total,7148
+718,2703502,Jacuípe,2017,População residente estimada,Total,Total,7135
+719,2703502,Jacuípe,2018,População residente estimada,Total,Total,7036
+720,2703502,Jacuípe,2019,População residente estimada,Total,Total,7021
+721,2703502,Jacuípe,2020,População residente estimada,Total,Total,7006
+722,2703502,Jacuípe,2021,População residente estimada,Total,Total,6992
+723,2703601,Japaratinga,2001,População residente estimada,Total,Total,6840
+724,2703601,Japaratinga,2002,População residente estimada,Total,Total,6821
+725,2703601,Japaratinga,2003,População residente estimada,Total,Total,6799
+726,2703601,Japaratinga,2004,População residente estimada,Total,Total,6753
+727,2703601,Japaratinga,2005,População residente estimada,Total,Total,6727
+728,2703601,Japaratinga,2006,População residente estimada,Total,Total,6702
+729,2703601,Japaratinga,2008,População residente estimada,Total,Total,7686
+730,2703601,Japaratinga,2009,População residente estimada,Total,Total,7763
+731,2703601,Japaratinga,2011,População residente estimada,Total,Total,7823
+732,2703601,Japaratinga,2012,População residente estimada,Total,Total,7888
+733,2703601,Japaratinga,2013,População residente estimada,Total,Total,8234
+734,2703601,Japaratinga,2014,População residente estimada,Total,Total,8294
+735,2703601,Japaratinga,2015,População residente estimada,Total,Total,8350
+736,2703601,Japaratinga,2016,População residente estimada,Total,Total,8403
+737,2703601,Japaratinga,2017,População residente estimada,Total,Total,8453
+738,2703601,Japaratinga,2018,População residente estimada,Total,Total,8317
+739,2703601,Japaratinga,2019,População residente estimada,Total,Total,8361
+740,2703601,Japaratinga,2020,População residente estimada,Total,Total,8403
+741,2703601,Japaratinga,2021,População residente estimada,Total,Total,8444
+742,2703700,Jaramataia,2001,População residente estimada,Total,Total,5963
+743,2703700,Jaramataia,2002,População residente estimada,Total,Total,6086
+744,2703700,Jaramataia,2003,População residente estimada,Total,Total,6224
+745,2703700,Jaramataia,2004,População residente estimada,Total,Total,6514
+746,2703700,Jaramataia,2005,População residente estimada,Total,Total,6675
+747,2703700,Jaramataia,2006,População residente estimada,Total,Total,6835
+748,2703700,Jaramataia,2008,População residente estimada,Total,Total,6112
+749,2703700,Jaramataia,2009,População residente estimada,Total,Total,6140
+750,2703700,Jaramataia,2011,População residente estimada,Total,Total,5541
+751,2703700,Jaramataia,2012,População residente estimada,Total,Total,5524
+752,2703700,Jaramataia,2013,População residente estimada,Total,Total,5718
+753,2703700,Jaramataia,2014,População residente estimada,Total,Total,5706
+754,2703700,Jaramataia,2015,População residente estimada,Total,Total,5695
+755,2703700,Jaramataia,2016,População residente estimada,Total,Total,5685
+756,2703700,Jaramataia,2017,População residente estimada,Total,Total,5676
+757,2703700,Jaramataia,2018,População residente estimada,Total,Total,5597
+758,2703700,Jaramataia,2019,População residente estimada,Total,Total,5770
+759,2703700,Jaramataia,2020,População residente estimada,Total,Total,5761
+760,2703700,Jaramataia,2021,População residente estimada,Total,Total,5751
+761,2703759,Jequiá da Praia,2001,População residente estimada,Total,Total,12854
+762,2703759,Jequiá da Praia,2002,População residente estimada,Total,Total,12887
+763,2703759,Jequiá da Praia,2003,População residente estimada,Total,Total,12897
+764,2703759,Jequiá da Praia,2004,População residente estimada,Total,Total,12916
+765,2703759,Jequiá da Praia,2005,População residente estimada,Total,Total,12926
+766,2703759,Jequiá da Praia,2006,População residente estimada,Total,Total,12937
+767,2703759,Jequiá da Praia,2008,População residente estimada,Total,Total,11741
+768,2703759,Jequiá da Praia,2009,População residente estimada,Total,Total,11615
+769,2703759,Jequiá da Praia,2011,População residente estimada,Total,Total,11957
+770,2703759,Jequiá da Praia,2012,População residente estimada,Total,Total,11887
+771,2703759,Jequiá da Praia,2013,População residente estimada,Total,Total,11969
+772,2703759,Jequiá da Praia,2014,População residente estimada,Total,Total,11918
+773,2703759,Jequiá da Praia,2015,População residente estimada,Total,Total,11869
+774,2703759,Jequiá da Praia,2016,População residente estimada,Total,Total,11824
+775,2703759,Jequiá da Praia,2017,População residente estimada,Total,Total,11782
+776,2703759,Jequiá da Praia,2018,População residente estimada,Total,Total,11624
+777,2703759,Jequiá da Praia,2019,População residente estimada,Total,Total,11580
+778,2703759,Jequiá da Praia,2020,População residente estimada,Total,Total,11536
+779,2703759,Jequiá da Praia,2021,População residente estimada,Total,Total,11495
+780,2703809,Joaquim Gomes,2001,População residente estimada,Total,Total,21131
+781,2703809,Joaquim Gomes,2002,População residente estimada,Total,Total,20917
+782,2703809,Joaquim Gomes,2003,População residente estimada,Total,Total,20652
+783,2703809,Joaquim Gomes,2004,População residente estimada,Total,Total,20096
+784,2703809,Joaquim Gomes,2005,População residente estimada,Total,Total,19788
+785,2703809,Joaquim Gomes,2006,População residente estimada,Total,Total,19483
+786,2703809,Joaquim Gomes,2008,População residente estimada,Total,Total,22366
+787,2703809,Joaquim Gomes,2009,População residente estimada,Total,Total,22436
+788,2703809,Joaquim Gomes,2011,População residente estimada,Total,Total,22717
+789,2703809,Joaquim Gomes,2012,População residente estimada,Total,Total,22853
+790,2703809,Joaquim Gomes,2013,População residente estimada,Total,Total,23813
+791,2703809,Joaquim Gomes,2014,População residente estimada,Total,Total,23941
+792,2703809,Joaquim Gomes,2015,População residente estimada,Total,Total,24061
+793,2703809,Joaquim Gomes,2016,População residente estimada,Total,Total,24174
+794,2703809,Joaquim Gomes,2017,População residente estimada,Total,Total,24280
+795,2703809,Joaquim Gomes,2018,População residente estimada,Total,Total,23903
+796,2703809,Joaquim Gomes,2019,População residente estimada,Total,Total,23993
+797,2703809,Joaquim Gomes,2020,População residente estimada,Total,Total,24081
+798,2703809,Joaquim Gomes,2021,População residente estimada,Total,Total,24167
+799,2703908,Jundiá,2001,População residente estimada,Total,Total,4443
+800,2703908,Jundiá,2002,População residente estimada,Total,Total,4387
+801,2703908,Jundiá,2003,População residente estimada,Total,Total,4251
+802,2703908,Jundiá,2004,População residente estimada,Total,Total,3966
+803,2703908,Jundiá,2005,População residente estimada,Total,Total,3809
+804,2703908,Jundiá,2006,População residente estimada,Total,Total,3652
+805,2703908,Jundiá,2008,População residente estimada,Total,Total,4700
+806,2703908,Jundiá,2009,População residente estimada,Total,Total,4698
+807,2703908,Jundiá,2011,População residente estimada,Total,Total,4172
+808,2703908,Jundiá,2012,População residente estimada,Total,Total,4142
+809,2703908,Jundiá,2013,População residente estimada,Total,Total,4275
+810,2703908,Jundiá,2014,População residente estimada,Total,Total,4253
+811,2703908,Jundiá,2015,População residente estimada,Total,Total,4269
+812,2703908,Jundiá,2016,População residente estimada,Total,Total,4249
+813,2703908,Jundiá,2017,População residente estimada,Total,Total,4231
+814,2703908,Jundiá,2018,População residente estimada,Total,Total,4175
+815,2703908,Jundiá,2019,População residente estimada,Total,Total,4155
+816,2703908,Jundiá,2020,População residente estimada,Total,Total,4137
+817,2703908,Jundiá,2021,População residente estimada,Total,Total,4119
+818,2704005,Junqueiro,2001,População residente estimada,Total,Total,24025
+819,2704005,Junqueiro,2002,População residente estimada,Total,Total,24171
+820,2704005,Junqueiro,2003,População residente estimada,Total,Total,24328
+821,2704005,Junqueiro,2004,População residente estimada,Total,Total,24659
+822,2704005,Junqueiro,2005,População residente estimada,Total,Total,24841
+823,2704005,Junqueiro,2006,População residente estimada,Total,Total,25023
+824,2704005,Junqueiro,2008,População residente estimada,Total,Total,25174
+825,2704005,Junqueiro,2009,População residente estimada,Total,Total,25290
+826,2704005,Junqueiro,2011,População residente estimada,Total,Total,23824
+827,2704005,Junqueiro,2012,População residente estimada,Total,Total,24173
+828,2704005,Junqueiro,2013,População residente estimada,Total,Total,25073
+829,2704005,Junqueiro,2014,População residente estimada,Total,Total,25078
+830,2704005,Junqueiro,2015,População residente estimada,Total,Total,25084
+831,2704005,Junqueiro,2016,População residente estimada,Total,Total,25088
+832,2704005,Junqueiro,2017,População residente estimada,Total,Total,25093
+833,2704005,Junqueiro,2018,População residente estimada,Total,Total,24731
+834,2704005,Junqueiro,2019,População residente estimada,Total,Total,24727
+835,2704005,Junqueiro,2020,População residente estimada,Total,Total,24722
+836,2704005,Junqueiro,2021,População residente estimada,Total,Total,24716
+837,2704104,Lagoa da Canoa,2001,População residente estimada,Total,Total,20478
+838,2704104,Lagoa da Canoa,2002,População residente estimada,Total,Total,20848
+839,2704104,Lagoa da Canoa,2003,População residente estimada,Total,Total,21247
+840,2704104,Lagoa da Canoa,2004,População residente estimada,Total,Total,22085
+841,2704104,Lagoa da Canoa,2005,População residente estimada,Total,Total,22549
+842,2704104,Lagoa da Canoa,2006,População residente estimada,Total,Total,23009
+843,2704104,Lagoa da Canoa,2008,População residente estimada,Total,Total,18378
+844,2704104,Lagoa da Canoa,2009,População residente estimada,Total,Total,18196
+845,2704104,Lagoa da Canoa,2011,População residente estimada,Total,Total,18117
+846,2704104,Lagoa da Canoa,2012,População residente estimada,Total,Total,17988
+847,2704104,Lagoa da Canoa,2013,População residente estimada,Total,Total,18566
+848,2704104,Lagoa da Canoa,2014,População residente estimada,Total,Total,18437
+849,2704104,Lagoa da Canoa,2015,População residente estimada,Total,Total,18343
+850,2704104,Lagoa da Canoa,2016,População residente estimada,Total,Total,18256
+851,2704104,Lagoa da Canoa,2017,População residente estimada,Total,Total,18175
+852,2704104,Lagoa da Canoa,2018,População residente estimada,Total,Total,17934
+853,2704104,Lagoa da Canoa,2019,População residente estimada,Total,Total,17852
+854,2704104,Lagoa da Canoa,2020,População residente estimada,Total,Total,17771
+855,2704104,Lagoa da Canoa,2021,População residente estimada,Total,Total,17692
+856,2704203,Limoeiro de Anadia,2001,População residente estimada,Total,Total,24850
+857,2704203,Limoeiro de Anadia,2002,População residente estimada,Total,Total,25276
+858,2704203,Limoeiro de Anadia,2003,População residente estimada,Total,Total,25747
+859,2704203,Limoeiro de Anadia,2004,População residente estimada,Total,Total,26734
+860,2704203,Limoeiro de Anadia,2005,População residente estimada,Total,Total,27280
+861,2704203,Limoeiro de Anadia,2006,População residente estimada,Total,Total,27823
+862,2704203,Limoeiro de Anadia,2008,População residente estimada,Total,Total,26236
+863,2704203,Limoeiro de Anadia,2009,População residente estimada,Total,Total,26415
+864,2704203,Limoeiro de Anadia,2011,População residente estimada,Total,Total,27215
+865,2704203,Limoeiro de Anadia,2012,População residente estimada,Total,Total,27069
+866,2704203,Limoeiro de Anadia,2013,População residente estimada,Total,Total,28244
+867,2704203,Limoeiro de Anadia,2014,População residente estimada,Total,Total,28439
+868,2704203,Limoeiro de Anadia,2015,População residente estimada,Total,Total,28621
+869,2704203,Limoeiro de Anadia,2016,População residente estimada,Total,Total,28793
+870,2704203,Limoeiro de Anadia,2017,População residente estimada,Total,Total,28953
+871,2704203,Limoeiro de Anadia,2018,População residente estimada,Total,Total,28495
+872,2704203,Limoeiro de Anadia,2019,População residente estimada,Total,Total,28635
+873,2704203,Limoeiro de Anadia,2020,População residente estimada,Total,Total,28771
+874,2704203,Limoeiro de Anadia,2021,População residente estimada,Total,Total,28904
+875,2704302,Maceió,2001,População residente estimada,Total,Total,817444
+876,2704302,Maceió,2002,População residente estimada,Total,Total,833261
+877,2704302,Maceió,2003,População residente estimada,Total,Total,849734
+878,2704302,Maceió,2004,População residente estimada,Total,Total,884320
+879,2704302,Maceió,2005,População residente estimada,Total,Total,903463
+880,2704302,Maceió,2006,População residente estimada,Total,Total,922458
+881,2704302,Maceió,2008,População residente estimada,Total,Total,924147
+882,2704302,Maceió,2009,População residente estimada,Total,Total,936314
+883,2704302,Maceió,2011,População residente estimada,Total,Total,943110
+884,2704302,Maceió,2012,População residente estimada,Total,Total,953393
+885,2704302,Maceió,2013,População residente estimada,Total,Total,996733
+886,2704302,Maceió,2014,População residente estimada,Total,Total,1005319
+887,2704302,Maceió,2015,População residente estimada,Total,Total,1013773
+888,2704302,Maceió,2016,População residente estimada,Total,Total,1021709
+889,2704302,Maceió,2017,População residente estimada,Total,Total,1029129
+890,2704302,Maceió,2018,População residente estimada,Total,Total,1012382
+891,2704302,Maceió,2019,População residente estimada,Total,Total,1018948
+892,2704302,Maceió,2020,População residente estimada,Total,Total,1025360
+893,2704302,Maceió,2021,População residente estimada,Total,Total,1031597
+894,2704401,Major Isidoro,2001,População residente estimada,Total,Total,17685
+895,2704401,Major Isidoro,2002,População residente estimada,Total,Total,17719
+896,2704401,Major Isidoro,2003,População residente estimada,Total,Total,17757
+897,2704401,Major Isidoro,2004,População residente estimada,Total,Total,17835
+898,2704401,Major Isidoro,2005,População residente estimada,Total,Total,17878
+899,2704401,Major Isidoro,2006,População residente estimada,Total,Total,17921
+900,2704401,Major Isidoro,2008,População residente estimada,Total,Total,19369
+901,2704401,Major Isidoro,2009,População residente estimada,Total,Total,19530
+902,2704401,Major Isidoro,2011,População residente estimada,Total,Total,18994
+903,2704401,Major Isidoro,2012,População residente estimada,Total,Total,19087
+904,2704401,Major Isidoro,2013,População residente estimada,Total,Total,19874
+905,2704401,Major Isidoro,2014,População residente estimada,Total,Total,19963
+906,2704401,Major Isidoro,2015,População residente estimada,Total,Total,20047
+907,2704401,Major Isidoro,2016,População residente estimada,Total,Total,20126
+908,2704401,Major Isidoro,2017,População residente estimada,Total,Total,20200
+909,2704401,Major Isidoro,2018,População residente estimada,Total,Total,19891
+910,2704401,Major Isidoro,2019,População residente estimada,Total,Total,19804
+911,2704401,Major Isidoro,2020,População residente estimada,Total,Total,19864
+912,2704401,Major Isidoro,2021,População residente estimada,Total,Total,19923
+913,2704500,Maragogi,2001,População residente estimada,Total,Total,22491
+914,2704500,Maragogi,2002,População residente estimada,Total,Total,22974
+915,2704500,Maragogi,2003,População residente estimada,Total,Total,23504
+916,2704500,Maragogi,2004,População residente estimada,Total,Total,24617
+917,2704500,Maragogi,2005,População residente estimada,Total,Total,25233
+918,2704500,Maragogi,2006,População residente estimada,Total,Total,25845
+919,2704500,Maragogi,2008,População residente estimada,Total,Total,26520
+920,2704500,Maragogi,2009,População residente estimada,Total,Total,26978
+921,2704500,Maragogi,2011,População residente estimada,Total,Total,29280
+922,2704500,Maragogi,2012,População residente estimada,Total,Total,29794
+923,2704500,Maragogi,2013,População residente estimada,Total,Total,31299
+924,2704500,Maragogi,2014,População residente estimada,Total,Total,31748
+925,2704500,Maragogi,2015,População residente estimada,Total,Total,32171
+926,2704500,Maragogi,2016,População residente estimada,Total,Total,32568
+927,2704500,Maragogi,2017,População residente estimada,Total,Total,32940
+928,2704500,Maragogi,2018,População residente estimada,Total,Total,32369
+929,2704500,Maragogi,2019,População residente estimada,Total,Total,32704
+930,2704500,Maragogi,2020,População residente estimada,Total,Total,33032
+931,2704500,Maragogi,2021,População residente estimada,Total,Total,33351
+932,2704609,Maravilha,2001,População residente estimada,Total,Total,13964
+933,2704609,Maravilha,2002,População residente estimada,Total,Total,14172
+934,2704609,Maravilha,2003,População residente estimada,Total,Total,14398
+935,2704609,Maravilha,2004,População residente estimada,Total,Total,14871
+936,2704609,Maravilha,2005,População residente estimada,Total,Total,15132
+937,2704609,Maravilha,2006,População residente estimada,Total,Total,15392
+938,2704609,Maravilha,2008,População residente estimada,Total,Total,10452
+939,2704609,Maravilha,2009,População residente estimada,Total,Total,10110
+940,2704609,Maravilha,2011,População residente estimada,Total,Total,10023
+941,2704609,Maravilha,2012,População residente estimada,Total,Total,9981
+942,2704609,Maravilha,2013,População residente estimada,Total,Total,10168
+943,2704609,Maravilha,2014,População residente estimada,Total,Total,9962
+944,2704609,Maravilha,2015,População residente estimada,Total,Total,9770
+945,2704609,Maravilha,2016,População residente estimada,Total,Total,9588
+946,2704609,Maravilha,2017,População residente estimada,Total,Total,9418
+947,2704609,Maravilha,2018,População residente estimada,Total,Total,9326
+948,2704609,Maravilha,2019,População residente estimada,Total,Total,9163
+949,2704609,Maravilha,2020,População residente estimada,Total,Total,9004
+950,2704609,Maravilha,2021,População residente estimada,Total,Total,8850
+951,2704708,Marechal Deodoro,2001,População residente estimada,Total,Total,37172
+952,2704708,Marechal Deodoro,2002,População residente estimada,Total,Total,38192
+953,2704708,Marechal Deodoro,2003,População residente estimada,Total,Total,39272
+954,2704708,Marechal Deodoro,2004,População residente estimada,Total,Total,41538
+955,2704708,Marechal Deodoro,2005,População residente estimada,Total,Total,42793
+956,2704708,Marechal Deodoro,2006,População residente estimada,Total,Total,44038
+957,2704708,Marechal Deodoro,2008,População residente estimada,Total,Total,46565
+958,2704708,Marechal Deodoro,2009,População residente estimada,Total,Total,47623
+959,2704708,Marechal Deodoro,2011,População residente estimada,Total,Total,46754
+960,2704708,Marechal Deodoro,2012,População residente estimada,Total,Total,47504
+961,2704708,Marechal Deodoro,2013,População residente estimada,Total,Total,49853
+962,2704708,Marechal Deodoro,2014,População residente estimada,Total,Total,50512
+963,2704708,Marechal Deodoro,2015,População residente estimada,Total,Total,51132
+964,2704708,Marechal Deodoro,2016,População residente estimada,Total,Total,51715
+965,2704708,Marechal Deodoro,2017,População residente estimada,Total,Total,52260
+966,2704708,Marechal Deodoro,2018,População residente estimada,Total,Total,51364
+967,2704708,Marechal Deodoro,2019,População residente estimada,Total,Total,51901
+968,2704708,Marechal Deodoro,2020,População residente estimada,Total,Total,52380
+969,2704708,Marechal Deodoro,2021,População residente estimada,Total,Total,52848
+970,2704807,Maribondo,2001,População residente estimada,Total,Total,15164
+971,2704807,Maribondo,2002,População residente estimada,Total,Total,15183
+972,2704807,Maribondo,2003,População residente estimada,Total,Total,15200
+973,2704807,Maribondo,2004,População residente estimada,Total,Total,15237
+974,2704807,Maribondo,2005,População residente estimada,Total,Total,15257
+975,2704807,Maribondo,2006,População residente estimada,Total,Total,15277
+976,2704807,Maribondo,2008,População residente estimada,Total,Total,14249
+977,2704807,Maribondo,2009,População residente estimada,Total,Total,14144
+978,2704807,Maribondo,2011,População residente estimada,Total,Total,13502
+979,2704807,Maribondo,2012,População residente estimada,Total,Total,13389
+980,2704807,Maribondo,2013,População residente estimada,Total,Total,13807
+981,2704807,Maribondo,2014,População residente estimada,Total,Total,13719
+982,2704807,Maribondo,2015,População residente estimada,Total,Total,13665
+983,2704807,Maribondo,2016,População residente estimada,Total,Total,13587
+984,2704807,Maribondo,2017,População residente estimada,Total,Total,13514
+985,2704807,Maribondo,2018,População residente estimada,Total,Total,13337
+986,2704807,Maribondo,2019,População residente estimada,Total,Total,13264
+987,2704807,Maribondo,2020,População residente estimada,Total,Total,13193
+988,2704807,Maribondo,2021,População residente estimada,Total,Total,13123
+989,2704906,Mar Vermelho,2001,População residente estimada,Total,Total,4087
+990,2704906,Mar Vermelho,2002,População residente estimada,Total,Total,4102
+991,2704906,Mar Vermelho,2003,População residente estimada,Total,Total,4113
+992,2704906,Mar Vermelho,2004,População residente estimada,Total,Total,4136
+993,2704906,Mar Vermelho,2005,População residente estimada,Total,Total,4149
+994,2704906,Mar Vermelho,2006,População residente estimada,Total,Total,4162
+995,2704906,Mar Vermelho,2008,População residente estimada,Total,Total,4129
+996,2704906,Mar Vermelho,2009,População residente estimada,Total,Total,4131
+997,2704906,Mar Vermelho,2011,População residente estimada,Total,Total,3620
+998,2704906,Mar Vermelho,2012,População residente estimada,Total,Total,3588
+999,2704906,Mar Vermelho,2013,População residente estimada,Total,Total,3698
+1000,2704906,Mar Vermelho,2014,População residente estimada,Total,Total,3674
+1001,2704906,Mar Vermelho,2015,População residente estimada,Total,Total,3622
+1002,2704906,Mar Vermelho,2016,População residente estimada,Total,Total,3600
+1003,2704906,Mar Vermelho,2017,População residente estimada,Total,Total,3579
+1004,2704906,Mar Vermelho,2018,População residente estimada,Total,Total,3534
+1005,2704906,Mar Vermelho,2019,População residente estimada,Total,Total,3514
+1006,2704906,Mar Vermelho,2020,População residente estimada,Total,Total,3494
+1007,2704906,Mar Vermelho,2021,População residente estimada,Total,Total,3474
+1008,2705002,Mata Grande,2001,População residente estimada,Total,Total,24798
+1009,2705002,Mata Grande,2002,População residente estimada,Total,Total,24728
+1010,2705002,Mata Grande,2003,População residente estimada,Total,Total,24587
+1011,2705002,Mata Grande,2004,População residente estimada,Total,Total,24292
+1012,2705002,Mata Grande,2005,População residente estimada,Total,Total,24128
+1013,2705002,Mata Grande,2006,População residente estimada,Total,Total,23965
+1014,2705002,Mata Grande,2008,População residente estimada,Total,Total,25304
+1015,2705002,Mata Grande,2009,População residente estimada,Total,Total,25309
+1016,2705002,Mata Grande,2011,População residente estimada,Total,Total,24673
+1017,2705002,Mata Grande,2012,População residente estimada,Total,Total,24449
+1018,2705002,Mata Grande,2013,População residente estimada,Total,Total,25349
+1019,2705002,Mata Grande,2014,População residente estimada,Total,Total,25659
+1020,2705002,Mata Grande,2015,População residente estimada,Total,Total,25590
+1021,2705002,Mata Grande,2016,População residente estimada,Total,Total,25589
+1022,2705002,Mata Grande,2017,População residente estimada,Total,Total,25589
+1023,2705002,Mata Grande,2018,População residente estimada,Total,Total,25226
+1024,2705002,Mata Grande,2019,População residente estimada,Total,Total,25216
+1025,2705002,Mata Grande,2020,População residente estimada,Total,Total,25207
+1026,2705002,Mata Grande,2021,População residente estimada,Total,Total,25200
+1027,2705101,Matriz de Camaragibe,2001,População residente estimada,Total,Total,24350
+1028,2705101,Matriz de Camaragibe,2002,População residente estimada,Total,Total,24621
+1029,2705101,Matriz de Camaragibe,2003,População residente estimada,Total,Total,24901
+1030,2705101,Matriz de Camaragibe,2004,População residente estimada,Total,Total,25490
+1031,2705101,Matriz de Camaragibe,2005,População residente estimada,Total,Total,25816
+1032,2705101,Matriz de Camaragibe,2006,População residente estimada,Total,Total,26139
+1033,2705101,Matriz de Camaragibe,2008,População residente estimada,Total,Total,25376
+1034,2705101,Matriz de Camaragibe,2009,População residente estimada,Total,Total,25493
+1035,2705101,Matriz de Camaragibe,2011,População residente estimada,Total,Total,23768
+1036,2705101,Matriz de Camaragibe,2012,População residente estimada,Total,Total,23750
+1037,2705101,Matriz de Camaragibe,2013,População residente estimada,Total,Total,25005
+1038,2705101,Matriz de Camaragibe,2014,População residente estimada,Total,Total,25006
+1039,2705101,Matriz de Camaragibe,2015,População residente estimada,Total,Total,25008
+1040,2705101,Matriz de Camaragibe,2016,População residente estimada,Total,Total,25010
+1041,2705101,Matriz de Camaragibe,2017,População residente estimada,Total,Total,25012
+1042,2705101,Matriz de Camaragibe,2018,População residente estimada,Total,Total,24649
+1043,2705101,Matriz de Camaragibe,2019,População residente estimada,Total,Total,24642
+1044,2705101,Matriz de Camaragibe,2020,População residente estimada,Total,Total,24634
+1045,2705101,Matriz de Camaragibe,2021,População residente estimada,Total,Total,24627
+1046,2705200,Messias,2001,População residente estimada,Total,Total,12168
+1047,2705200,Messias,2002,População residente estimada,Total,Total,12290
+1048,2705200,Messias,2003,População residente estimada,Total,Total,12429
+1049,2705200,Messias,2004,População residente estimada,Total,Total,12722
+1050,2705200,Messias,2005,População residente estimada,Total,Total,12883
+1051,2705200,Messias,2006,População residente estimada,Total,Total,13044
+1052,2705200,Messias,2008,População residente estimada,Total,Total,15547
+1053,2705200,Messias,2009,População residente estimada,Total,Total,15899
+1054,2705200,Messias,2011,População residente estimada,Total,Total,15966
+1055,2705200,Messias,2012,População residente estimada,Total,Total,16292
+1056,2705200,Messias,2013,População residente estimada,Total,Total,17110
+1057,2705200,Messias,2014,População residente estimada,Total,Total,17350
+1058,2705200,Messias,2015,População residente estimada,Total,Total,17576
+1059,2705200,Messias,2016,População residente estimada,Total,Total,17789
+1060,2705200,Messias,2017,População residente estimada,Total,Total,17988
+1061,2705200,Messias,2018,População residente estimada,Total,Total,17676
+1062,2705200,Messias,2019,População residente estimada,Total,Total,17856
+1063,2705200,Messias,2020,População residente estimada,Total,Total,18031
+1064,2705200,Messias,2021,População residente estimada,Total,Total,18201
+1065,2705309,Minador do Negrão,2001,População residente estimada,Total,Total,5147
+1066,2705309,Minador do Negrão,2002,População residente estimada,Total,Total,4963
+1067,2705309,Minador do Negrão,2003,População residente estimada,Total,Total,4761
+1068,2705309,Minador do Negrão,2004,População residente estimada,Total,Total,4336
+1069,2705309,Minador do Negrão,2005,População residente estimada,Total,Total,4101
+1070,2705309,Minador do Negrão,2006,População residente estimada,Total,Total,3868
+1071,2705309,Minador do Negrão,2008,População residente estimada,Total,Total,5306
+1072,2705309,Minador do Negrão,2009,População residente estimada,Total,Total,5292
+1073,2705309,Minador do Negrão,2011,População residente estimada,Total,Total,5263
+1074,2705309,Minador do Negrão,2012,População residente estimada,Total,Total,5251
+1075,2705309,Minador do Negrão,2013,População residente estimada,Total,Total,5439
+1076,2705309,Minador do Negrão,2014,População residente estimada,Total,Total,5432
+1077,2705309,Minador do Negrão,2015,População residente estimada,Total,Total,5425
+1078,2705309,Minador do Negrão,2016,População residente estimada,Total,Total,5419
+1079,2705309,Minador do Negrão,2017,População residente estimada,Total,Total,5413
+1080,2705309,Minador do Negrão,2018,População residente estimada,Total,Total,5337
+1081,2705309,Minador do Negrão,2019,População residente estimada,Total,Total,5329
+1082,2705309,Minador do Negrão,2020,População residente estimada,Total,Total,5322
+1083,2705309,Minador do Negrão,2021,População residente estimada,Total,Total,5315
+1084,2705408,Monteirópolis,2001,População residente estimada,Total,Total,7374
+1085,2705408,Monteirópolis,2002,População residente estimada,Total,Total,7471
+1086,2705408,Monteirópolis,2003,População residente estimada,Total,Total,7579
+1087,2705408,Monteirópolis,2004,População residente estimada,Total,Total,7804
+1088,2705408,Monteirópolis,2005,População residente estimada,Total,Total,7929
+1089,2705408,Monteirópolis,2006,População residente estimada,Total,Total,8053
+1090,2705408,Monteirópolis,2008,População residente estimada,Total,Total,7293
+1091,2705408,Monteirópolis,2009,População residente estimada,Total,Total,7292
+1092,2705408,Monteirópolis,2011,População residente estimada,Total,Total,6945
+1093,2705408,Monteirópolis,2012,População residente estimada,Total,Total,6952
+1094,2705408,Monteirópolis,2013,População residente estimada,Total,Total,7219
+1095,2705408,Monteirópolis,2014,População residente estimada,Total,Total,7230
+1096,2705408,Monteirópolis,2015,População residente estimada,Total,Total,7241
+1097,2705408,Monteirópolis,2016,População residente estimada,Total,Total,7251
+1098,2705408,Monteirópolis,2017,População residente estimada,Total,Total,7260
+1099,2705408,Monteirópolis,2018,População residente estimada,Total,Total,7153
+1100,2705408,Monteirópolis,2019,População residente estimada,Total,Total,7159
+1101,2705408,Monteirópolis,2020,População residente estimada,Total,Total,7165
+1102,2705408,Monteirópolis,2021,População residente estimada,Total,Total,7171
+1103,2705507,Murici,2001,População residente estimada,Total,Total,24159
+1104,2705507,Murici,2002,População residente estimada,Total,Total,23818
+1105,2705507,Murici,2003,População residente estimada,Total,Total,23422
+1106,2705507,Murici,2004,População residente estimada,Total,Total,22592
+1107,2705507,Murici,2005,População residente estimada,Total,Total,22132
+1108,2705507,Murici,2006,População residente estimada,Total,Total,21675
+1109,2705507,Murici,2008,População residente estimada,Total,Total,26731
+1110,2705507,Murici,2009,População residente estimada,Total,Total,26918
+1111,2705507,Murici,2011,População residente estimada,Total,Total,26867
+1112,2705507,Murici,2012,População residente estimada,Total,Total,27030
+1113,2705507,Murici,2013,População residente estimada,Total,Total,28158
+1114,2705507,Murici,2014,População residente estimada,Total,Total,28201
+1115,2705507,Murici,2015,População residente estimada,Total,Total,28335
+1116,2705507,Murici,2016,População residente estimada,Total,Total,28462
+1117,2705507,Murici,2017,População residente estimada,Total,Total,28579
+1118,2705507,Murici,2018,População residente estimada,Total,Total,28137
+1119,2705507,Murici,2019,População residente estimada,Total,Total,28236
+1120,2705507,Murici,2020,População residente estimada,Total,Total,28333
+1121,2705507,Murici,2021,População residente estimada,Total,Total,28428
+1122,2705606,Novo Lino,2001,População residente estimada,Total,Total,9854
+1123,2705606,Novo Lino,2002,População residente estimada,Total,Total,9496
+1124,2705606,Novo Lino,2003,População residente estimada,Total,Total,9088
+1125,2705606,Novo Lino,2004,População residente estimada,Total,Total,8231
+1126,2705606,Novo Lino,2005,População residente estimada,Total,Total,7757
+1127,2705606,Novo Lino,2006,População residente estimada,Total,Total,7287
+1128,2705606,Novo Lino,2008,População residente estimada,Total,Total,12266
+1129,2705606,Novo Lino,2009,População residente estimada,Total,Total,12449
+1130,2705606,Novo Lino,2011,População residente estimada,Total,Total,12184
+1131,2705606,Novo Lino,2012,População residente estimada,Total,Total,12303
+1132,2705606,Novo Lino,2013,População residente estimada,Total,Total,12479
+1133,2705606,Novo Lino,2014,População residente estimada,Total,Total,12583
+1134,2705606,Novo Lino,2015,População residente estimada,Total,Total,12643
+1135,2705606,Novo Lino,2016,População residente estimada,Total,Total,12735
+1136,2705606,Novo Lino,2017,População residente estimada,Total,Total,12821
+1137,2705606,Novo Lino,2018,População residente estimada,Total,Total,12615
+1138,2705606,Novo Lino,2019,População residente estimada,Total,Total,12690
+1139,2705606,Novo Lino,2020,População residente estimada,Total,Total,12764
+1140,2705606,Novo Lino,2021,População residente estimada,Total,Total,12837
+1141,2705705,Olho d'Água das Flores,2001,População residente estimada,Total,Total,19867
+1142,2705705,Olho d'Água das Flores,2002,População residente estimada,Total,Total,20209
+1143,2705705,Olho d'Água das Flores,2003,População residente estimada,Total,Total,20577
+1144,2705705,Olho d'Água das Flores,2004,População residente estimada,Total,Total,21348
+1145,2705705,Olho d'Água das Flores,2005,População residente estimada,Total,Total,21775
+1146,2705705,Olho d'Água das Flores,2006,População residente estimada,Total,Total,22199
+1147,2705705,Olho d'Água das Flores,2008,População residente estimada,Total,Total,20465
+1148,2705705,Olho d'Água das Flores,2009,População residente estimada,Total,Total,20555
+1149,2705705,Olho d'Água das Flores,2011,População residente estimada,Total,Total,20437
+1150,2705705,Olho d'Água das Flores,2012,População residente estimada,Total,Total,20460
+1151,2705705,Olho d'Água das Flores,2013,População residente estimada,Total,Total,21499
+1152,2705705,Olho d'Água das Flores,2014,População residente estimada,Total,Total,21572
+1153,2705705,Olho d'Água das Flores,2015,População residente estimada,Total,Total,21641
+1154,2705705,Olho d'Água das Flores,2016,População residente estimada,Total,Total,21706
+1155,2705705,Olho d'Água das Flores,2017,População residente estimada,Total,Total,21767
+1156,2705705,Olho d'Água das Flores,2018,População residente estimada,Total,Total,21437
+1157,2705705,Olho d'Água das Flores,2019,População residente estimada,Total,Total,21688
+1158,2705705,Olho d'Água das Flores,2020,População residente estimada,Total,Total,21738
+1159,2705705,Olho d'Água das Flores,2021,População residente estimada,Total,Total,21690
+1160,2705804,Olho d'Água do Casado,2001,População residente estimada,Total,Total,7136
+1161,2705804,Olho d'Água do Casado,2002,População residente estimada,Total,Total,7195
+1162,2705804,Olho d'Água do Casado,2003,População residente estimada,Total,Total,7258
+1163,2705804,Olho d'Água do Casado,2004,População residente estimada,Total,Total,7390
+1164,2705804,Olho d'Água do Casado,2005,População residente estimada,Total,Total,7463
+1165,2705804,Olho d'Água do Casado,2006,População residente estimada,Total,Total,7536
+1166,2705804,Olho d'Água do Casado,2008,População residente estimada,Total,Total,8388
+1167,2705804,Olho d'Água do Casado,2009,População residente estimada,Total,Total,8517
+1168,2705804,Olho d'Água do Casado,2011,População residente estimada,Total,Total,8601
+1169,2705804,Olho d'Água do Casado,2012,População residente estimada,Total,Total,8708
+1170,2705804,Olho d'Água do Casado,2013,População residente estimada,Total,Total,9114
+1171,2705804,Olho d'Água do Casado,2014,População residente estimada,Total,Total,9209
+1172,2705804,Olho d'Água do Casado,2015,População residente estimada,Total,Total,9298
+1173,2705804,Olho d'Água do Casado,2016,População residente estimada,Total,Total,9381
+1174,2705804,Olho d'Água do Casado,2017,População residente estimada,Total,Total,9459
+1175,2705804,Olho d'Água do Casado,2018,População residente estimada,Total,Total,9303
+1176,2705804,Olho d'Água do Casado,2019,População residente estimada,Total,Total,9373
+1177,2705804,Olho d'Água do Casado,2020,População residente estimada,Total,Total,9441
+1178,2705804,Olho d'Água do Casado,2021,População residente estimada,Total,Total,9507
+1179,2705903,Olho d'Água Grande,2001,População residente estimada,Total,Total,4901
+1180,2705903,Olho d'Água Grande,2002,População residente estimada,Total,Total,4938
+1181,2705903,Olho d'Água Grande,2003,População residente estimada,Total,Total,4981
+1182,2705903,Olho d'Água Grande,2004,População residente estimada,Total,Total,5070
+1183,2705903,Olho d'Água Grande,2005,População residente estimada,Total,Total,5119
+1184,2705903,Olho d'Água Grande,2006,População residente estimada,Total,Total,5168
+1185,2705903,Olho d'Água Grande,2008,População residente estimada,Total,Total,4956
+1186,2705903,Olho d'Água Grande,2009,População residente estimada,Total,Total,4963
+1187,2705903,Olho d'Água Grande,2011,População residente estimada,Total,Total,4966
+1188,2705903,Olho d'Água Grande,2012,População residente estimada,Total,Total,4967
+1189,2705903,Olho d'Água Grande,2013,População residente estimada,Total,Total,5159
+1190,2705903,Olho d'Água Grande,2014,População residente estimada,Total,Total,5169
+1191,2705903,Olho d'Água Grande,2015,População residente estimada,Total,Total,5178
+1192,2705903,Olho d'Água Grande,2016,População residente estimada,Total,Total,5187
+1193,2705903,Olho d'Água Grande,2017,População residente estimada,Total,Total,5195
+1194,2705903,Olho d'Água Grande,2018,População residente estimada,Total,Total,5117
+1195,2705903,Olho d'Água Grande,2019,População residente estimada,Total,Total,5123
+1196,2705903,Olho d'Água Grande,2020,População residente estimada,Total,Total,5128
+1197,2705903,Olho d'Água Grande,2021,População residente estimada,Total,Total,5133
+1198,2706000,Olivença,2001,População residente estimada,Total,Total,10399
+1199,2706000,Olivença,2002,População residente estimada,Total,Total,10419
+1200,2706000,Olivença,2003,População residente estimada,Total,Total,10443
+1201,2706000,Olivença,2004,População residente estimada,Total,Total,10492
+1202,2706000,Olivença,2005,População residente estimada,Total,Total,10519
+1203,2706000,Olivença,2006,População residente estimada,Total,Total,10546
+1204,2706000,Olivença,2008,População residente estimada,Total,Total,10828
+1205,2706000,Olivença,2009,População residente estimada,Total,Total,10865
+1206,2706000,Olivença,2011,População residente estimada,Total,Total,11100
+1207,2706000,Olivença,2012,População residente estimada,Total,Total,11150
+1208,2706000,Olivença,2013,População residente estimada,Total,Total,11594
+1209,2706000,Olivença,2014,População residente estimada,Total,Total,11643
+1210,2706000,Olivença,2015,População residente estimada,Total,Total,11688
+1211,2706000,Olivença,2016,População residente estimada,Total,Total,11731
+1212,2706000,Olivença,2017,População residente estimada,Total,Total,11772
+1213,2706000,Olivença,2018,População residente estimada,Total,Total,11591
+1214,2706000,Olivença,2019,População residente estimada,Total,Total,11624
+1215,2706000,Olivença,2020,População residente estimada,Total,Total,11657
+1216,2706000,Olivença,2021,População residente estimada,Total,Total,11681
+1217,2706109,Ouro Branco,2001,População residente estimada,Total,Total,10167
+1218,2706109,Ouro Branco,2002,População residente estimada,Total,Total,10231
+1219,2706109,Ouro Branco,2003,População residente estimada,Total,Total,10302
+1220,2706109,Ouro Branco,2004,População residente estimada,Total,Total,10452
+1221,2706109,Ouro Branco,2005,População residente estimada,Total,Total,10535
+1222,2706109,Ouro Branco,2006,População residente estimada,Total,Total,10617
+1223,2706109,Ouro Branco,2008,População residente estimada,Total,Total,11381
+1224,2706109,Ouro Branco,2009,População residente estimada,Total,Total,11504
+1225,2706109,Ouro Branco,2011,População residente estimada,Total,Total,10977
+1226,2706109,Ouro Branco,2012,População residente estimada,Total,Total,10953
+1227,2706109,Ouro Branco,2013,População residente estimada,Total,Total,11409
+1228,2706109,Ouro Branco,2014,População residente estimada,Total,Total,11484
+1229,2706109,Ouro Branco,2015,População residente estimada,Total,Total,11537
+1230,2706109,Ouro Branco,2016,População residente estimada,Total,Total,11589
+1231,2706109,Ouro Branco,2017,População residente estimada,Total,Total,11635
+1232,2706109,Ouro Branco,2018,População residente estimada,Total,Total,11456
+1233,2706109,Ouro Branco,2019,População residente estimada,Total,Total,11496
+1234,2706109,Ouro Branco,2020,População residente estimada,Total,Total,11535
+1235,2706109,Ouro Branco,2021,População residente estimada,Total,Total,11573
+1236,2706208,Palestina,2001,População residente estimada,Total,Total,4628
+1237,2706208,Palestina,2002,População residente estimada,Total,Total,4711
+1238,2706208,Palestina,2003,População residente estimada,Total,Total,4799
+1239,2706208,Palestina,2004,População residente estimada,Total,Total,4982
+1240,2706208,Palestina,2005,População residente estimada,Total,Total,5084
+1241,2706208,Palestina,2006,População residente estimada,Total,Total,5185
+1242,2706208,Palestina,2008,População residente estimada,Total,Total,5024
+1243,2706208,Palestina,2009,População residente estimada,Total,Total,5071
+1244,2706208,Palestina,2011,População residente estimada,Total,Total,5158
+1245,2706208,Palestina,2012,População residente estimada,Total,Total,5201
+1246,2706208,Palestina,2013,População residente estimada,Total,Total,4934
+1247,2706208,Palestina,2014,População residente estimada,Total,Total,4970
+1248,2706208,Palestina,2015,População residente estimada,Total,Total,5004
+1249,2706208,Palestina,2016,População residente estimada,Total,Total,5036
+1250,2706208,Palestina,2017,População residente estimada,Total,Total,5066
+1251,2706208,Palestina,2018,População residente estimada,Total,Total,4985
+1252,2706208,Palestina,2019,População residente estimada,Total,Total,5011
+1253,2706208,Palestina,2020,População residente estimada,Total,Total,5037
+1254,2706208,Palestina,2021,População residente estimada,Total,Total,5061
+1255,2706307,Palmeira dos Índios,2001,População residente estimada,Total,Total,68270
+1256,2706307,Palmeira dos Índios,2002,População residente estimada,Total,Total,68532
+1257,2706307,Palmeira dos Índios,2003,População residente estimada,Total,Total,68751
+1258,2706307,Palmeira dos Índios,2004,População residente estimada,Total,Total,69211
+1259,2706307,Palmeira dos Índios,2005,População residente estimada,Total,Total,69466
+1260,2706307,Palmeira dos Índios,2006,População residente estimada,Total,Total,69719
+1261,2706307,Palmeira dos Índios,2008,População residente estimada,Total,Total,72202
+1262,2706307,Palmeira dos Índios,2009,População residente estimada,Total,Total,72564
+1263,2706307,Palmeira dos Índios,2011,População residente estimada,Total,Total,70556
+1264,2706307,Palmeira dos Índios,2012,População residente estimada,Total,Total,70738
+1265,2706307,Palmeira dos Índios,2013,População residente estimada,Total,Total,73532
+1266,2706307,Palmeira dos Índios,2014,População residente estimada,Total,Total,73725
+1267,2706307,Palmeira dos Índios,2015,População residente estimada,Total,Total,73878
+1268,2706307,Palmeira dos Índios,2016,População residente estimada,Total,Total,74049
+1269,2706307,Palmeira dos Índios,2017,População residente estimada,Total,Total,74208
+1270,2706307,Palmeira dos Índios,2018,População residente estimada,Total,Total,73096
+1271,2706307,Palmeira dos Índios,2019,População residente estimada,Total,Total,73218
+1272,2706307,Palmeira dos Índios,2020,População residente estimada,Total,Total,73337
+1273,2706307,Palmeira dos Índios,2021,População residente estimada,Total,Total,73452
+1274,2706406,Pão de Açúcar,2001,População residente estimada,Total,Total,24661
+1275,2706406,Pão de Açúcar,2002,População residente estimada,Total,Total,24950
+1276,2706406,Pão de Açúcar,2003,População residente estimada,Total,Total,25227
+1277,2706406,Pão de Açúcar,2004,População residente estimada,Total,Total,25811
+1278,2706406,Pão de Açúcar,2005,População residente estimada,Total,Total,26133
+1279,2706406,Pão de Açúcar,2006,População residente estimada,Total,Total,26454
+1280,2706406,Pão de Açúcar,2008,População residente estimada,Total,Total,24537
+1281,2706406,Pão de Açúcar,2009,População residente estimada,Total,Total,24534
+1282,2706406,Pão de Açúcar,2011,População residente estimada,Total,Total,23730
+1283,2706406,Pão de Açúcar,2012,População residente estimada,Total,Total,23651
+1284,2706406,Pão de Açúcar,2013,População residente estimada,Total,Total,24975
+1285,2706406,Pão de Açúcar,2014,População residente estimada,Total,Total,24924
+1286,2706406,Pão de Açúcar,2015,População residente estimada,Total,Total,24878
+1287,2706406,Pão de Açúcar,2016,População residente estimada,Total,Total,24834
+1288,2706406,Pão de Açúcar,2017,População residente estimada,Total,Total,24792
+1289,2706406,Pão de Açúcar,2018,População residente estimada,Total,Total,24446
+1290,2706406,Pão de Açúcar,2019,População residente estimada,Total,Total,24399
+1291,2706406,Pão de Açúcar,2020,População residente estimada,Total,Total,24351
+1292,2706406,Pão de Açúcar,2021,População residente estimada,Total,Total,24307
+1293,2706422,Pariconha,2001,População residente estimada,Total,Total,9371
+1294,2706422,Pariconha,2002,População residente estimada,Total,Total,10440
+1295,2706422,Pariconha,2003,População residente estimada,Total,Total,10604
+1296,2706422,Pariconha,2004,População residente estimada,Total,Total,10949
+1297,2706422,Pariconha,2005,População residente estimada,Total,Total,11140
+1298,2706422,Pariconha,2006,População residente estimada,Total,Total,11330
+1299,2706422,Pariconha,2008,População residente estimada,Total,Total,10505
+1300,2706422,Pariconha,2009,População residente estimada,Total,Total,10539
+1301,2706422,Pariconha,2011,População residente estimada,Total,Total,10274
+1302,2706422,Pariconha,2012,População residente estimada,Total,Total,10282
+1303,2706422,Pariconha,2013,População residente estimada,Total,Total,10674
+1304,2706422,Pariconha,2014,População residente estimada,Total,Total,10688
+1305,2706422,Pariconha,2015,População residente estimada,Total,Total,10601
+1306,2706422,Pariconha,2016,População residente estimada,Total,Total,10674
+1307,2706422,Pariconha,2017,População residente estimada,Total,Total,10684
+1308,2706422,Pariconha,2018,População residente estimada,Total,Total,10527
+1309,2706422,Pariconha,2019,População residente estimada,Total,Total,10533
+1310,2706422,Pariconha,2020,População residente estimada,Total,Total,10539
+1311,2706422,Pariconha,2021,População residente estimada,Total,Total,10546
+1312,2706448,Paripueira,2001,População residente estimada,Total,Total,8193
+1313,2706448,Paripueira,2002,População residente estimada,Total,Total,8288
+1314,2706448,Paripueira,2003,População residente estimada,Total,Total,8400
+1315,2706448,Paripueira,2004,População residente estimada,Total,Total,8633
+1316,2706448,Paripueira,2005,População residente estimada,Total,Total,8762
+1317,2706448,Paripueira,2006,População residente estimada,Total,Total,8890
+1318,2706448,Paripueira,2008,População residente estimada,Total,Total,10027
+1319,2706448,Paripueira,2009,População residente estimada,Total,Total,10222
+1320,2706448,Paripueira,2011,População residente estimada,Total,Total,11601
+1321,2706448,Paripueira,2012,População residente estimada,Total,Total,11845
+1322,2706448,Paripueira,2013,População residente estimada,Total,Total,12474
+1323,2706448,Paripueira,2014,População residente estimada,Total,Total,12687
+1324,2706448,Paripueira,2015,População residente estimada,Total,Total,12887
+1325,2706448,Paripueira,2016,População residente estimada,Total,Total,13076
+1326,2706448,Paripueira,2017,População residente estimada,Total,Total,13252
+1327,2706448,Paripueira,2018,População residente estimada,Total,Total,13016
+1328,2706448,Paripueira,2019,População residente estimada,Total,Total,13176
+1329,2706448,Paripueira,2020,População residente estimada,Total,Total,13332
+1330,2706448,Paripueira,2021,População residente estimada,Total,Total,13484
+1331,2706505,Passo de Camaragibe,2001,População residente estimada,Total,Total,13687
+1332,2706505,Passo de Camaragibe,2002,População residente estimada,Total,Total,13684
+1333,2706505,Passo de Camaragibe,2003,População residente estimada,Total,Total,13651
+1334,2706505,Passo de Camaragibe,2004,População residente estimada,Total,Total,13583
+1335,2706505,Passo de Camaragibe,2005,População residente estimada,Total,Total,13544
+1336,2706505,Passo de Camaragibe,2006,População residente estimada,Total,Total,13507
+1337,2706505,Passo de Camaragibe,2008,População residente estimada,Total,Total,14225
+1338,2706505,Passo de Camaragibe,2009,População residente estimada,Total,Total,14261
+1339,2706505,Passo de Camaragibe,2011,População residente estimada,Total,Total,14783
+1340,2706505,Passo de Camaragibe,2012,População residente estimada,Total,Total,14802
+1341,2706505,Passo de Camaragibe,2013,População residente estimada,Total,Total,15372
+1342,2706505,Passo de Camaragibe,2014,População residente estimada,Total,Total,15396
+1343,2706505,Passo de Camaragibe,2015,População residente estimada,Total,Total,15419
+1344,2706505,Passo de Camaragibe,2016,População residente estimada,Total,Total,15441
+1345,2706505,Passo de Camaragibe,2017,População residente estimada,Total,Total,15461
+1346,2706505,Passo de Camaragibe,2018,População residente estimada,Total,Total,15232
+1347,2706505,Passo de Camaragibe,2019,População residente estimada,Total,Total,15245
+1348,2706505,Passo de Camaragibe,2020,População residente estimada,Total,Total,15258
+1349,2706505,Passo de Camaragibe,2021,População residente estimada,Total,Total,15270
+1350,2706604,Paulo Jacinto,2001,População residente estimada,Total,Total,7531
+1351,2706604,Paulo Jacinto,2002,População residente estimada,Total,Total,7562
+1352,2706604,Paulo Jacinto,2003,População residente estimada,Total,Total,7598
+1353,2706604,Paulo Jacinto,2004,População residente estimada,Total,Total,7674
+1354,2706604,Paulo Jacinto,2005,População residente estimada,Total,Total,7716
+1355,2706604,Paulo Jacinto,2006,População residente estimada,Total,Total,7757
+1356,2706604,Paulo Jacinto,2008,População residente estimada,Total,Total,7752
+1357,2706604,Paulo Jacinto,2009,População residente estimada,Total,Total,7772
+1358,2706604,Paulo Jacinto,2011,População residente estimada,Total,Total,7419
+1359,2706604,Paulo Jacinto,2012,População residente estimada,Total,Total,7412
+1360,2706604,Paulo Jacinto,2013,População residente estimada,Total,Total,7685
+1361,2706604,Paulo Jacinto,2014,População residente estimada,Total,Total,7683
+1362,2706604,Paulo Jacinto,2015,População residente estimada,Total,Total,7682
+1363,2706604,Paulo Jacinto,2016,População residente estimada,Total,Total,7680
+1364,2706604,Paulo Jacinto,2017,População residente estimada,Total,Total,7679
+1365,2706604,Paulo Jacinto,2018,População residente estimada,Total,Total,7568
+1366,2706604,Paulo Jacinto,2019,População residente estimada,Total,Total,7564
+1367,2706604,Paulo Jacinto,2020,População residente estimada,Total,Total,7560
+1368,2706604,Paulo Jacinto,2021,População residente estimada,Total,Total,7556
+1369,2706703,Penedo,2001,População residente estimada,Total,Total,57550
+1370,2706703,Penedo,2002,População residente estimada,Total,Total,57992
+1371,2706703,Penedo,2003,População residente estimada,Total,Total,58456
+1372,2706703,Penedo,2004,População residente estimada,Total,Total,59429
+1373,2706703,Penedo,2005,População residente estimada,Total,Total,59968
+1374,2706703,Penedo,2006,População residente estimada,Total,Total,60502
+1375,2706703,Penedo,2008,População residente estimada,Total,Total,60750
+1376,2706703,Penedo,2009,População residente estimada,Total,Total,61082
+1377,2706703,Penedo,2011,População residente estimada,Total,Total,60638
+1378,2706703,Penedo,2012,População residente estimada,Total,Total,60890
+1379,2706703,Penedo,2013,População residente estimada,Total,Total,63595
+1380,2706703,Penedo,2014,População residente estimada,Total,Total,63842
+1381,2706703,Penedo,2015,População residente estimada,Total,Total,64074
+1382,2706703,Penedo,2016,População residente estimada,Total,Total,64292
+1383,2706703,Penedo,2017,População residente estimada,Total,Total,64497
+1384,2706703,Penedo,2018,População residente estimada,Total,Total,63516
+1385,2706703,Penedo,2019,População residente estimada,Total,Total,63683
+1386,2706703,Penedo,2020,População residente estimada,Total,Total,63846
+1387,2706703,Penedo,2021,População residente estimada,Total,Total,64005
+1388,2706802,Piaçabuçu,2001,População residente estimada,Total,Total,16743
+1389,2706802,Piaçabuçu,2002,População residente estimada,Total,Total,16746
+1390,2706802,Piaçabuçu,2003,População residente estimada,Total,Total,16732
+1391,2706802,Piaçabuçu,2004,População residente estimada,Total,Total,16704
+1392,2706802,Piaçabuçu,2005,População residente estimada,Total,Total,16688
+1393,2706802,Piaçabuçu,2006,População residente estimada,Total,Total,16672
+1394,2706802,Piaçabuçu,2008,População residente estimada,Total,Total,17980
+1395,2706802,Piaçabuçu,2009,População residente estimada,Total,Total,18087
+1396,2706802,Piaçabuçu,2011,População residente estimada,Total,Total,17236
+1397,2706802,Piaçabuçu,2012,População residente estimada,Total,Total,17268
+1398,2706802,Piaçabuçu,2013,População residente estimada,Total,Total,17941
+1399,2706802,Piaçabuçu,2014,População residente estimada,Total,Total,17977
+1400,2706802,Piaçabuçu,2015,População residente estimada,Total,Total,18011
+1401,2706802,Piaçabuçu,2016,População residente estimada,Total,Total,18043
+1402,2706802,Piaçabuçu,2017,População residente estimada,Total,Total,18074
+1403,2706802,Piaçabuçu,2018,População residente estimada,Total,Total,17805
+1404,2706802,Piaçabuçu,2019,População residente estimada,Total,Total,17827
+1405,2706802,Piaçabuçu,2020,População residente estimada,Total,Total,17848
+1406,2706802,Piaçabuçu,2021,População residente estimada,Total,Total,17868
+1407,2706901,Pilar,2001,População residente estimada,Total,Total,31391
+1408,2706901,Pilar,2002,População residente estimada,Total,Total,31611
+1409,2706901,Pilar,2003,População residente estimada,Total,Total,31801
+1410,2706901,Pilar,2004,População residente estimada,Total,Total,32200
+1411,2706901,Pilar,2005,População residente estimada,Total,Total,32421
+1412,2706901,Pilar,2006,População residente estimada,Total,Total,32640
+1413,2706901,Pilar,2008,População residente estimada,Total,Total,32546
+1414,2706901,Pilar,2009,População residente estimada,Total,Total,32655
+1415,2706901,Pilar,2011,População residente estimada,Total,Total,33467
+1416,2706901,Pilar,2012,População residente estimada,Total,Total,33623
+1417,2706901,Pilar,2013,População residente estimada,Total,Total,35003
+1418,2706901,Pilar,2014,População residente estimada,Total,Total,35153
+1419,2706901,Pilar,2015,População residente estimada,Total,Total,35295
+1420,2706901,Pilar,2016,População residente estimada,Total,Total,35428
+1421,2706901,Pilar,2017,População residente estimada,Total,Total,35552
+1422,2706901,Pilar,2018,População residente estimada,Total,Total,35008
+1423,2706901,Pilar,2019,População residente estimada,Total,Total,35111
+1424,2706901,Pilar,2020,População residente estimada,Total,Total,35212
+1425,2706901,Pilar,2021,População residente estimada,Total,Total,35310
+1426,2707008,Pindoba,2001,População residente estimada,Total,Total,2830
+1427,2707008,Pindoba,2002,População residente estimada,Total,Total,2753
+1428,2707008,Pindoba,2003,População residente estimada,Total,Total,2673
+1429,2707008,Pindoba,2004,População residente estimada,Total,Total,2504
+1430,2707008,Pindoba,2005,População residente estimada,Total,Total,2411
+1431,2707008,Pindoba,2006,População residente estimada,Total,Total,2318
+1432,2707008,Pindoba,2008,População residente estimada,Total,Total,3218
+1433,2707008,Pindoba,2009,População residente estimada,Total,Total,3246
+1434,2707008,Pindoba,2011,População residente estimada,Total,Total,2862
+1435,2707008,Pindoba,2012,População residente estimada,Total,Total,2857
+1436,2707008,Pindoba,2013,População residente estimada,Total,Total,2961
+1437,2707008,Pindoba,2014,População residente estimada,Total,Total,2958
+1438,2707008,Pindoba,2015,População residente estimada,Total,Total,2956
+1439,2707008,Pindoba,2016,População residente estimada,Total,Total,2954
+1440,2707008,Pindoba,2017,População residente estimada,Total,Total,2953
+1441,2707008,Pindoba,2018,População residente estimada,Total,Total,2911
+1442,2707008,Pindoba,2019,População residente estimada,Total,Total,2908
+1443,2707008,Pindoba,2020,População residente estimada,Total,Total,2905
+1444,2707008,Pindoba,2021,População residente estimada,Total,Total,2903
+1445,2707107,Piranhas,2001,População residente estimada,Total,Total,20704
+1446,2707107,Piranhas,2002,População residente estimada,Total,Total,21175
+1447,2707107,Piranhas,2003,População residente estimada,Total,Total,21716
+1448,2707107,Piranhas,2004,População residente estimada,Total,Total,22854
+1449,2707107,Piranhas,2005,População residente estimada,Total,Total,23483
+1450,2707107,Piranhas,2006,População residente estimada,Total,Total,24108
+1451,2707107,Piranhas,2008,População residente estimada,Total,Total,24651
+1452,2707107,Piranhas,2009,População residente estimada,Total,Total,25107
+1453,2707107,Piranhas,2011,População residente estimada,Total,Total,23279
+1454,2707107,Piranhas,2012,População residente estimada,Total,Total,23504
+1455,2707107,Piranhas,2013,População residente estimada,Total,Total,24556
+1456,2707107,Piranhas,2014,População residente estimada,Total,Total,24759
+1457,2707107,Piranhas,2015,População residente estimada,Total,Total,24950
+1458,2707107,Piranhas,2016,População residente estimada,Total,Total,25130
+1459,2707107,Piranhas,2017,População residente estimada,Total,Total,25298
+1460,2707107,Piranhas,2018,População residente estimada,Total,Total,24891
+1461,2707107,Piranhas,2019,População residente estimada,Total,Total,25039
+1462,2707107,Piranhas,2020,População residente estimada,Total,Total,25183
+1463,2707107,Piranhas,2021,População residente estimada,Total,Total,25324
+1464,2707206,Poço das Trincheiras,2001,População residente estimada,Total,Total,13437
+1465,2707206,Poço das Trincheiras,2002,População residente estimada,Total,Total,13587
+1466,2707206,Poço das Trincheiras,2003,População residente estimada,Total,Total,13756
+1467,2707206,Poço das Trincheiras,2004,População residente estimada,Total,Total,14111
+1468,2707206,Poço das Trincheiras,2005,População residente estimada,Total,Total,14308
+1469,2707206,Poço das Trincheiras,2006,População residente estimada,Total,Total,14503
+1470,2707206,Poço das Trincheiras,2008,População residente estimada,Total,Total,12544
+1471,2707206,Poço das Trincheiras,2009,População residente estimada,Total,Total,12463
+1472,2707206,Poço das Trincheiras,2011,População residente estimada,Total,Total,13922
+1473,2707206,Poço das Trincheiras,2012,População residente estimada,Total,Total,13845
+1474,2707206,Poço das Trincheiras,2013,População residente estimada,Total,Total,14401
+1475,2707206,Poço das Trincheiras,2014,População residente estimada,Total,Total,14449
+1476,2707206,Poço das Trincheiras,2015,População residente estimada,Total,Total,14493
+1477,2707206,Poço das Trincheiras,2016,População residente estimada,Total,Total,14535
+1478,2707206,Poço das Trincheiras,2017,População residente estimada,Total,Total,14575
+1479,2707206,Poço das Trincheiras,2018,População residente estimada,Total,Total,14354
+1480,2707206,Poço das Trincheiras,2019,População residente estimada,Total,Total,14386
+1481,2707206,Poço das Trincheiras,2020,População residente estimada,Total,Total,14418
+1482,2707206,Poço das Trincheiras,2021,População residente estimada,Total,Total,14447
+1483,2707305,Porto Calvo,2001,População residente estimada,Total,Total,24049
+1484,2707305,Porto Calvo,2002,População residente estimada,Total,Total,24223
+1485,2707305,Porto Calvo,2003,População residente estimada,Total,Total,24349
+1486,2707305,Porto Calvo,2004,População residente estimada,Total,Total,24614
+1487,2707305,Porto Calvo,2005,População residente estimada,Total,Total,24761
+1488,2707305,Porto Calvo,2006,População residente estimada,Total,Total,24907
+1489,2707305,Porto Calvo,2008,População residente estimada,Total,Total,25870
+1490,2707305,Porto Calvo,2009,População residente estimada,Total,Total,26044
+1491,2707305,Porto Calvo,2011,População residente estimada,Total,Total,25843
+1492,2707305,Porto Calvo,2012,População residente estimada,Total,Total,25974
+1493,2707305,Porto Calvo,2013,População residente estimada,Total,Total,27047
+1494,2707305,Porto Calvo,2014,População residente estimada,Total,Total,27171
+1495,2707305,Porto Calvo,2015,População residente estimada,Total,Total,27288
+1496,2707305,Porto Calvo,2016,População residente estimada,Total,Total,27398
+1497,2707305,Porto Calvo,2017,População residente estimada,Total,Total,27501
+1498,2707305,Porto Calvo,2018,População residente estimada,Total,Total,27079
+1499,2707305,Porto Calvo,2019,População residente estimada,Total,Total,27165
+1500,2707305,Porto Calvo,2020,População residente estimada,Total,Total,27249
+1501,2707305,Porto Calvo,2021,População residente estimada,Total,Total,27331
+1502,2707404,Porto de Pedras,2001,População residente estimada,Total,Total,10297
+1503,2707404,Porto de Pedras,2002,População residente estimada,Total,Total,10369
+1504,2707404,Porto de Pedras,2003,População residente estimada,Total,Total,10430
+1505,2707404,Porto de Pedras,2004,População residente estimada,Total,Total,10558
+1506,2707404,Porto de Pedras,2005,População residente estimada,Total,Total,10628
+1507,2707404,Porto de Pedras,2006,População residente estimada,Total,Total,10698
+1508,2707404,Porto de Pedras,2008,População residente estimada,Total,Total,10620
+1509,2707404,Porto de Pedras,2009,População residente estimada,Total,Total,10649
+1510,2707404,Porto de Pedras,2011,População residente estimada,Total,Total,8291
+1511,2707404,Porto de Pedras,2012,População residente estimada,Total,Total,8156
+1512,2707404,Porto de Pedras,2013,População residente estimada,Total,Total,8362
+1513,2707404,Porto de Pedras,2014,População residente estimada,Total,Total,8253
+1514,2707404,Porto de Pedras,2015,População residente estimada,Total,Total,8151
+1515,2707404,Porto de Pedras,2016,População residente estimada,Total,Total,8055
+1516,2707404,Porto de Pedras,2017,População residente estimada,Total,Total,7965
+1517,2707404,Porto de Pedras,2018,População residente estimada,Total,Total,7873
+1518,2707404,Porto de Pedras,2019,População residente estimada,Total,Total,7786
+1519,2707404,Porto de Pedras,2020,População residente estimada,Total,Total,7701
+1520,2707404,Porto de Pedras,2021,População residente estimada,Total,Total,7618
+1521,2707503,Porto Real do Colégio,2001,População residente estimada,Total,Total,18448
+1522,2707503,Porto Real do Colégio,2002,População residente estimada,Total,Total,18523
+1523,2707503,Porto Real do Colégio,2003,População residente estimada,Total,Total,18601
+1524,2707503,Porto Real do Colégio,2004,População residente estimada,Total,Total,18764
+1525,2707503,Porto Real do Colégio,2005,População residente estimada,Total,Total,18855
+1526,2707503,Porto Real do Colégio,2006,População residente estimada,Total,Total,18945
+1527,2707503,Porto Real do Colégio,2008,População residente estimada,Total,Total,18459
+1528,2707503,Porto Real do Colégio,2009,População residente estimada,Total,Total,18453
+1529,2707503,Porto Real do Colégio,2011,População residente estimada,Total,Total,19410
+1530,2707503,Porto Real do Colégio,2012,População residente estimada,Total,Total,19288
+1531,2707503,Porto Real do Colégio,2013,População residente estimada,Total,Total,20066
+1532,2707503,Porto Real do Colégio,2014,População residente estimada,Total,Total,20138
+1533,2707503,Porto Real do Colégio,2015,População residente estimada,Total,Total,20205
+1534,2707503,Porto Real do Colégio,2016,População residente estimada,Total,Total,20268
+1535,2707503,Porto Real do Colégio,2017,População residente estimada,Total,Total,20327
+1536,2707503,Porto Real do Colégio,2018,População residente estimada,Total,Total,20018
+1537,2707503,Porto Real do Colégio,2019,População residente estimada,Total,Total,20066
+1538,2707503,Porto Real do Colégio,2020,População residente estimada,Total,Total,20112
+1539,2707503,Porto Real do Colégio,2021,População residente estimada,Total,Total,20158
+1540,2707602,Quebrangulo,2001,População residente estimada,Total,Total,11954
+1541,2707602,Quebrangulo,2002,População residente estimada,Total,Total,12007
+1542,2707602,Quebrangulo,2003,População residente estimada,Total,Total,12056
+1543,2707602,Quebrangulo,2004,População residente estimada,Total,Total,12159
+1544,2707602,Quebrangulo,2005,População residente estimada,Total,Total,12215
+1545,2707602,Quebrangulo,2006,População residente estimada,Total,Total,12272
+1546,2707602,Quebrangulo,2008,População residente estimada,Total,Total,11607
+1547,2707602,Quebrangulo,2009,População residente estimada,Total,Total,11566
+1548,2707602,Quebrangulo,2011,População residente estimada,Total,Total,11404
+1549,2707602,Quebrangulo,2012,População residente estimada,Total,Total,11330
+1550,2707602,Quebrangulo,2013,População residente estimada,Total,Total,11700
+1551,2707602,Quebrangulo,2014,População residente estimada,Total,Total,11644
+1552,2707602,Quebrangulo,2015,População residente estimada,Total,Total,11592
+1553,2707602,Quebrangulo,2016,População residente estimada,Total,Total,11542
+1554,2707602,Quebrangulo,2017,População residente estimada,Total,Total,11496
+1555,2707602,Quebrangulo,2018,População residente estimada,Total,Total,11342
+1556,2707602,Quebrangulo,2019,População residente estimada,Total,Total,11294
+1557,2707602,Quebrangulo,2020,População residente estimada,Total,Total,11248
+1558,2707602,Quebrangulo,2021,População residente estimada,Total,Total,11202
+1559,2707701,Rio Largo,2001,População residente estimada,Total,Total,63450
+1560,2707701,Rio Largo,2002,População residente estimada,Total,Total,64317
+1561,2707701,Rio Largo,2003,População residente estimada,Total,Total,65155
+1562,2707701,Rio Largo,2004,População residente estimada,Total,Total,66915
+1563,2707701,Rio Largo,2005,População residente estimada,Total,Total,67889
+1564,2707701,Rio Largo,2006,População residente estimada,Total,Total,68856
+1565,2707701,Rio Largo,2008,População residente estimada,Total,Total,67359
+1566,2707701,Rio Largo,2009,População residente estimada,Total,Total,67797
+1567,2707701,Rio Largo,2011,População residente estimada,Total,Total,68885
+1568,2707701,Rio Largo,2012,População residente estimada,Total,Total,68952
+1569,2707701,Rio Largo,2013,População residente estimada,Total,Total,71834
+1570,2707701,Rio Largo,2014,População residente estimada,Total,Total,75267
+1571,2707701,Rio Largo,2015,População residente estimada,Total,Total,75645
+1572,2707701,Rio Largo,2016,População residente estimada,Total,Total,75688
+1573,2707701,Rio Largo,2017,População residente estimada,Total,Total,76019
+1574,2707701,Rio Largo,2018,População residente estimada,Total,Total,74838
+1575,2707701,Rio Largo,2019,População residente estimada,Total,Total,75120
+1576,2707701,Rio Largo,2020,População residente estimada,Total,Total,75394
+1577,2707701,Rio Largo,2021,População residente estimada,Total,Total,75662
+1578,2707800,Roteiro,2001,População residente estimada,Total,Total,6925
+1579,2707800,Roteiro,2002,População residente estimada,Total,Total,6888
+1580,2707800,Roteiro,2003,População residente estimada,Total,Total,6843
+1581,2707800,Roteiro,2004,População residente estimada,Total,Total,6749
+1582,2707800,Roteiro,2005,População residente estimada,Total,Total,6697
+1583,2707800,Roteiro,2006,População residente estimada,Total,Total,6645
+1584,2707800,Roteiro,2008,População residente estimada,Total,Total,6881
+1585,2707800,Roteiro,2009,População residente estimada,Total,Total,6864
+1586,2707800,Roteiro,2011,População residente estimada,Total,Total,6631
+1587,2707800,Roteiro,2012,População residente estimada,Total,Total,6607
+1588,2707800,Roteiro,2013,População residente estimada,Total,Total,6836
+1589,2707800,Roteiro,2014,População residente estimada,Total,Total,6819
+1590,2707800,Roteiro,2015,População residente estimada,Total,Total,6803
+1591,2707800,Roteiro,2016,População residente estimada,Total,Total,6788
+1592,2707800,Roteiro,2017,População residente estimada,Total,Total,6774
+1593,2707800,Roteiro,2018,População residente estimada,Total,Total,6680
+1594,2707800,Roteiro,2019,População residente estimada,Total,Total,6664
+1595,2707800,Roteiro,2020,População residente estimada,Total,Total,6649
+1596,2707800,Roteiro,2021,População residente estimada,Total,Total,6634
+1597,2707909,Santa Luzia do Norte,2001,População residente estimada,Total,Total,6452
+1598,2707909,Santa Luzia do Norte,2002,População residente estimada,Total,Total,6513
+1599,2707909,Santa Luzia do Norte,2003,População residente estimada,Total,Total,6570
+1600,2707909,Santa Luzia do Norte,2004,População residente estimada,Total,Total,6692
+1601,2707909,Santa Luzia do Norte,2005,População residente estimada,Total,Total,6759
+1602,2707909,Santa Luzia do Norte,2006,População residente estimada,Total,Total,6826
+1603,2707909,Santa Luzia do Norte,2008,População residente estimada,Total,Total,7468
+1604,2707909,Santa Luzia do Norte,2009,População residente estimada,Total,Total,7572
+1605,2707909,Santa Luzia do Norte,2011,População residente estimada,Total,Total,6930
+1606,2707909,Santa Luzia do Norte,2012,População residente estimada,Total,Total,6967
+1607,2707909,Santa Luzia do Norte,2013,População residente estimada,Total,Total,7257
+1608,2707909,Santa Luzia do Norte,2014,População residente estimada,Total,Total,7292
+1609,2707909,Santa Luzia do Norte,2015,População residente estimada,Total,Total,7325
+1610,2707909,Santa Luzia do Norte,2016,População residente estimada,Total,Total,7357
+1611,2707909,Santa Luzia do Norte,2017,População residente estimada,Total,Total,7386
+1612,2707909,Santa Luzia do Norte,2018,População residente estimada,Total,Total,7272
+1613,2707909,Santa Luzia do Norte,2019,População residente estimada,Total,Total,7296
+1614,2707909,Santa Luzia do Norte,2020,População residente estimada,Total,Total,7320
+1615,2707909,Santa Luzia do Norte,2021,População residente estimada,Total,Total,7344
+1616,2708006,Santana do Ipanema,2001,População residente estimada,Total,Total,42051
+1617,2708006,Santana do Ipanema,2002,População residente estimada,Total,Total,42621
+1618,2708006,Santana do Ipanema,2003,População residente estimada,Total,Total,43148
+1619,2708006,Santana do Ipanema,2004,População residente estimada,Total,Total,44254
+1620,2708006,Santana do Ipanema,2005,População residente estimada,Total,Total,44866
+1621,2708006,Santana do Ipanema,2006,População residente estimada,Total,Total,45474
+1622,2708006,Santana do Ipanema,2008,População residente estimada,Total,Total,43527
+1623,2708006,Santana do Ipanema,2009,População residente estimada,Total,Total,43699
+1624,2708006,Santana do Ipanema,2011,População residente estimada,Total,Total,45197
+1625,2708006,Santana do Ipanema,2012,População residente estimada,Total,Total,45453
+1626,2708006,Santana do Ipanema,2013,População residente estimada,Total,Total,47352
+1627,2708006,Santana do Ipanema,2014,População residente estimada,Total,Total,47593
+1628,2708006,Santana do Ipanema,2015,População residente estimada,Total,Total,47820
+1629,2708006,Santana do Ipanema,2016,População residente estimada,Total,Total,48033
+1630,2708006,Santana do Ipanema,2017,População residente estimada,Total,Total,48232
+1631,2708006,Santana do Ipanema,2018,População residente estimada,Total,Total,47486
+1632,2708006,Santana do Ipanema,2019,População residente estimada,Total,Total,47654
+1633,2708006,Santana do Ipanema,2020,População residente estimada,Total,Total,47819
+1634,2708006,Santana do Ipanema,2021,População residente estimada,Total,Total,47910
+1635,2708105,Santana do Mundaú,2001,População residente estimada,Total,Total,11470
+1636,2708105,Santana do Mundaú,2002,População residente estimada,Total,Total,11433
+1637,2708105,Santana do Mundaú,2003,População residente estimada,Total,Total,11387
+1638,2708105,Santana do Mundaú,2004,População residente estimada,Total,Total,11289
+1639,2708105,Santana do Mundaú,2005,População residente estimada,Total,Total,11235
+1640,2708105,Santana do Mundaú,2006,População residente estimada,Total,Total,11181
+1641,2708105,Santana do Mundaú,2008,População residente estimada,Total,Total,12002
+1642,2708105,Santana do Mundaú,2009,População residente estimada,Total,Total,12039
+1643,2708105,Santana do Mundaú,2011,População residente estimada,Total,Total,10875
+1644,2708105,Santana do Mundaú,2012,População residente estimada,Total,Total,10792
+1645,2708105,Santana do Mundaú,2013,População residente estimada,Total,Total,11134
+1646,2708105,Santana do Mundaú,2014,População residente estimada,Total,Total,11070
+1647,2708105,Santana do Mundaú,2015,População residente estimada,Total,Total,11009
+1648,2708105,Santana do Mundaú,2016,População residente estimada,Total,Total,10952
+1649,2708105,Santana do Mundaú,2017,População residente estimada,Total,Total,10899
+1650,2708105,Santana do Mundaú,2018,População residente estimada,Total,Total,10755
+1651,2708105,Santana do Mundaú,2019,População residente estimada,Total,Total,10740
+1652,2708105,Santana do Mundaú,2020,População residente estimada,Total,Total,10687
+1653,2708105,Santana do Mundaú,2021,População residente estimada,Total,Total,10637
+1654,2708204,São Brás,2001,População residente estimada,Total,Total,6580
+1655,2708204,São Brás,2002,População residente estimada,Total,Total,6601
+1656,2708204,São Brás,2003,População residente estimada,Total,Total,6624
+1657,2708204,São Brás,2004,População residente estimada,Total,Total,6673
+1658,2708204,São Brás,2005,População residente estimada,Total,Total,6700
+1659,2708204,São Brás,2006,População residente estimada,Total,Total,6727
+1660,2708204,São Brás,2008,População residente estimada,Total,Total,7020
+1661,2708204,São Brás,2009,População residente estimada,Total,Total,7062
+1662,2708204,São Brás,2011,População residente estimada,Total,Total,6731
+1663,2708204,São Brás,2012,População residente estimada,Total,Total,6744
+1664,2708204,São Brás,2013,População residente estimada,Total,Total,7006
+1665,2708204,São Brás,2014,População residente estimada,Total,Total,7020
+1666,2708204,São Brás,2015,População residente estimada,Total,Total,7034
+1667,2708204,São Brás,2016,População residente estimada,Total,Total,7046
+1668,2708204,São Brás,2017,População residente estimada,Total,Total,7058
+1669,2708204,São Brás,2018,População residente estimada,Total,Total,6953
+1670,2708204,São Brás,2019,População residente estimada,Total,Total,6961
+1671,2708204,São Brás,2020,População residente estimada,Total,Total,6969
+1672,2708204,São Brás,2021,População residente estimada,Total,Total,6977
+1673,2708303,São José da Laje,2001,População residente estimada,Total,Total,20942
+1674,2708303,São José da Laje,2002,População residente estimada,Total,Total,20876
+1675,2708303,São José da Laje,2003,População residente estimada,Total,Total,20786
+1676,2708303,São José da Laje,2004,População residente estimada,Total,Total,20596
+1677,2708303,São José da Laje,2005,População residente estimada,Total,Total,20491
+1678,2708303,São José da Laje,2006,População residente estimada,Total,Total,20387
+1679,2708303,São José da Laje,2008,População residente estimada,Total,Total,22941
+1680,2708303,São José da Laje,2009,População residente estimada,Total,Total,23112
+1681,2708303,São José da Laje,2011,População residente estimada,Total,Total,22798
+1682,2708303,São José da Laje,2012,População residente estimada,Total,Total,22906
+1683,2708303,São José da Laje,2013,População residente estimada,Total,Total,23847
+1684,2708303,São José da Laje,2014,População residente estimada,Total,Total,23950
+1685,2708303,São José da Laje,2015,População residente estimada,Total,Total,24048
+1686,2708303,São José da Laje,2016,População residente estimada,Total,Total,24140
+1687,2708303,São José da Laje,2017,População residente estimada,Total,Total,24226
+1688,2708303,São José da Laje,2018,População residente estimada,Total,Total,23855
+1689,2708303,São José da Laje,2019,População residente estimada,Total,Total,23927
+1690,2708303,São José da Laje,2020,População residente estimada,Total,Total,23996
+1691,2708303,São José da Laje,2021,População residente estimada,Total,Total,24064
+1692,2708402,São José da Tapera,2001,População residente estimada,Total,Total,27553
+1693,2708402,São José da Tapera,2002,População residente estimada,Total,Total,27593
+1694,2708402,São José da Tapera,2003,População residente estimada,Total,Total,27608
+1695,2708402,São José da Tapera,2004,População residente estimada,Total,Total,27638
+1696,2708402,São José da Tapera,2005,População residente estimada,Total,Total,27655
+1697,2708402,São José da Tapera,2006,População residente estimada,Total,Total,27672
+1698,2708402,São José da Tapera,2008,População residente estimada,Total,Total,31032
+1699,2708402,São José da Tapera,2009,População residente estimada,Total,Total,31361
+1700,2708402,São José da Tapera,2011,População residente estimada,Total,Total,30323
+1701,2708402,São José da Tapera,2012,População residente estimada,Total,Total,30549
+1702,2708402,São José da Tapera,2013,População residente estimada,Total,Total,31867
+1703,2708402,São José da Tapera,2014,População residente estimada,Total,Total,32075
+1704,2708402,São José da Tapera,2015,População residente estimada,Total,Total,32271
+1705,2708402,São José da Tapera,2016,População residente estimada,Total,Total,32455
+1706,2708402,São José da Tapera,2017,População residente estimada,Total,Total,32626
+1707,2708402,São José da Tapera,2018,População residente estimada,Total,Total,32111
+1708,2708402,São José da Tapera,2019,População residente estimada,Total,Total,32260
+1709,2708402,São José da Tapera,2020,População residente estimada,Total,Total,32405
+1710,2708402,São José da Tapera,2021,População residente estimada,Total,Total,32462
+1711,2708501,São Luís do Quitunde,2001,População residente estimada,Total,Total,29281
+1712,2708501,São Luís do Quitunde,2002,População residente estimada,Total,Total,29186
+1713,2708501,São Luís do Quitunde,2003,População residente estimada,Total,Total,29021
+1714,2708501,São Luís do Quitunde,2004,População residente estimada,Total,Total,28673
+1715,2708501,São Luís do Quitunde,2005,População residente estimada,Total,Total,28481
+1716,2708501,São Luís do Quitunde,2006,População residente estimada,Total,Total,28290
+1717,2708501,São Luís do Quitunde,2008,População residente estimada,Total,Total,32588
+1718,2708501,São Luís do Quitunde,2009,População residente estimada,Total,Total,32871
+1719,2708501,São Luís do Quitunde,2011,População residente estimada,Total,Total,32633
+1720,2708501,São Luís do Quitunde,2012,População residente estimada,Total,Total,32846
+1721,2708501,São Luís do Quitunde,2013,População residente estimada,Total,Total,34239
+1722,2708501,São Luís do Quitunde,2014,População residente estimada,Total,Total,34436
+1723,2708501,São Luís do Quitunde,2015,População residente estimada,Total,Total,34623
+1724,2708501,São Luís do Quitunde,2016,População residente estimada,Total,Total,34798
+1725,2708501,São Luís do Quitunde,2017,População residente estimada,Total,Total,34961
+1726,2708501,São Luís do Quitunde,2018,População residente estimada,Total,Total,34415
+1727,2708501,São Luís do Quitunde,2019,População residente estimada,Total,Total,34555
+1728,2708501,São Luís do Quitunde,2020,População residente estimada,Total,Total,34692
+1729,2708501,São Luís do Quitunde,2021,População residente estimada,Total,Total,34825
+1730,2708600,São Miguel dos Campos,2001,População residente estimada,Total,Total,42993
+1731,2708600,São Miguel dos Campos,2002,População residente estimada,Total,Total,43071
+1732,2708600,São Miguel dos Campos,2003,População residente estimada,Total,Total,43133
+1733,2708600,São Miguel dos Campos,2004,População residente estimada,Total,Total,43265
+1734,2708600,São Miguel dos Campos,2005,População residente estimada,Total,Total,43338
+1735,2708600,São Miguel dos Campos,2006,População residente estimada,Total,Total,43409
+1736,2708600,São Miguel dos Campos,2008,População residente estimada,Total,Total,53070
+1737,2708600,São Miguel dos Campos,2009,População residente estimada,Total,Total,54064
+1738,2708600,São Miguel dos Campos,2011,População residente estimada,Total,Total,55463
+1739,2708600,São Miguel dos Campos,2012,População residente estimada,Total,Total,56319
+1740,2708600,São Miguel dos Campos,2013,População residente estimada,Total,Total,59077
+1741,2708600,São Miguel dos Campos,2014,População residente estimada,Total,Total,59830
+1742,2708600,São Miguel dos Campos,2015,População residente estimada,Total,Total,60539
+1743,2708600,São Miguel dos Campos,2016,População residente estimada,Total,Total,61204
+1744,2708600,São Miguel dos Campos,2017,População residente estimada,Total,Total,61827
+1745,2708600,São Miguel dos Campos,2018,População residente estimada,Total,Total,60775
+1746,2708600,São Miguel dos Campos,2019,População residente estimada,Total,Total,61251
+1747,2708600,São Miguel dos Campos,2020,População residente estimada,Total,Total,61797
+1748,2708600,São Miguel dos Campos,2021,População residente estimada,Total,Total,62328
+1749,2708709,São Miguel dos Milagres,2001,População residente estimada,Total,Total,5972
+1750,2708709,São Miguel dos Milagres,2002,População residente estimada,Total,Total,6063
+1751,2708709,São Miguel dos Milagres,2003,População residente estimada,Total,Total,6157
+1752,2708709,São Miguel dos Milagres,2004,População residente estimada,Total,Total,6354
+1753,2708709,São Miguel dos Milagres,2005,População residente estimada,Total,Total,6463
+1754,2708709,São Miguel dos Milagres,2006,População residente estimada,Total,Total,6572
+1755,2708709,São Miguel dos Milagres,2008,População residente estimada,Total,Total,7445
+1756,2708709,São Miguel dos Milagres,2009,População residente estimada,Total,Total,7601
+1757,2708709,São Miguel dos Milagres,2011,População residente estimada,Total,Total,7264
+1758,2708709,São Miguel dos Milagres,2012,População residente estimada,Total,Total,7360
+1759,2708709,São Miguel dos Milagres,2013,População residente estimada,Total,Total,7709
+1760,2708709,São Miguel dos Milagres,2014,População residente estimada,Total,Total,7795
+1761,2708709,São Miguel dos Milagres,2015,População residente estimada,Total,Total,7876
+1762,2708709,São Miguel dos Milagres,2016,População residente estimada,Total,Total,7951
+1763,2708709,São Miguel dos Milagres,2017,População residente estimada,Total,Total,8022
+1764,2708709,São Miguel dos Milagres,2018,População residente estimada,Total,Total,7888
+1765,2708709,São Miguel dos Milagres,2019,População residente estimada,Total,Total,7951
+1766,2708709,São Miguel dos Milagres,2020,População residente estimada,Total,Total,8013
+1767,2708709,São Miguel dos Milagres,2021,População residente estimada,Total,Total,8073
+1768,2708808,São Sebastião,2001,População residente estimada,Total,Total,29651
+1769,2708808,São Sebastião,2002,População residente estimada,Total,Total,30056
+1770,2708808,São Sebastião,2003,População residente estimada,Total,Total,30488
+1771,2708808,São Sebastião,2004,População residente estimada,Total,Total,31396
+1772,2708808,São Sebastião,2005,População residente estimada,Total,Total,31898
+1773,2708808,São Sebastião,2006,População residente estimada,Total,Total,32397
+1774,2708808,São Sebastião,2008,População residente estimada,Total,Total,31922
+1775,2708808,São Sebastião,2009,População residente estimada,Total,Total,32181
+1776,2708808,São Sebastião,2011,População residente estimada,Total,Total,32232
+1777,2708808,São Sebastião,2012,População residente estimada,Total,Total,32446
+1778,2708808,São Sebastião,2013,População residente estimada,Total,Total,33826
+1779,2708808,São Sebastião,2014,População residente estimada,Total,Total,34024
+1780,2708808,São Sebastião,2015,População residente estimada,Total,Total,34211
+1781,2708808,São Sebastião,2016,População residente estimada,Total,Total,34387
+1782,2708808,São Sebastião,2017,População residente estimada,Total,Total,34551
+1783,2708808,São Sebastião,2018,População residente estimada,Total,Total,34011
+1784,2708808,São Sebastião,2019,População residente estimada,Total,Total,34152
+1785,2708808,São Sebastião,2020,População residente estimada,Total,Total,34290
+1786,2708808,São Sebastião,2021,População residente estimada,Total,Total,34424
+1787,2708907,Satuba,2001,População residente estimada,Total,Total,12970
+1788,2708907,Satuba,2002,População residente estimada,Total,Total,13264
+1789,2708907,Satuba,2003,População residente estimada,Total,Total,13593
+1790,2708907,Satuba,2004,População residente estimada,Total,Total,14283
+1791,2708907,Satuba,2005,População residente estimada,Total,Total,14666
+1792,2708907,Satuba,2006,População residente estimada,Total,Total,15045
+1793,2708907,Satuba,2008,População residente estimada,Total,Total,14584
+1794,2708907,Satuba,2009,População residente estimada,Total,Total,14779
+1795,2708907,Satuba,2011,População residente estimada,Total,Total,14815
+1796,2708907,Satuba,2012,População residente estimada,Total,Total,15020
+1797,2708907,Satuba,2013,População residente estimada,Total,Total,15737
+1798,2708907,Satuba,2014,População residente estimada,Total,Total,13241
+1799,2708907,Satuba,2015,População residente estimada,Total,Total,13381
+1800,2708907,Satuba,2016,População residente estimada,Total,Total,13824
+1801,2708907,Satuba,2017,População residente estimada,Total,Total,13949
+1802,2708907,Satuba,2018,População residente estimada,Total,Total,13716
+1803,2708907,Satuba,2019,População residente estimada,Total,Total,13828
+1804,2708907,Satuba,2020,População residente estimada,Total,Total,13936
+1805,2708907,Satuba,2021,População residente estimada,Total,Total,14042
+1806,2708956,Senador Rui Palmeira,2001,População residente estimada,Total,Total,12291
+1807,2708956,Senador Rui Palmeira,2002,População residente estimada,Total,Total,12519
+1808,2708956,Senador Rui Palmeira,2003,População residente estimada,Total,Total,12769
+1809,2708956,Senador Rui Palmeira,2004,População residente estimada,Total,Total,13296
+1810,2708956,Senador Rui Palmeira,2005,População residente estimada,Total,Total,13587
+1811,2708956,Senador Rui Palmeira,2006,População residente estimada,Total,Total,13876
+1812,2708956,Senador Rui Palmeira,2008,População residente estimada,Total,Total,13015
+1813,2708956,Senador Rui Palmeira,2009,População residente estimada,Total,Total,13110
+1814,2708956,Senador Rui Palmeira,2011,População residente estimada,Total,Total,13129
+1815,2708956,Senador Rui Palmeira,2012,População residente estimada,Total,Total,13209
+1816,2708956,Senador Rui Palmeira,2013,População residente estimada,Total,Total,13765
+1817,2708956,Senador Rui Palmeira,2014,População residente estimada,Total,Total,13839
+1818,2708956,Senador Rui Palmeira,2015,População residente estimada,Total,Total,13909
+1819,2708956,Senador Rui Palmeira,2016,População residente estimada,Total,Total,13974
+1820,2708956,Senador Rui Palmeira,2017,População residente estimada,Total,Total,14036
+1821,2708956,Senador Rui Palmeira,2018,População residente estimada,Total,Total,13818
+1822,2708956,Senador Rui Palmeira,2019,População residente estimada,Total,Total,13870
+1823,2708956,Senador Rui Palmeira,2020,População residente estimada,Total,Total,13921
+1824,2708956,Senador Rui Palmeira,2021,População residente estimada,Total,Total,13893
+1825,2709004,Tanque d'Arca,2001,População residente estimada,Total,Total,6481
+1826,2709004,Tanque d'Arca,2002,População residente estimada,Total,Total,6358
+1827,2709004,Tanque d'Arca,2003,População residente estimada,Total,Total,6249
+1828,2709004,Tanque d'Arca,2004,População residente estimada,Total,Total,6019
+1829,2709004,Tanque d'Arca,2005,População residente estimada,Total,Total,5892
+1830,2709004,Tanque d'Arca,2006,População residente estimada,Total,Total,5765
+1831,2709004,Tanque d'Arca,2008,População residente estimada,Total,Total,5848
+1832,2709004,Tanque d'Arca,2009,População residente estimada,Total,Total,5766
+1833,2709004,Tanque d'Arca,2011,População residente estimada,Total,Total,6086
+1834,2709004,Tanque d'Arca,2012,População residente estimada,Total,Total,6172
+1835,2709004,Tanque d'Arca,2013,População residente estimada,Total,Total,6374
+1836,2709004,Tanque d'Arca,2014,População residente estimada,Total,Total,6346
+1837,2709004,Tanque d'Arca,2015,População residente estimada,Total,Total,6319
+1838,2709004,Tanque d'Arca,2016,População residente estimada,Total,Total,6293
+1839,2709004,Tanque d'Arca,2017,População residente estimada,Total,Total,6270
+1840,2709004,Tanque d'Arca,2018,População residente estimada,Total,Total,6187
+1841,2709004,Tanque d'Arca,2019,População residente estimada,Total,Total,6162
+1842,2709004,Tanque d'Arca,2020,População residente estimada,Total,Total,6138
+1843,2709004,Tanque d'Arca,2021,População residente estimada,Total,Total,6115
+1844,2709103,Taquarana,2001,População residente estimada,Total,Total,17071
+1845,2709103,Taquarana,2002,População residente estimada,Total,Total,17096
+1846,2709103,Taquarana,2003,População residente estimada,Total,Total,17119
+1847,2709103,Taquarana,2004,População residente estimada,Total,Total,17168
+1848,2709103,Taquarana,2005,População residente estimada,Total,Total,17194
+1849,2709103,Taquarana,2006,População residente estimada,Total,Total,17221
+1850,2709103,Taquarana,2008,População residente estimada,Total,Total,18695
+1851,2709103,Taquarana,2009,População residente estimada,Total,Total,18848
+1852,2709103,Taquarana,2011,População residente estimada,Total,Total,19172
+1853,2709103,Taquarana,2012,População residente estimada,Total,Total,18907
+1854,2709103,Taquarana,2013,População residente estimada,Total,Total,19725
+1855,2709103,Taquarana,2014,População residente estimada,Total,Total,19856
+1856,2709103,Taquarana,2015,População residente estimada,Total,Total,19980
+1857,2709103,Taquarana,2016,População residente estimada,Total,Total,20097
+1858,2709103,Taquarana,2017,População residente estimada,Total,Total,20205
+1859,2709103,Taquarana,2018,População residente estimada,Total,Total,19886
+1860,2709103,Taquarana,2019,População residente estimada,Total,Total,19980
+1861,2709103,Taquarana,2020,População residente estimada,Total,Total,20072
+1862,2709103,Taquarana,2021,População residente estimada,Total,Total,20162
+1863,2709152,Teotônio Vilela,2001,População residente estimada,Total,Total,37741
+1864,2709152,Teotônio Vilela,2002,População residente estimada,Total,Total,38399
+1865,2709152,Teotônio Vilela,2003,População residente estimada,Total,Total,39104
+1866,2709152,Teotônio Vilela,2004,População residente estimada,Total,Total,40584
+1867,2709152,Teotônio Vilela,2005,População residente estimada,Total,Total,41403
+1868,2709152,Teotônio Vilela,2006,População residente estimada,Total,Total,42215
+1869,2709152,Teotônio Vilela,2008,População residente estimada,Total,Total,41498
+1870,2709152,Teotônio Vilela,2009,População residente estimada,Total,Total,41935
+1871,2709152,Teotônio Vilela,2011,População residente estimada,Total,Total,41480
+1872,2709152,Teotônio Vilela,2012,População residente estimada,Total,Total,41797
+1873,2709152,Teotônio Vilela,2013,População residente estimada,Total,Total,43605
+1874,2709152,Teotônio Vilela,2014,População residente estimada,Total,Total,43895
+1875,2709152,Teotônio Vilela,2015,População residente estimada,Total,Total,44169
+1876,2709152,Teotônio Vilela,2016,População residente estimada,Total,Total,44426
+1877,2709152,Teotônio Vilela,2017,População residente estimada,Total,Total,44666
+1878,2709152,Teotônio Vilela,2018,População residente estimada,Total,Total,43960
+1879,2709152,Teotônio Vilela,2019,População residente estimada,Total,Total,44169
+1880,2709152,Teotônio Vilela,2020,População residente estimada,Total,Total,44372
+1881,2709152,Teotônio Vilela,2021,População residente estimada,Total,Total,44570
+1882,2709202,Traipu,2001,População residente estimada,Total,Total,23529
+1883,2709202,Traipu,2002,População residente estimada,Total,Total,23599
+1884,2709202,Traipu,2003,População residente estimada,Total,Total,23751
+1885,2709202,Traipu,2004,População residente estimada,Total,Total,23907
+1886,2709202,Traipu,2005,População residente estimada,Total,Total,23915
+1887,2709202,Traipu,2006,População residente estimada,Total,Total,24000
+1888,2709202,Traipu,2008,População residente estimada,Total,Total,25650
+1889,2709202,Traipu,2009,População residente estimada,Total,Total,25854
+1890,2709202,Traipu,2011,População residente estimada,Total,Total,25880
+1891,2709202,Traipu,2012,População residente estimada,Total,Total,26369
+1892,2709202,Traipu,2013,População residente estimada,Total,Total,27488
+1893,2709202,Traipu,2014,População residente estimada,Total,Total,27648
+1894,2709202,Traipu,2015,População residente estimada,Total,Total,27798
+1895,2709202,Traipu,2016,População residente estimada,Total,Total,27938
+1896,2709202,Traipu,2017,População residente estimada,Total,Total,28070
+1897,2709202,Traipu,2018,População residente estimada,Total,Total,27632
+1898,2709202,Traipu,2019,População residente estimada,Total,Total,27715
+1899,2709202,Traipu,2020,População residente estimada,Total,Total,27826
+1900,2709202,Traipu,2021,População residente estimada,Total,Total,27934
+1901,2709301,União dos Palmares,2001,População residente estimada,Total,Total,58753
+1902,2709301,União dos Palmares,2002,População residente estimada,Total,Total,58871
+1903,2709301,União dos Palmares,2003,População residente estimada,Total,Total,58988
+1904,2709301,União dos Palmares,2004,População residente estimada,Total,Total,59233
+1905,2709301,União dos Palmares,2005,População residente estimada,Total,Total,59369
+1906,2709301,União dos Palmares,2006,População residente estimada,Total,Total,59503
+1907,2709301,União dos Palmares,2008,População residente estimada,Total,Total,62395
+1908,2709301,União dos Palmares,2009,População residente estimada,Total,Total,62727
+1909,2709301,União dos Palmares,2011,População residente estimada,Total,Total,62645
+1910,2709301,União dos Palmares,2012,População residente estimada,Total,Total,62923
+1911,2709301,União dos Palmares,2013,População residente estimada,Total,Total,65495
+1912,2709301,União dos Palmares,2014,População residente estimada,Total,Total,65764
+1913,2709301,União dos Palmares,2015,População residente estimada,Total,Total,66017
+1914,2709301,União dos Palmares,2016,População residente estimada,Total,Total,66255
+1915,2709301,União dos Palmares,2017,População residente estimada,Total,Total,66477
+1916,2709301,União dos Palmares,2018,População residente estimada,Total,Total,65461
+1917,2709301,União dos Palmares,2019,População residente estimada,Total,Total,65611
+1918,2709301,União dos Palmares,2020,População residente estimada,Total,Total,65790
+1919,2709301,União dos Palmares,2021,População residente estimada,Total,Total,65963
+1920,2709400,Viçosa,2001,População residente estimada,Total,Total,26592
+1921,2709400,Viçosa,2002,População residente estimada,Total,Total,26829
+1922,2709400,Viçosa,2003,População residente estimada,Total,Total,27092
+1923,2709400,Viçosa,2004,População residente estimada,Total,Total,27644
+1924,2709400,Viçosa,2005,População residente estimada,Total,Total,27950
+1925,2709400,Viçosa,2006,População residente estimada,Total,Total,28253
+1926,2709400,Viçosa,2008,População residente estimada,Total,Total,26799
+1927,2709400,Viçosa,2009,População residente estimada,Total,Total,26830
+1928,2709400,Viçosa,2011,População residente estimada,Total,Total,25342
+1929,2709400,Viçosa,2012,População residente estimada,Total,Total,25384
+1930,2709400,Viçosa,2013,População residente estimada,Total,Total,26289
+1931,2709400,Viçosa,2014,População residente estimada,Total,Total,26249
+1932,2709400,Viçosa,2015,População residente estimada,Total,Total,26212
+1933,2709400,Viçosa,2016,População residente estimada,Total,Total,26176
+1934,2709400,Viçosa,2017,População residente estimada,Total,Total,26143
+1935,2709400,Viçosa,2018,População residente estimada,Total,Total,25773
+1936,2709400,Viçosa,2019,População residente estimada,Total,Total,25733
+1937,2709400,Viçosa,2020,População residente estimada,Total,Total,25693
+1938,2709400,Viçosa,2021,População residente estimada,Total,Total,25655
+1939,2700102,Água Branca,2022,População residente estimada,Total,Total,19008
+1940,2700201,Anadia,2022,População residente estimada,Total,Total,13966
+1941,2700300,Arapiraca,2022,População residente estimada,Total,Total,234696
+1942,2700409,Atalaia,2022,População residente estimada,Total,Total,3980
+1943,2700508,Barra de Santo Antônio,2022,População residente estimada,Total,Total,16365
+1944,2700607,Barra de São Miguel,2022,População residente estimada,Total,Total,7944
+1945,2700706,Batalha,2022,População residente estimada,Total,Total,16448
+1946,2700805,Belém,2022,População residente estimada,Total,Total,4722
+1947,2700904,Belo Monte,2022,População residente estimada,Total,Total,5936
+1948,2701001,Boca da Mata,2022,População residente estimada,Total,Total,21187
+1949,2701100,Branquinha,2022,População residente estimada,Total,Total,9603
+1950,2701209,Cacimbinhas,2022,População residente estimada,Total,Total,10482
+1951,2701308,Cajueiro,2022,População residente estimada,Total,Total,16024
+1952,2701357,Campestre,2022,População residente estimada,Total,Total,20696
+1953,2701407,Campo Alegre,2022,População residente estimada,Total,Total,12501
+1954,2701506,Campo Grande,2022,População residente estimada,Total,Total,898100
+1955,2701605,Canapi,2022,População residente estimada,Total,Total,15559
+1956,2701704,Capela,2022,População residente estimada,Total,Total,31645
+1957,2701803,Carneiros,2022,População residente estimada,Total,Total,8999
+1958,2701902,Chã Preta,2022,População residente estimada,Total,Total,5910
+1959,2702009,Coité do Nóia,2022,População residente estimada,Total,Total,10810
+1960,2702108,Colônia Leopoldina,2022,População residente estimada,Total,Total,15816
+1961,2702207,Coqueiro Seco,2022,População residente estimada,Total,Total,5581
+1962,2702306,Coruripe,2022,População residente estimada,Total,Total,50414
+1963,2702355,Craíbas,2022,População residente estimada,Total,Total,25397
+1964,2702405,Delmiro Gouveia,2022,População residente estimada,Total,Total,51318
+1965,2702504,Dois Riachos,2022,População residente estimada,Total,Total,9805
+1966,2702553,Estrela de Alagoas,2022,População residente estimada,Total,Total,15429
+1967,2702603,Feira Grande,2022,População residente estimada,Total,Total,22712
+1968,2702702,Feliz Deserto,2022,População residente estimada,Total,Total,3963
+1969,2702801,Flexeiras,2022,População residente estimada,Total,Total,9618
+1970,2702900,Girau do Ponciano,2022,População residente estimada,Total,Total,36102
+1971,2703007,Ibateguara,2022,População residente estimada,Total,Total,13731
+1972,2703106,Igaci,2022,População residente estimada,Total,Total,23995
+1973,2703205,Igreja Nova,2022,População residente estimada,Total,Total,21372
+1974,2703304,Inhapi,2022,População residente estimada,Total,Total,15167
+1975,2703403,Jacaré dos Homens,2022,População residente estimada,Total,Total,5083
+1976,2703502,Jacuípe,2022,População residente estimada,Total,Total,5352
+1977,2703601,Japaratinga,2022,População residente estimada,Total,Total,9219
+1978,2703700,Jaramataia,2022,População residente estimada,Total,Total,4985
+1979,2703759,Jequiá da Praia,2022,População residente estimada,Total,Total,9470
+1980,2703809,Joaquim Gomes,2022,População residente estimada,Total,Total,17150
+1981,2703908,Jundiá,2022,População residente estimada,Total,Total,4092
+1982,2704005,Junqueiro,2022,População residente estimada,Total,Total,23907
+1983,2704104,Lagoa da Canoa,2022,População residente estimada,Total,Total,18457
+1984,2704203,Limoeiro de Anadia,2022,População residente estimada,Total,Total,24740
+1985,2704302,Maceió,2022,População residente estimada,Total,Total,957916
+1986,2704401,Major Isidoro,2022,População residente estimada,Total,Total,17700
+1987,2704500,Maragogi,2022,População residente estimada,Total,Total,32174
+1988,2704609,Maravilha,2022,População residente estimada,Total,Total,28251
+1989,2704708,Marechal Deodoro,2022,População residente estimada,Total,Total,60370
+1990,2704807,Maribondo,2022,População residente estimada,Total,Total,13679
+1991,2704906,Mar Vermelho,2022,População residente estimada,Total,Total,3155
+1992,2705002,Mata Grande,2022,População residente estimada,Total,Total,21844
+1993,2705101,Matriz de Camaragibe,2022,População residente estimada,Total,Total,23857
+1994,2705200,Messias,2022,População residente estimada,Total,Total,15405
+1995,2705309,Minador do Negrão,2022,População residente estimada,Total,Total,4845
+1996,2705408,Monteirópolis,2022,População residente estimada,Total,Total,7184
+1997,2705507,Murici,2022,População residente estimada,Total,Total,25187
+1998,2705606,Novo Lino,2022,População residente estimada,Total,Total,10020
+1999,2705705,Olho d'Água das Flores,2022,População residente estimada,Total,Total,20695
+2000,2705804,Olho d'Água do Casado,2022,População residente estimada,Total,Total,8349
+2001,2705903,Olho d'Água Grande,2022,População residente estimada,Total,Total,4330
+2002,2706000,Olivença,2022,População residente estimada,Total,Total,10812
+2003,2706109,Ouro Branco,2022,População residente estimada,Total,Total,38724
+2004,2706208,Palestina,2022,População residente estimada,Total,Total,11476
+2005,2706307,Palmeira dos Índios,2022,População residente estimada,Total,Total,71574
+2006,2706406,Pão de Açúcar,2022,População residente estimada,Total,Total,23823
+2007,2706422,Pariconha,2022,População residente estimada,Total,Total,10573
+2008,2706448,Paripueira,2022,População residente estimada,Total,Total,13835
+2009,2706505,Passo de Camaragibe,2022,População residente estimada,Total,Total,13804
+2010,2706604,Paulo Jacinto,2022,População residente estimada,Total,Total,6576
+2011,2706703,Penedo,2022,População residente estimada,Total,Total,58650
+2012,2706802,Piaçabuçu,2022,População residente estimada,Total,Total,15908
+2013,2706901,Pilar,2022,População residente estimada,Total,Total,35370
+2014,2707008,Pindoba,2022,População residente estimada,Total,Total,2731
+2015,2707107,Piranhas,2022,População residente estimada,Total,Total,11712
+2016,2707206,Poço das Trincheiras,2022,População residente estimada,Total,Total,12518
+2017,2707305,Porto Calvo,2022,População residente estimada,Total,Total,24071
+2018,2707404,Porto de Pedras,2022,População residente estimada,Total,Total,9295
+2019,2707503,Porto Real do Colégio,2022,População residente estimada,Total,Total,20082
+2020,2707602,Quebrangulo,2022,População residente estimada,Total,Total,11080
+2021,2707701,Rio Largo,2022,População residente estimada,Total,Total,93927
+2022,2707800,Roteiro,2022,População residente estimada,Total,Total,6474
+2023,2707909,Santa Luzia do Norte,2022,População residente estimada,Total,Total,6919
+2024,2708006,Santana do Ipanema,2022,População residente estimada,Total,Total,46220
+2025,2708105,Santana do Mundaú,2022,População residente estimada,Total,Total,11323
+2026,2708204,São Brás,2022,População residente estimada,Total,Total,6555
+2027,2708303,São José da Laje,2022,População residente estimada,Total,Total,20813
+2028,2708402,São José da Tapera,2022,População residente estimada,Total,Total,30604
+2029,2708501,São Luís do Quitunde,2022,População residente estimada,Total,Total,30873
+2030,2708600,São Miguel dos Campos,2022,População residente estimada,Total,Total,51990
+2031,2708709,São Miguel dos Milagres,2022,População residente estimada,Total,Total,8482
+2032,2708808,São Sebastião,2022,População residente estimada,Total,Total,81595
+2033,2708907,Satuba,2022,População residente estimada,Total,Total,24278
+2034,2708956,Senador Rui Palmeira,2022,População residente estimada,Total,Total,12303
+2035,2709004,Tanque d'Arca,2022,População residente estimada,Total,Total,5796
+2036,2709103,Taquarana,2022,População residente estimada,Total,Total,19032
+2037,2709152,Teotônio Vilela,2022,População residente estimada,Total,Total,38053
+2038,2709202,Traipu,2022,População residente estimada,Total,Total,23565
+2039,2709301,União dos Palmares,2022,População residente estimada,Total,Total,59280
+2040,2709400,Viçosa,2022,População residente estimada,Total,Total,76430

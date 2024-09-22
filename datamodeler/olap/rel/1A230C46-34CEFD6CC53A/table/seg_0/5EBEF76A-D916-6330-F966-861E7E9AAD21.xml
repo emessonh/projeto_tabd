@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EBEF76A-D916-6330-F966-861E7E9AAD21" name="DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:46:27 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>MUNICIPIO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_municipio" id="95C57B7D-DCCD-95F1-AFD2-9E1B67078649">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:47:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_municipio" id="3AF0A705-16C2-05C1-AC39-DEB42DD503B5">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:47:54 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_municipio_DIM_MUNICIPIO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9626AA4-9A16-B777-D8EB-A88BAA857987" name="PK_DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-09-20 19:47:13 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C57B7D-DCCD-95F1-AFD2-9E1B67078649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
