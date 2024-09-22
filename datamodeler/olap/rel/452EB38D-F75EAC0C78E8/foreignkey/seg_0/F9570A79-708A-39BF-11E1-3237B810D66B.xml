@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9570A79-708A-39BF-11E1-3237B810D66B" containerWithKeyObject="61661A3B-DDB5-0CB6-5F16-6C279479D8C8" localFKIndex="6D615962-04A5-46F9-442F-FE54B3054C68" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_CORRELACAO_IDEB_PIB">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9570A79-708A-39BF-11E1-3237B810D66B" containerWithKeyObject="61661A3B-DDB5-0CB6-5F16-6C279479D8C8" localFKIndex="6D615962-04A5-46F9-442F-FE54B3054C68" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_FATO_CORRELACAO_IDEB_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:11:58 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51276D30-38AC-25DA-8FEF-2AB798B5F732" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="TAB_PIB">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51276D30-38AC-25DA-8FEF-2AB798B5F732" schemaObject="D4868461-FB27-4B70-1162-157DB8EC5121" name="TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:09 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
 <ordsAlias>table_8</ordsAlias>
-<abbreviation>PIB</abbreviation>
+<abbreviation>FATO_PIB</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -62,11 +62,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_val_pib_TAB_PIB</notNullConstraintName>
+<notNullConstraintName>NN_val_pib_TAB_FATO_PIB</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="15919D40-3D6D-2A0B-6405-704FA74A6852" name="PK_TAB_PIB">
+<ind_PK_UK id="15919D40-3D6D-2A0B-6405-704FA74A6852" name="PK_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 17:05:00 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -79,7 +79,7 @@
 <colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="02AF5BE5-6A71-6777-B139-BC856FE51F22" name="IDX_FK_sk_municipio_TAB_PIB">
+<ind_PK_UK id="02AF5BE5-6A71-6777-B139-BC856FE51F22" name="IDX_FK_sk_municipio_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:00:47 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -88,7 +88,7 @@
 <colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B5F1F00-EB97-9031-CA96-16F6DF43486C" name="IDX_FK_sk_setor_economia_TAB_PIB">
+<ind_PK_UK id="5B5F1F00-EB97-9031-CA96-16F6DF43486C" name="IDX_FK_sk_setor_economia_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:01:10 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -97,7 +97,7 @@
 <colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E84C8AAE-4F08-4504-B440-CE0B473012B0" name="IDX_FK_sk_tempo_TAB_PIB">
+<ind_PK_UK id="E84C8AAE-4F08-4504-B440-CE0B473012B0" name="IDX_FK_sk_tempo_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 19:01:25 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -106,7 +106,7 @@
 <colUsage columnID="A36B671C-3CDE-D9E1-CD0E-7FF49DA2ACA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="FK_sk_setor_economia_DIM_SETOR_ECONOMIA_TAB_PIB">
+<ind_PK_UK id="50FB3515-CF7D-9C12-0062-EF89D6EAA46D" name="FK_sk_setor_economia_DIM_SETOR_ECONOMIA_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:35 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -116,7 +116,7 @@
 <colUsage columnID="7C3EEC25-FCC3-7679-5893-A6F1F062116D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7AC0ABB9-F6C1-A357-BA93-0864858BFBF1" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_PIB">
+<ind_PK_UK id="7AC0ABB9-F6C1-A357-BA93-0864858BFBF1" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:39 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
@@ -126,7 +126,7 @@
 <colUsage columnID="F99E666D-8C03-2D9B-4BD1-6D1CED639388"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6ECB5A4D-0FD3-EC29-8ABA-1BEFB70BA7CD" name="FK_sk_tempo_DIM_TEMPO_TAB_PIB">
+<ind_PK_UK id="6ECB5A4D-0FD3-EC29-8ABA-1BEFB70BA7CD" name="FK_sk_tempo_DIM_TEMPO_TAB_FATO_PIB">
 <createdBy>maelton</createdBy>
 <createdTime>2024-09-21 16:17:43 UTC</createdTime>
 <ownerDesignName>olap</ownerDesignName>
