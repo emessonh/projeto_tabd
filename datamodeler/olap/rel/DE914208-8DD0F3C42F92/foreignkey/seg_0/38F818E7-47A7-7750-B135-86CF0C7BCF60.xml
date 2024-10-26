@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38F818E7-47A7-7750-B135-86CF0C7BCF60" containerWithKeyObject="B2A85DAC-BEAF-3485-06DA-2EE5CB0C8B5A" localFKIndex="D3AFAFA0-3D56-3B64-201B-C617023963CF" name="FK_sk_tipo_ensino_DIM_TIPO_ENSINO_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.DIM_TIPO_ENSINO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C76B4981-BFDD-8ACA-FF0C-347FC5A2020B</referredTableID>
+<keyObject>E70A245C-5A76-FA70-3F58-7E31B1BF0D59</keyObject>
+<referredKeyID>E70A245C-5A76-FA70-3F58-7E31B1BF0D59</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_tipo_ensino</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

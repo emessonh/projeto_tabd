@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C4EDD7C-7B1D-95F2-3A1E-0C2E18AEFD78" containerWithKeyObject="908AD7D4-CAA6-88AE-1094-914773F27B95" localFKIndex="51D4D09D-7643-406C-A6AE-44B81F30B169" name="FK_sk_setor_economia_DIM_SETOR_ECONOMIA_TAB_FATO_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.DIM_SETOR_ECONOMIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF14560C-BC08-A12E-2E11-794826168FC6</referredTableID>
+<keyObject>5E462BE5-38E5-269C-B775-D8FE2FB6ADF6</keyObject>
+<referredKeyID>5E462BE5-38E5-269C-B775-D8FE2FB6ADF6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_setor_economia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

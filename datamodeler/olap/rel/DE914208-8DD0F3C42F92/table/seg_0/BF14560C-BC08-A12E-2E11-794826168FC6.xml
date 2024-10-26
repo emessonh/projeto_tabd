@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF14560C-BC08-A12E-2E11-794826168FC6" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="DIM_SETOR_ECONOMIA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>SETOR_ECONOMIA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_setor_economia" id="99328270-F92A-0963-5671-C67F886BC403">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_setor_economia" id="48A5713F-46FF-7AB3-EA0F-5D4FB34E35B5">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_setor_economia_DIM_SETOR_ECONOMIA</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E462BE5-38E5-269C-B775-D8FE2FB6ADF6" name="PK_DIM_SETOR_ECONOMIA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99328270-F92A-0963-5671-C67F886BC403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2C389A0-E614-6632-57D0-B644488EB398" name="UN_nom_setor_economia_DIM_SETOR_ECONOMIA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48A5713F-46FF-7AB3-EA0F-5D4FB34E35B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

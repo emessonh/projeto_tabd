@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E05ACEE-092F-A328-FA87-DB4DD25D1505" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<abbreviation>MUNICIPIO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_municipio" id="9C9EDBD7-FBB3-5445-7C31-CBDB4ED5A9EF">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_municipio" id="971A6AA6-B2F5-9C3B-06A9-B4844F70CD64">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_municipio_DIM_MUNICIPIO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F6C772A-FD7C-1A63-AC70-A911FBDD6BB1" name="PK_DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C9EDBD7-FBB3-5445-7C31-CBDB4ED5A9EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E37A7320-1614-BE4A-F3C6-70FD97FCDB77" name="UN_nom_municipio_DIM_MUNICIPIO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971A6AA6-B2F5-9C3B-06A9-B4844F70CD64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

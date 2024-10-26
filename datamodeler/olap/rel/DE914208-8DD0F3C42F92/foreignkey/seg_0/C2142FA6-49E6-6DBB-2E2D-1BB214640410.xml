@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2142FA6-49E6-6DBB-2E2D-1BB214640410" containerWithKeyObject="908AD7D4-CAA6-88AE-1094-914773F27B95" localFKIndex="4D559E4A-FF53-2A5C-0400-A3231DF42608" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_FATO_PIB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.DIM_MUNICIPIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E05ACEE-092F-A328-FA87-DB4DD25D1505</referredTableID>
+<keyObject>5F6C772A-FD7C-1A63-AC70-A911FBDD6BB1</keyObject>
+<referredKeyID>5F6C772A-FD7C-1A63-AC70-A911FBDD6BB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_municipio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

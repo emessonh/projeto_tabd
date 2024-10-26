@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2A85DAC-BEAF-3485-06DA-2EE5CB0C8B5A" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>FATO_IDEB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_municipio" id="BBA9561C-E3E4-2470-1F0C-CD986A28336A">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="396484B5-B488-E76B-C2D2-0CE43F4B73D9" referredColumn="9C9EDBD7-FBB3-5445-7C31-CBDB4ED5A9EF"/>
+</associations>
+</Column>
+<Column name="sk_esfera_publica" id="5F0A125D-27A9-CC8D-6E4A-C578C68A3235">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CCF2A1C-5933-726B-55B3-D770C77460F5" referredColumn="A80AE041-433B-66A4-0C6C-8A20BA50DD6B"/>
+</associations>
+</Column>
+<Column name="sk_tipo_ensino" id="C10C1E8D-E347-33F6-FE8B-E4D4AD91E435">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38F818E7-47A7-7750-B135-86CF0C7BCF60" referredColumn="8AB78545-00D4-6C9B-7128-8B92FC95BC4A"/>
+</associations>
+</Column>
+<Column name="sk_tempo" id="23C177C6-DFB2-4769-C5C6-8411F4682B96">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE99B88-8A78-E7C1-03F7-6C24933C8888" referredColumn="7DE1B623-A9E9-A9A5-1D33-D78593F5470B"/>
+</associations>
+</Column>
+<Column name="val_ideb" id="3B15EB19-5E02-E79B-E780-68C220AABC22">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_val_ideb_TAB_FATO_IDEB</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC232CB1-CC48-67F4-C2A8-2D67B8DEAA97" name="PK_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA9561C-E3E4-2470-1F0C-CD986A28336A"/>
+<colUsage columnID="5F0A125D-27A9-CC8D-6E4A-C578C68A3235"/>
+<colUsage columnID="C10C1E8D-E347-33F6-FE8B-E4D4AD91E435"/>
+<colUsage columnID="23C177C6-DFB2-4769-C5C6-8411F4682B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0BA05AE-732A-2330-1D23-BC25072ED7A6" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="IDX_FK_sk_municipio_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA9561C-E3E4-2470-1F0C-CD986A28336A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AE2F57B-3489-B904-34FE-5F3E0CD5C981" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="IDX_FK_sk_esfera_publica_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F0A125D-27A9-CC8D-6E4A-C578C68A3235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0F800D-E3CB-26DF-ADF4-81B292127866" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="IDX_FK_sk_tipo_ensino_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C10C1E8D-E347-33F6-FE8B-E4D4AD91E435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B46BCC59-74FD-B77B-9E32-BE212C0F47F7" schemaObject="C84E3DD1-C6AE-6983-D949-C8EDDB223B52" name="IDX_FK_sk_tempo_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23C177C6-DFB2-4769-C5C6-8411F4682B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3AFAFA0-3D56-3B64-201B-C617023963CF" name="FK_sk_tipo_ensino_DIM_TIPO_ENSINO_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C10C1E8D-E347-33F6-FE8B-E4D4AD91E435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6150C87A-D126-893E-52BA-955FBCBEA497" name="FK_sk_tempo_DIM_TEMPO_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23C177C6-DFB2-4769-C5C6-8411F4682B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8631DF0-7AE8-C981-4E3D-F26CA8E9D355" name="FK_sk_municipio_DIM_MUNICIPIO_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA9561C-E3E4-2470-1F0C-CD986A28336A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DADCEC99-1D04-2651-2446-843AE89E3684" name="FK_sk_esfera_publica_DIM_ESFERA_PUBLICA_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-24 20:02:58 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F0A125D-27A9-CC8D-6E4A-C578C68A3235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
