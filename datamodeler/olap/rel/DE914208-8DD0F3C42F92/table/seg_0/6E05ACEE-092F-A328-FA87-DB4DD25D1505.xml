@@ -17,7 +17,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_municipio_DIM_MUNICIPIO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_municipio_DIM_MUNICIPIO</autoIncrementTriggerName>
 </Column>
 <Column name="nom_municipio" id="971A6AA6-B2F5-9C3B-06A9-B4844F70CD64">
 <createdBy>maelton</createdBy>

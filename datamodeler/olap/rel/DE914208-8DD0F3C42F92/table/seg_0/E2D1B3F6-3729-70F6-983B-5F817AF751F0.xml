@@ -18,7 +18,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_esfera_publica_DIM_ESFERA_PUBLICA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_esfera_publica_DIM_ESFERA_PUBLICA</autoIncrementTriggerName>
 </Column>
 <Column name="nom_esfera_publica" id="360DB468-7D9B-85D5-E88C-99D09773E37F">
 <createdBy>maelton</createdBy>

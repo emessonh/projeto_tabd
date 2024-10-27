@@ -18,7 +18,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_tempo_DIM_TEMPO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_tempo_DIM_TEMPO</autoIncrementTriggerName>
 </Column>
 <Column name="ano" id="F7343354-BABD-BE58-E335-BF4BF7F1234C">
 <createdBy>maelton</createdBy>

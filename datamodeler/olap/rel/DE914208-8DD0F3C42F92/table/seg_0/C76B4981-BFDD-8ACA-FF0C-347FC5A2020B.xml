@@ -18,7 +18,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_tipo_ensino_DIM_TIPO_ENSINO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_tipo_ensino_DIM_TIPO_ENSINO</autoIncrementTriggerName>
 </Column>
 <Column name="nom_tipo_ensino" id="4822F3DB-A856-4E56-C0F5-229BDA5CA92C">
 <createdBy>maelton</createdBy>

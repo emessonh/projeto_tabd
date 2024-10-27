@@ -18,7 +18,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_setor_economia_DIM_SETOR_ECONOMIA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_setor_economia_DIM_SETOR_ECONOMIA</autoIncrementTriggerName>
 </Column>
 <Column name="nom_setor_economia" id="48A5713F-46FF-7AB3-EA0F-5D4FB34E35B5">
 <createdBy>maelton</createdBy>

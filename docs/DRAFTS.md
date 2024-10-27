@@ -53,34 +53,8 @@ Tx. Variação = (Variação do IDEB * 100) / IDEB Inicial
 
     - Index Constraint: IDX_{MOTIVE}_{COLUMN}_{TABLE_NAME}
 
-## Dimensions and Tables
-
-- DIM_TEMPO *OK*
-- DIM_MUNICIPIO *OK*
-- DIM_ESFERA_PUBLICA *OK*
-- DIM_TIPO_ENSINO *OK*
-- DIM_SETOR_ECONOMIA *OK*
-- TAB_IDEB *OK*
-- TAB_PIB *OK*
-- TAB_CORRELACAO_IDEB_PIB *OK*
-
-SAO MIGUEL DOS CAMPOS
-
+    - Sequence: SEQ_{COLUMN}_{TABLE_NAME}
 
 # 1. Correções: 
 
-**TO DO LATER**
-1.1. É recomendado criar chaves autonumeração (sequences, surrogate keys) para as dimensões.
-
-
 1.4. Colocar no "ANEXO": Script SQL. 
-
-1.5. Algumas constraints NOT NULL estão sem nome.
-
-TAB_FATO_IDEB
-DIM_MUNICIPIO
-DIM_ESFERA_PUBLICA
-DIM_TIPO_ENSINO
-DIM_SETOR_ECONOMIA
-DIM_TEMPO
-TAB_FATO_PIB
