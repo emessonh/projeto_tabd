@@ -55,6 +55,10 @@ Tx. Variação = (Variação do IDEB * 100) / IDEB Inicial
 
     - Sequence: SEQ_{COLUMN}_{TABLE_NAME}
 
-# 1. Correções: 
-
-1.4. Colocar no "ANEXO": Script SQL. 
+DIM_MUNICIPIO
+DIM_ESFERA_PUBLICA
+DIM_TIPO_ENSINO
+DIM_SETOR_ECONOMIA
+DIM_TEMPO
+TAB_TATO_IDEB
+TAB_FATO_PIB
