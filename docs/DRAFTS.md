@@ -55,10 +55,16 @@ Tx. Variação = (Variação do IDEB * 100) / IDEB Inicial
 
     - Sequence: SEQ_{COLUMN}_{TABLE_NAME}
 
-DIM_MUNICIPIO
-DIM_ESFERA_PUBLICA
-DIM_TIPO_ENSINO
-DIM_SETOR_ECONOMIA
+<!-- DIM_MUNICIPIO -->
+<!-- DIM_ESFERA_PUBLICA -->
+<!-- DIM_TIPO_ENSINO -->
+<!-- DIM_SETOR_ECONOMIA -->
 DIM_TEMPO
 TAB_TATO_IDEB
 TAB_FATO_PIB
+
+PIB a preços correntes ,36381.0
+agropecuária ,11774
+indústria ,1339
+Serviço ,22480
+total ,35594

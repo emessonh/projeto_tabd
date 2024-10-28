@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="888F9452-D149-C934-D282-AADDC06BDADA" schemaObject="70D58468-F17B-74D2-DDCF-B49C96F50722" name="DIM_ESFERA_PUBLICA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>ESFERA_PUBLICA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_esfera_publica" id="58743B10-CBD5-7D4D-F5F5-006FD4FB04A8">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_esfera_publica_DIM_ESFERA_PUBLICA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_esfera_publica_DIM_ESFERA_PUBLICA</autoIncrementTriggerName>
+</Column>
+<Column name="nom_esfera_publica" id="796061D8-F6EB-E748-7A69-D879252D2E08">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_esfera_publica_DIM_ESFERA_PUBLICA</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B65F624A-5005-8427-6242-079481E6C7E9" name="PK_DIM_ESFERA_PUBLICA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58743B10-CBD5-7D4D-F5F5-006FD4FB04A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0FAD406-99F5-3767-FDCD-B3D972588031" name="UN_nom_esfera_pubilica_DIM_ESFERA_PUBLICA">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="796061D8-F6EB-E748-7A69-D879252D2E08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

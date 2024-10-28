@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4DC1622-28E9-980A-927B-C5C6100B84B0" containerWithKeyObject="2D7FE279-EF8A-6FB1-227C-5E1410CA3BD4" localFKIndex="29D39EAB-1E60-6CBC-00B6-29F300260F56" name="FK_sk_esfera_publica_DIM_ESFERA_PUBLICA_TAB_FATO_IDEB">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<referredTableLongName>OLAP.DIM_ESFERA_PUBLICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>888F9452-D149-C934-D282-AADDC06BDADA</referredTableID>
+<keyObject>B65F624A-5005-8427-6242-079481E6C7E9</keyObject>
+<referredKeyID>B65F624A-5005-8427-6242-079481E6C7E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_esfera_publica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

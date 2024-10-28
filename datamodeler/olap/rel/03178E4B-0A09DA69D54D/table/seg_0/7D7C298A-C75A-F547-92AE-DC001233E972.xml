@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D7C298A-C75A-F547-92AE-DC001233E972" schemaObject="70D58468-F17B-74D2-DDCF-B49C96F50722" name="DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>TEMPO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_tempo" id="524A3626-1940-ED52-8B32-D7F56E10D283">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_tempo_DIM_TEMPO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_tempo_DIM_TEMPO</autoIncrementTriggerName>
+</Column>
+<Column name="ano" id="DC0C8D9A-F02B-A289-5FF5-F2407B30BB86">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ano_DIM_TEMPO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02E43502-AAA2-906D-E686-E9483A36B4F3" name="PK_DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="524A3626-1940-ED52-8B32-D7F56E10D283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E33C7EE3-6513-2B9B-7C9B-C6C2CAA306CA" name="UN_ano_DIM_TEMPO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC0C8D9A-F02B-A289-5FF5-F2407B30BB86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

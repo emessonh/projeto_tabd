@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AD70A94-FE1E-C7E6-EEC1-9BFDDE9DE179" schemaObject="70D58468-F17B-74D2-DDCF-B49C96F50722" name="DIM_TIPO_ENSINO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>TIPO_ENSINO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_tipo_ensino" id="83D7341C-5570-0077-2772-3C58317D36E6">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_sk_tipo_ensino_DIM_TIPO_ENSINO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_SEQ_sk_tipo_ensino_DIM_TIPO_ENSINO</autoIncrementTriggerName>
+</Column>
+<Column name="nom_tipo_ensino" id="30557906-7A09-56A1-9389-9C678CB0BCA8">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_nom_tipo_ensino_DIM_TIPO_ENSINO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFEE2862-7866-306E-7813-010D3AA4E7C5" name="PK_DIM_TIPO_ENSINO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83D7341C-5570-0077-2772-3C58317D36E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF62EE62-23E5-5CEA-8293-F06F1A5C634D" name="UN_nom_tipo_ensino_DIM_TIPO_ENSINO">
+<createdBy>maelton</createdBy>
+<createdTime>2024-10-28 13:38:35 UTC</createdTime>
+<ownerDesignName>olap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30557906-7A09-56A1-9389-9C678CB0BCA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
