@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>dim_municipio-transformation</name>
-    <description>ETL para a dimensão município do modelo OLAP</description>
+    <name>dim_tipo_ensino_transformation</name>
+    <description>Transformation for the dimension DIM_TIPO_ENSINO</description>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>2</trans_status>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -428,91 +428,108 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2024/10/27 09:45:50.101</created_date>
+    <created_date>2024/10/28 09:39:06.376</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2024/10/27 09:45:50.101</modified_date>
-    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2024/10/28 09:39:06.376</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
+  <connection>
+    <name>Oracle Database 23ai Free VMBox - OCD SYSTEM</name>
+    <server>localhost</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521)))</database>
+    <port>1521</port>
+    <username>system</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a162df91a3df</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STRICT_NUMBER_38_INTERPRETATION</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <order>
     <hop>
-      <from>pib_municipios_csv</from>
-      <to>selecting_city_code_and_city_name</to>
+      <from>ideb_municipios_csv</from>
+      <to>selecting_education_level</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>selecting_city_code_and_city_name</from>
-      <to>sorting_cities_by_code</to>
+      <from>selecting_education_level</from>
+      <to>sorting_by_education_level_name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>sorting_cities_by_code</from>
+      <from>sorting_by_education_level_name</from>
       <to>removing_duplicates</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>removing_duplicates</from>
-      <to>validating_sorting_and_duplicates_removing</to>
+      <to>removing_education_level_name_duplications</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>removing_duplicates</from>
-      <to>selecting_city_name</to>
+      <from>removing_education_level_name_duplications</from>
+      <to>correcting_education_level_names</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>selecting_city_name</from>
-      <to>inserting_and_updating_into_database_dimension</to>
+      <from>correcting_education_level_names</from>
+      <to>validating_education_level_names</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>correcting_education_level_names</from>
+      <to>inserting_and_updating_into_dimesion_database</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>inserting_and_updating_into_database_dimension</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>Oracle Database 23ai Free VMBox</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema>C##OLAP</schema>
-      <table>DIM_MUNICIPIO</table>
-      <key>
-        <name>no_mun</name>
-        <field>NOM_MUNICIPIO</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>NOM_MUNICIPIO</name>
-        <rename>no_mun</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1104</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>pib_municipios_csv</name>
+    <name>ideb_municipios_csv</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -522,7 +539,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/maelton/ifal/5p/tabd/projeto_tabd/etl/bases/pib_municipio.csv</filename>
+    <filename>/home/maelton/ifal/5p/tabd/projeto_tabd/etl/bases/ideb_municipios.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -537,6 +554,17 @@
     <format>mixed</format>
     <encoding/>
     <fields>
+      <field>
+        <name>_id</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
       <field>
         <name>co_mun</name>
         <type>Integer</type>
@@ -561,13 +589,13 @@
       </field>
       <field>
         <name>ano</name>
-        <type>Number</type>
-        <format>#.#</format>
+        <type>Integer</type>
+        <format>#</format>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
-        <precision>1</precision>
+        <length>15</length>
+        <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
@@ -577,23 +605,12 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>58</length>
+        <length>4</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>economia_categoria</name>
-        <type>String</type>
-        <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>31</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>economia_subcategoria</name>
+        <name>ensino_rede</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
@@ -604,13 +621,24 @@
         <trim_type>none</trim_type>
       </field>
       <field>
+        <name>ensino_tipo</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>34</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>valor</name>
         <type>Number</type>
         <format>#.#</format>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>8</length>
+        <length>3</length>
         <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -625,7 +653,81 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>80</yloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>selecting_education_level</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>ensino_tipo</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>sorting_by_education_level_name</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>ensino_tipo</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -646,7 +748,7 @@
     <error_description/>
     <fields>
       <field>
-        <name>co_mun</name>
+        <name>ensino_tipo</name>
         <case_insensitive>Y</case_insensitive>
       </field>
     </fields>
@@ -660,136 +762,12 @@
     </remotesteps>
     <GUI>
       <xloc>688</xloc>
-      <yloc>80</yloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>selecting_city_code_and_city_name</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>co_mun</name>
-      </field>
-      <field>
-        <name>no_mun</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>co_mun</name>
-        <rename>co_mun</rename>
-        <type>String</type>
-        <length>15</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>true</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>288</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>selecting_city_name</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>no_mun</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>848</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>sorting_cities_by_code</name>
-    <type>SortRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory/>
-    <compress>N</compress>
-    <compress_variable/>
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>co_mun</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>512</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>validating_sorting_and_duplicates_removing</name>
+    <name>validating_education_level_names</name>
     <type>ExcelOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -805,7 +783,7 @@
     <append>N</append>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>${Internal.Entry.Current.Directory}/output/validating_sorting_and_duplicates_removing</name>
+      <name>${Internal.Entry.Current.Directory}/output/validating_education_level_names</name>
       <extention>xlsx</extention>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
       <create_parent_folder>N</create_parent_folder>
@@ -814,7 +792,7 @@
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
       <date_time_format/>
-      <sheetname>validation-result</sheetname>
+      <sheetname>Sheet1</sheetname>
       <autosizecolums>N</autosizecolums>
       <nullisblank>N</nullisblank>
       <protect_sheet>N</protect_sheet>
@@ -829,16 +807,6 @@
       <filename>template.xls</filename>
     </template>
     <fields>
-      <field>
-        <name>co_mun</name>
-        <type>None</type>
-        <format/>
-      </field>
-      <field>
-        <name>no_mun</name>
-        <type>None</type>
-        <format/>
-      </field>
     </fields>
     <custom>
       <header_font_name>arial</header_font_name>
@@ -866,7 +834,133 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>688</xloc>
+      <xloc>928</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>removing_education_level_name_duplications</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>correcting_education_level_names</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>Y</negated>
+        <leftvalue>ensino_tipo</leftvalue>
+        <function>ENDS WITH</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>Finais</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask/>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>correcting_education_level_names</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>ensino_tipo</in_stream_name>
+        <out_stream_name/>
+        <use_regex>no</use_regex>
+        <replace_string>Ensino Fundamental - Anos Iniciais</replace_string>
+        <replace_by_string>Ensino Fundamental</replace_by_string>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>inserting_and_updating_into_dimesion_database</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>Oracle Database 23ai Free VMBox - OCD SYSTEM</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema>C##OLAP</schema>
+      <table>DIM_TIPO_ENSINO</table>
+      <key>
+        <name>ensino_tipo</name>
+        <field>NOM_TIPO_ENSINO</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>NOM_TIPO_ENSINO</name>
+        <rename>ensino_tipo</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>

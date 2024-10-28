@@ -493,7 +493,7 @@
   </connection>
   <order>
     <hop>
-      <from>ideb_municipio_csv</from>
+      <from>ideb_municipios_csv</from>
       <to>selecting_public_esfere_name</to>
       <enabled>Y</enabled>
     </hop>
@@ -524,7 +524,7 @@
     </hop>
   </order>
   <step>
-    <name>ideb_municipio_csv</name>
+    <name>ideb_municipios_csv</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
