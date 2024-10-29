@@ -653,6 +653,49 @@
     </GUI>
   </step>
   <step>
+    <name>inserting_and_updating_into_database_dimension</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>Oracle Database 23ai Free VMBox - OCD SYSTEM</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema>C##OLAP</schema>
+      <table>DIM_ESFERA_PUBLICA</table>
+      <key>
+        <name>ensino_rede</name>
+        <field>NOM_ESFERA_PUBLICA</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>NOM_ESFERA_PUBLICA</name>
+        <rename>ensino_rede</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>848</xloc>
+      <yloc>320</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>removing_duplicates</name>
     <type>Unique</type>
     <description/>
@@ -684,6 +727,50 @@
     <GUI>
       <xloc>576</xloc>
       <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>removing_public_esfere</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>inserting_and_updating_into_database_dimension</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>Y</negated>
+        <leftvalue>ensino_rede</leftvalue>
+        <function>STARTS WITH</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>P</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask/>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -761,50 +848,6 @@
     </GUI>
   </step>
   <step>
-    <name>removing_public_esfere</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>inserting_and_updating_into_database_dimension</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>Y</negated>
-        <leftvalue>ensino_rede</leftvalue>
-        <function>STARTS WITH</function>
-        <rightvalue/>
-        <value>
-          <name>constant</name>
-          <type>String</type>
-          <text>P</text>
-          <length>-1</length>
-          <precision>-1</precision>
-          <isnull>N</isnull>
-          <mask/>
-        </value>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>576</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>validating_esfere_names</name>
     <type>ExcelOutput</type>
     <description/>
@@ -874,49 +917,6 @@
     <GUI>
       <xloc>576</xloc>
       <yloc>432</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>inserting_and_updating_into_database_dimension</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>Oracle Database 23ai Free VMBox - OCD SYSTEM</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema>C##OLAP</schema>
-      <table>DIM_ESFERA_PUBLICA</table>
-      <key>
-        <name>ensino_rede</name>
-        <field>NOM_ESFERA_PUBLICA</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>NOM_ESFERA_PUBLICA</name>
-        <rename>ensino_rede</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>848</xloc>
-      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
