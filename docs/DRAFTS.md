@@ -55,16 +55,41 @@ Tx. Variação = (Variação do IDEB * 100) / IDEB Inicial
 
     - Sequence: SEQ_{COLUMN}_{TABLE_NAME}
 
-<!-- DIM_MUNICIPIO -->
-<!-- DIM_ESFERA_PUBLICA -->
-<!-- DIM_TIPO_ENSINO -->
-<!-- DIM_SETOR_ECONOMIA -->
-DIM_TEMPO
-TAB_TATO_IDEB
-TAB_FATO_PIB
+4264,2707206,Poço das Trincheiras,2005,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,2.4
 
-PIB a preços correntes ,36381.0
-agropecuária ,11774
-indústria ,1339
-Serviço ,22480
-total ,35594
+4266,2707206,Poço das Trincheiras,2005,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,1.9
+
+4269,2707206,Poço das Trincheiras,2007,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,2.6
+
+4271,2707206,Poço das Trincheiras,2007,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,2.4
+
+4274,2707206,Poço das Trincheiras,2009,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+
+4276,2707206,Poço das Trincheiras,2009,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,2.8
+
+4279,2707206,Poço das Trincheiras,2011,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,3.0
+
+4281,2707206,Poço das Trincheiras,2011,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,2.9
+
+4284,2707206,Poço das Trincheiras,2013,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+
+4286,2707206,Poço das Trincheiras,2013,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,4.0
+
+4289,2707206,Poço das Trincheiras,2015,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+
+4291,2707206,Poço das Trincheiras,2015,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,3.9
+
+4294,2707206,Poço das Trincheiras,2017,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+4295,2707206,Poço das Trincheiras,2017,IDEB,Estadual,Ensino Médio,3.1
+
+4297,2707206,Poço das Trincheiras,2017,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,4.2
+
+4301,2707206,Poço das Trincheiras,2019,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+4302,2707206,Poço das Trincheiras,2019,IDEB,Estadual,Ensino Médio,3.2
+
+4304,2707206,Poço das Trincheiras,2019,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,4.4
+
+4308,2707206,Poço das Trincheiras,2021,IDEB,Estadual,Ensino Fundamental - Anos Iniciais,0.0
+4309,2707206,Poço das Trincheiras,2021,IDEB,Estadual,Ensino Médio,2.7
+
+4311,2707206,Poço das Trincheiras,2021,IDEB,Municipal,Ensino Fundamental - Anos Iniciais,5.0
