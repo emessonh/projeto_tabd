@@ -504,11 +504,11 @@
     </hop>
     <hop>
       <from>pib_municipios_csv</from>
-      <to>removing_education_level_name_duplications</to>
+      <to>removing_non_pib_related_data_information</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>removing_education_level_name_duplications</from>
+      <from>removing_non_pib_related_data_information</from>
       <to>getting_city_sk_by_city_name</to>
       <enabled>Y</enabled>
     </hop>
@@ -784,7 +784,7 @@
     </GUI>
   </step>
   <step>
-    <name>removing_education_level_name_duplications</name>
+    <name>removing_non_pib_related_data_information</name>
     <type>FilterRows</type>
     <description/>
     <distribute>Y</distribute>
